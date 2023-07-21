@@ -1,0 +1,13 @@
+# BLASTP 2.9.0+
+# Query: 
+# Database: db4/db4
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 7 hits found
+Query_1	gb|KAG7209349.1|	50.593	253	121	3	34	285	1	250	3.54e-82	247
+Query_1	gb|KAG7209352.1|	43.668	229	120	3	41	267	69	290	3.52e-58	188
+Query_1	gb|KAG7209353.1|	43.668	229	120	3	41	267	69	290	3.94e-58	188
+Query_1	gb|KAG7198576.1|	37.751	249	140	3	34	274	1	242	3.41e-45	154
+Query_1	gb|KAG7212268.1|	39.726	219	123	2	61	271	28	245	1.31e-43	149
+Query_1	gb|KAG7207759.1|	31.878	229	143	6	55	278	45	265	1.11e-26	108
+Query_1	gb|KAG7212269.1|	37.805	164	90	4	50	202	51	213	1.26e-20	88.2
+# BLAST processed 1 queries

@@ -1,0 +1,7 @@
+# BLASTP 2.9.0+
+# Query: ACD81863.1_LP07623p_Drosophila_melanogaster
+# Database: db31/db31
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+ACD81863.1_LP07623p_Drosophila_melanogaster	gb|KAI4489465.1|	48.182	110	50	4	172	280	1184	1287	7.74e-11	61.6
+# BLAST processed 1 queries

@@ -1,0 +1,10 @@
+# BLASTP 2.9.0+
+# Query: 
+# Database: Genome_/db24/db24
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 4 hits found
+Query_1	gb|KAI4459960.1|	58.564	181	73	1	105	285	22	200	5.59e-76	229
+Query_1	gb|KAI4459365.1|	45.148	237	113	3	41	272	4	228	3.11e-65	204
+Query_1	gb|KAI4459359.1|	43.089	246	114	4	41	272	4	237	2.42e-60	192
+Query_1	gb|KAI4465196.1|	33.617	235	109	7	54	281	21	215	3.11e-31	115
+# BLAST processed 1 queries

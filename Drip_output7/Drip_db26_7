@@ -1,0 +1,13 @@
+# BLASTP 2.9.0+
+# Query: 
+# Database: Genome_/db26/db26
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 7 hits found
+Query_1	ref|XP_026323708.1|	58.203	256	106	1	30	285	3	257	6.47e-103	300
+Query_1	ref|XP_026323709.1|	58.635	249	102	1	37	285	2	249	3.80e-102	298
+Query_1	ref|XP_026323707.1|	54.417	283	117	3	3	285	4	274	3.86e-102	299
+Query_1	ref|XP_026323480.1|	47.196	214	111	1	56	267	20	233	1.04e-61	196
+Query_1	ref|XP_026321991.1|	40.271	221	129	2	57	275	33	252	1.47e-42	146
+Query_1	ref|XP_026330020.1|	38.498	213	114	4	54	253	17	225	3.23e-23	95.5
+Query_1	ref|XP_026331483.1|	45.333	75	41	0	198	272	16	90	1.84e-12	62.4
+# BLAST processed 1 queries

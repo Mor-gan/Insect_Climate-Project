@@ -1,0 +1,16 @@
+# BLASTP 2.9.0+
+# Query: 
+# Database: Genome_/db8/db8
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+Query_1	emb|CAH0559073.1|	46.383	235	121	4	41	271	4	237	2.89e-64	202
+Query_1	emb|CAH0558342.1|	35.185	270	156	3	30	282	30	297	1.60e-44	152
+Query_1	emb|CAH0558341.1|	35.185	270	156	3	30	282	79	346	4.77e-44	152
+Query_1	emb|CAH0557414.1|	34.286	245	147	4	31	271	31	265	3.10e-38	135
+Query_1	emb|CAH0557418.1|	36.321	212	130	2	59	268	26	234	8.65e-38	133
+Query_1	emb|CAH0559079.1|	58.333	96	40	0	156	251	4	99	1.07e-36	125
+Query_1	emb|CAH0557416.1|	36.747	166	103	1	105	268	14	179	5.02e-33	119
+Query_1	emb|CAH0562204.1|	36.000	175	106	3	102	275	97	266	1.44e-31	122
+Query_1	emb|CAH0559077.1|	54.545	66	28	1	44	109	243	306	3.10e-14	71.6
+Query_1	emb|CAH0551924.1|	35.537	121	71	1	105	218	1	121	1.44e-12	62.8
+# BLAST processed 1 queries

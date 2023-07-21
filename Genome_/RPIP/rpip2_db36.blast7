@@ -1,0 +1,23 @@
+# BLASTP 2.9.0+
+# Query: BAK32936.1_aquaporin_Belgica_antarctica
+# Database: db36/db36
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 17 hits found
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_039289068.1|	49.446	271	121	5	4	269	5	264	7.03e-86	257
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_039289067.1|	49.446	271	121	5	4	269	5	264	7.03e-86	257
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_039289065.1|	49.446	271	121	5	4	269	77	336	3.78e-85	258
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_039289066.1|	51.417	247	109	4	4	245	77	317	1.04e-79	243
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_039289070.1|	50.215	233	105	4	4	231	77	303	5.52e-73	226
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_039289072.1|	42.063	252	136	4	1	251	1	243	3.03e-62	196
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_039289071.1|	42.169	249	134	4	4	251	16	255	5.18e-62	196
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_039291098.1|	31.343	268	171	6	6	269	15	273	2.24e-34	125
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_039294816.1|	35.065	231	135	6	15	242	39	257	1.27e-32	125
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_039279285.1|	34.703	219	129	4	24	238	77	285	1.57e-32	121
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_039279286.1|	34.703	219	129	4	24	238	30	238	1.62e-32	120
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_039279290.1|	34.703	219	129	4	24	238	16	224	2.37e-32	119
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_039279289.1|	34.703	219	129	4	24	238	16	224	2.37e-32	119
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_039279287.1|	34.703	219	129	4	24	238	16	224	2.37e-32	119
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_039279291.1|	31.250	272	165	6	4	267	5	262	2.80e-31	117
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_039279292.1|	34.419	215	127	5	61	267	20	228	1.83e-29	111
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_039287904.1|	43.089	123	63	2	4	123	52	170	8.43e-28	105
+# BLAST processed 1 queries

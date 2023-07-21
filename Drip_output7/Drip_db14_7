@@ -1,0 +1,12 @@
+# BLASTP 2.9.0+
+# Query: 
+# Database: Genome_/db14/db14
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 6 hits found
+Query_1	dbj|GFG31719.1|	50.427	234	112	2	39	272	25	254	3.87e-71	219
+Query_1	dbj|GFG31718.1|	58.333	132	55	0	154	285	1	132	7.80e-55	172
+Query_1	dbj|GFG35382.1|	40.693	231	123	3	55	273	15	243	7.27e-47	157
+Query_1	dbj|GFG31717.1|	60.000	65	24	1	42	106	2	64	8.52e-18	75.9
+Query_1	dbj|GFG36347.1|	35.897	117	68	3	161	275	1	112	3.57e-17	79.7
+Query_1	dbj|GFG36345.1|	50.000	60	30	0	93	152	102	161	4.91e-13	64.7
+# BLAST processed 1 queries

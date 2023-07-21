@@ -1,0 +1,33 @@
+# BLASTP 2.9.0+
+# Query: BAK32936.1_aquaporin_Belgica_antarctica
+# Database: db21/db21
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 27 hits found
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_024214947.1|	48.289	263	126	4	3	264	7	260	4.67e-83	249
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_024214951.1|	45.690	232	116	4	21	251	19	241	1.16e-57	184
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_024214949.1|	45.690	232	116	4	21	251	38	260	1.33e-57	184
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_024214953.1|	45.690	232	116	4	21	251	18	240	1.52e-57	184
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_024214948.1|	45.690	232	116	4	21	251	39	261	1.54e-57	184
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_024214950.1|	45.690	232	116	4	21	251	23	245	1.60e-57	184
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_024214954.1|	45.665	173	84	4	21	192	39	202	2.27e-33	120
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_024216122.1|	32.273	220	142	3	24	242	60	273	4.84e-31	116
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_024216119.1|	32.273	220	142	3	24	242	63	276	7.67e-31	116
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_024216128.1|	32.273	220	142	3	24	242	32	245	8.32e-31	115
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_024216123.1|	32.273	220	142	3	24	242	54	267	8.33e-31	115
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_024216124.1|	32.273	220	142	3	24	242	52	265	9.85e-31	115
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_024216121.1|	32.273	220	142	3	24	242	60	273	9.87e-31	115
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_024216120.1|	32.273	220	142	3	24	242	60	273	9.87e-31	115
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_024216118.1|	32.273	220	142	3	24	242	64	277	1.03e-30	115
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_024216129.1|	32.273	220	142	3	24	242	32	245	1.06e-30	115
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_024216126.1|	32.273	220	142	3	24	242	46	259	1.07e-30	115
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_024216125.1|	30.364	247	159	4	3	242	22	262	1.10e-30	115
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_024216127.1|	32.273	220	142	3	24	242	45	258	1.14e-30	115
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_024216117.1|	32.273	220	142	3	24	242	69	282	1.50e-30	115
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_024216106.1|	30.870	230	146	5	15	242	42	260	2.34e-27	110
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_014284733.1|	29.588	267	167	7	4	263	20	272	2.60e-26	103
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_024219880.1|	29.880	251	147	5	10	246	19	254	4.98e-22	92.0
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_014284730.1|	29.437	231	151	3	24	250	36	258	1.09e-20	89.0
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_014283945.1|	29.293	198	133	3	58	253	78	270	2.42e-18	82.4
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_014283943.1|	29.293	198	133	3	58	253	108	300	2.49e-18	82.8
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_014284735.1|	36.752	117	63	3	4	120	20	125	2.13e-11	62.0
+# BLAST processed 1 queries

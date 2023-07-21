@@ -1,0 +1,38 @@
+# BLASTP 2.9.0+
+# Query: AAX33487.1_Drosophila_melanogaster
+# Database: db43/db43
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 32 hits found
+AAX33487.1_Drosophila_melanogaster	ref|XP_049862255.1|	76.672	643	143	3	1	642	4	640	0.0	1026
+AAX33487.1_Drosophila_melanogaster	ref|XP_049862236.1|	75.739	643	149	3	1	642	4	640	0.0	1018
+AAX33487.1_Drosophila_melanogaster	ref|XP_049835207.1|	75.857	642	149	2	1	642	5	640	0.0	1009
+AAX33487.1_Drosophila_melanogaster	ref|XP_049827039.1|	76.771	607	140	1	3	609	6	611	0.0	996
+AAX33487.1_Drosophila_melanogaster	ref|XP_049842993.1|	77.011	609	138	2	2	609	6	613	0.0	967
+AAX33487.1_Drosophila_melanogaster	ref|XP_049842992.1|	77.011	609	138	2	2	609	6	613	0.0	967
+AAX33487.1_Drosophila_melanogaster	ref|XP_049842991.1|	76.759	611	138	3	2	609	6	615	0.0	965
+AAX33487.1_Drosophila_melanogaster	ref|XP_049842990.1|	76.759	611	138	3	2	609	6	615	0.0	965
+AAX33487.1_Drosophila_melanogaster	ref|XP_049862661.1|	65.211	641	203	1	2	642	6	626	0.0	894
+AAX33487.1_Drosophila_melanogaster	ref|XP_049842994.1|	75.407	553	134	2	58	609	1	552	0.0	855
+AAX33487.1_Drosophila_melanogaster	ref|XP_049849072.1|	64.055	651	222	4	2	642	10	658	0.0	847
+AAX33487.1_Drosophila_melanogaster	ref|XP_049828241.1|	60.611	622	235	6	3	621	28	642	0.0	749
+AAX33487.1_Drosophila_melanogaster	ref|XP_049846007.1|	60.353	623	238	7	3	622	30	646	0.0	745
+AAX33487.1_Drosophila_melanogaster	ref|XP_049846006.1|	60.353	623	238	7	3	622	30	646	0.0	745
+AAX33487.1_Drosophila_melanogaster	ref|XP_049848478.1|	58.320	607	244	6	2	606	29	628	0.0	721
+AAX33487.1_Drosophila_melanogaster	ref|XP_049834907.1|	53.321	557	240	9	4	553	61	604	0.0	565
+AAX33487.1_Drosophila_melanogaster	ref|XP_049849262.1|	48.860	614	297	10	2	610	33	634	0.0	548
+AAX33487.1_Drosophila_melanogaster	ref|XP_049861111.1|	35.050	505	311	9	1	495	4	501	1.04e-91	302
+AAX33487.1_Drosophila_melanogaster	ref|XP_049852134.1|	29.622	503	338	8	1	491	1	499	3.54e-63	225
+AAX33487.1_Drosophila_melanogaster	ref|XP_049846038.1|	34.737	380	238	6	4	378	5	379	1.03e-62	217
+AAX33487.1_Drosophila_melanogaster	ref|XP_049846037.1|	34.737	380	238	6	4	378	5	379	1.03e-62	217
+AAX33487.1_Drosophila_melanogaster	ref|XP_049846036.1|	34.737	380	238	6	4	378	5	379	1.03e-62	217
+AAX33487.1_Drosophila_melanogaster	ref|XP_049846035.1|	34.737	380	238	6	4	378	5	379	1.03e-62	217
+AAX33487.1_Drosophila_melanogaster	ref|XP_049846034.1|	34.737	380	238	6	4	378	5	379	1.03e-62	217
+AAX33487.1_Drosophila_melanogaster	ref|XP_049846033.1|	34.737	380	238	6	4	378	5	379	1.03e-62	217
+AAX33487.1_Drosophila_melanogaster	ref|XP_049846032.1|	34.737	380	238	6	4	378	5	379	1.03e-62	217
+AAX33487.1_Drosophila_melanogaster	ref|XP_049846031.1|	34.737	380	238	6	4	378	5	379	1.03e-62	217
+AAX33487.1_Drosophila_melanogaster	ref|XP_049846030.1|	34.737	380	238	6	4	378	5	379	1.03e-62	217
+AAX33487.1_Drosophila_melanogaster	ref|XP_049846029.1|	34.737	380	238	6	4	378	5	379	1.03e-62	217
+AAX33487.1_Drosophila_melanogaster	ref|XP_049840898.1|	31.041	538	320	17	1	495	23	552	1.14e-57	210
+AAX33487.1_Drosophila_melanogaster	ref|XP_049840897.1|	31.041	538	320	17	1	495	37	566	1.31e-57	210
+AAX33487.1_Drosophila_melanogaster	ref|XP_049852256.1|	27.717	368	239	8	4	348	27	390	3.03e-33	137
+# BLAST processed 1 queries

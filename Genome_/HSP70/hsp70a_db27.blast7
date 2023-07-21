@@ -1,0 +1,14 @@
+# BLASTP 2.9.0+
+# Query: AAX33487.1_Drosophila_melanogaster
+# Database: db27/db27
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 8 hits found
+AAX33487.1_Drosophila_melanogaster	ref|XP_046390805.1|	76.355	609	142	2	2	609	5	612	0.0	983
+AAX33487.1_Drosophila_melanogaster	ref|XP_046404468.1|	59.325	622	244	5	3	619	30	647	0.0	746
+AAX33487.1_Drosophila_melanogaster	ref|XP_046386644.1|	51.130	575	253	10	4	571	60	613	0.0	554
+AAX33487.1_Drosophila_melanogaster	ref|XP_046395458.1|	36.040	505	306	9	1	495	4	501	1.13e-94	310
+AAX33487.1_Drosophila_melanogaster	ref|XP_046395459.1|	35.084	476	292	9	30	495	18	486	5.63e-84	281
+AAX33487.1_Drosophila_melanogaster	ref|XP_046384106.1|	28.545	543	331	18	1	491	26	563	2.06e-48	183
+AAX33487.1_Drosophila_melanogaster	ref|XP_046384105.1|	28.545	543	331	18	1	491	26	563	2.06e-48	183
+AAX33487.1_Drosophila_melanogaster	ref|XP_046405655.1|	26.146	371	267	5	5	374	3	367	9.30e-42	158
+# BLAST processed 1 queries

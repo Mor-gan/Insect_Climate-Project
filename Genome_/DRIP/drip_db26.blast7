@@ -1,0 +1,13 @@
+# BLASTP 2.9.0+
+# Query: 
+# Database: db26/db26
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 7 hits found
+Query_1	gb|KAF2894216.1|	63.821	246	82	2	40	285	2	240	1.05e-102	299
+Query_1	gb|KAF2883118.1|	48.927	233	117	2	41	271	5	237	2.88e-68	213
+Query_1	gb|KAF2903774.1|	35.231	281	146	5	15	278	62	323	5.49e-42	146
+Query_1	gb|KAF2885192.1|	34.615	260	150	4	36	279	36	291	1.68e-38	137
+Query_1	gb|KAF2883011.1|	32.174	230	149	4	56	284	53	276	1.94e-30	119
+Query_1	gb|KAF2903776.1|	38.636	132	81	0	137	268	9	140	1.45e-29	108
+Query_1	gb|KAF2891402.1|	43.103	116	64	1	162	275	6	121	6.05e-26	99.0
+# BLAST processed 1 queries

@@ -1,0 +1,17 @@
+# BLASTP 2.9.0+
+# Query: 
+# Database: db40/db40
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 11 hits found
+Query_1	ref|XP_022123793.2|	56.250	256	110	1	30	285	3	256	1.14e-97	287
+Query_1	ref|XP_022123792.2|	54.924	264	113	2	26	285	86	347	5.42e-96	286
+Query_1	ref|XP_022123791.2|	54.924	264	113	2	26	285	115	376	1.03e-95	286
+Query_1	ref|XP_045490331.1|	55.777	251	109	1	35	285	74	322	1.66e-95	284
+Query_1	ref|XP_022118398.2|	46.729	214	112	1	56	267	20	233	2.46e-62	197
+Query_1	ref|XP_022119863.2|	33.730	252	155	3	38	277	2	253	1.67e-41	143
+Query_1	ref|XP_022131017.2|	37.200	250	141	6	34	275	7	248	4.23e-41	143
+Query_1	ref|XP_022123143.2|	37.900	219	121	5	57	268	16	226	3.25e-29	111
+Query_1	ref|XP_022123152.2|	31.780	236	145	3	43	274	15	238	5.06e-28	108
+Query_1	ref|XP_022118733.2|	36.458	192	109	4	93	282	90	270	4.74e-17	80.9
+Query_1	ref|XP_022118734.2|	36.458	192	109	4	93	282	90	270	5.33e-17	80.5
+# BLAST processed 1 queries

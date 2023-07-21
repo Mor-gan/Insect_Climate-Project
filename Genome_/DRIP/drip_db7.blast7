@@ -1,0 +1,17 @@
+# BLASTP 2.9.0+
+# Query: 
+# Database: db7/db7
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 11 hits found
+Query_1	ref|XP_018903312.1|	56.000	250	106	2	39	285	22	270	5.10e-95	281
+Query_1	ref|XP_018903313.1|	56.048	248	105	2	41	285	7	253	1.17e-94	279
+Query_1	ref|XP_018903310.1|	56.000	250	106	2	39	285	138	386	6.05e-93	280
+Query_1	ref|XP_018903311.1|	56.048	248	105	2	41	285	123	369	1.19e-92	278
+Query_1	ref|XP_018906592.1|	53.600	250	112	2	39	285	14	262	6.32e-90	268
+Query_1	ref|XP_018913508.1|	48.908	229	115	2	41	267	5	233	2.57e-67	210
+Query_1	ref|XP_018913501.1|	48.908	229	115	2	41	267	5	233	2.57e-67	210
+Query_1	ref|XP_018910495.1|	37.281	228	134	4	52	271	385	611	1.73e-40	148
+Query_1	ref|XP_018910495.1|	38.017	242	135	6	56	284	99	338	4.65e-40	147
+Query_1	ref|XP_018910506.1|	34.361	227	141	3	52	271	16	241	3.17e-37	132
+Query_1	ref|XP_018908128.1|	33.212	274	162	7	23	281	9	276	2.60e-34	130
+# BLAST processed 1 queries

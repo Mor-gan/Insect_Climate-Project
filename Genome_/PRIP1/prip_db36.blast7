@@ -1,0 +1,23 @@
+# BLASTP 2.9.0+
+# Query: BAK32935.1_aquaporin_Belgica_antarctica
+# Database: db36/db36
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 17 hits found
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_039289068.1|	47.059	289	122	5	4	290	5	264	2.37e-84	254
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_039289067.1|	47.059	289	122	5	4	290	5	264	2.37e-84	254
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_039289065.1|	47.059	289	122	5	4	290	77	336	1.12e-83	255
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_039289066.1|	48.679	265	110	4	4	266	77	317	2.14e-78	241
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_039289070.1|	47.410	251	106	4	4	252	77	303	1.45e-71	223
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_039289072.1|	38.462	273	137	4	1	272	1	243	1.32e-58	187
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_039289071.1|	38.519	270	135	4	4	272	16	255	2.73e-58	187
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_039291098.1|	33.333	216	140	3	76	291	63	274	3.12e-33	123
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_039279285.1|	37.912	182	108	3	82	259	105	285	4.26e-32	120
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_039279286.1|	37.912	182	108	3	82	259	58	238	5.14e-32	119
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_039279290.1|	37.912	182	108	3	82	259	44	224	7.27e-32	118
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_039279289.1|	37.912	182	108	3	82	259	44	224	7.27e-32	118
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_039279287.1|	37.912	182	108	3	82	259	44	224	7.27e-32	118
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_039294816.1|	32.937	252	133	8	15	263	39	257	9.23e-30	118
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_039279292.1|	34.419	215	127	5	82	288	20	228	2.36e-29	112
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_039279291.1|	34.419	215	127	5	82	288	54	262	4.18e-29	112
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_039287904.1|	38.298	141	65	2	4	144	52	170	2.95e-26	102
+# BLAST processed 1 queries

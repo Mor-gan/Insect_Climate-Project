@@ -1,0 +1,25 @@
+# BLASTP 2.9.0+
+# Query: BAK32936.1_aquaporin_Belgica_antarctica
+# Database: db34/db34
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 19 hits found
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_032457069.1|	43.911	271	131	5	2	269	3	255	4.39e-74	227
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_032457068.1|	43.911	271	131	5	2	269	3	255	4.39e-74	227
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_031787719.1|	43.911	271	131	5	2	269	3	255	4.39e-74	227
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_032457067.1|	43.985	266	128	5	2	264	3	250	4.22e-72	222
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_031787721.1|	43.985	266	128	5	2	264	3	250	4.22e-72	222
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_031787718.1|	43.985	266	128	5	2	264	3	250	4.22e-72	222
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_016841799.1|	44.595	222	114	2	23	244	129	341	2.38e-54	179
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_016841794.1|	44.595	222	114	2	23	244	130	342	2.44e-54	179
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_001601231.2|	32.231	242	147	4	21	253	59	292	8.18e-33	122
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_001603421.1|	32.661	248	153	3	24	266	22	260	9.50e-30	114
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_031783455.1|	32.661	248	153	3	24	266	10	248	1.13e-29	113
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_031783454.1|	32.661	248	153	3	24	266	10	248	1.13e-29	113
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_031789557.1|	31.416	226	131	4	60	268	29	247	7.59e-26	102
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_031789555.1|	31.559	263	149	7	24	268	28	277	1.00e-25	103
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_001601253.2|	31.660	259	135	6	24	253	28	273	6.48e-25	100
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_032452019.1|	31.532	222	117	3	60	253	29	243	8.87e-25	99.8
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_032452018.1|	31.532	222	117	3	60	253	29	243	8.87e-25	99.8
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_031786859.1|	33.761	234	141	6	12	241	51	274	3.01e-21	93.6
+BAK32936.1_aquaporin_Belgica_antarctica	ref|XP_016841019.2|	34.545	110	66	2	12	120	51	155	3.75e-11	63.5
+# BLAST processed 1 queries
