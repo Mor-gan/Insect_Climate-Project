@@ -1,0 +1,363 @@
+File: prip_db1.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_029346918.1|	37.500	240	122	3	14	253	8	219	7.37e-49	162
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_029346917.1|	37.500	240	122	3	14	253	8	219	7.37e-49	162
+BAK32935.1_aquaporin_Belgica_antarctica	ref|NP_001139376.1|	37.500	240	122	3	14	253	39	250	9.71e-49	163
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_029346916.1|	37.500	240	122	3	14	253	17	228	9.72e-49	162
+BAK32935.1_aquaporin_Belgica_antarctica	ref|NP_001139377.1|	37.500	240	122	3	14	253	17	228	9.72e-49	162
+--------------------
+File: prip_db10.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	emb|CAG9772309.1|	46.207	290	127	5	4	290	5	268	1.14e-74	229
+BAK32935.1_aquaporin_Belgica_antarctica	emb|CAH1134308.1|	35.926	270	143	4	7	276	16	255	1.55e-50	166
+BAK32935.1_aquaporin_Belgica_antarctica	emb|CAH1130323.1|	36.715	207	118	3	81	274	55	261	9.08e-37	131
+BAK32935.1_aquaporin_Belgica_antarctica	emb|CAG9769771.1|	34.807	181	115	1	86	263	64	244	2.97e-27	105
+BAK32935.1_aquaporin_Belgica_antarctica	emb|CAG9759884.1|	27.915	283	163	9	11	284	43	293	1.70e-26	107
+--------------------
+File: prip_db11.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_044731083.1|	49.495	297	110	6	3	290	5	270	4.17e-96	284
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_044727682.1|	40.072	277	140	5	3	276	4	257	4.65e-58	186
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_044727651.1|	39.423	208	123	2	82	288	47	252	2.23e-40	140
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_044727649.1|	39.423	208	123	2	82	288	75	280	2.39e-40	141
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_044727650.1|	39.423	208	123	2	82	288	60	265	2.54e-40	140
+--------------------
+File: prip_db12.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_014250944.1|	44.983	289	129	4	2	290	7	265	1.73e-78	239
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_024083731.1|	46.324	272	117	3	2	273	7	249	2.65e-78	238
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_014250942.1|	44.983	289	129	4	2	290	35	293	7.42e-78	238
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_014250943.1|	46.324	272	117	3	2	273	35	277	9.81e-78	238
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_024081986.1|	38.603	272	134	5	1	272	1	239	1.41e-51	169
+--------------------
+File: prip_db13.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_044761138.1|	49.481	289	113	5	4	290	5	262	2.72e-91	271
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_044761980.1|	38.214	280	129	6	7	285	13	249	8.66e-56	180
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_044761979.1|	38.214	280	129	6	7	285	26	262	9.47e-56	181
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_044764997.1|	33.014	209	125	6	78	285	87	281	5.46e-28	112
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_044750818.1|	35.223	247	124	4	25	264	98	315	1.11e-23	98.6
+--------------------
+File: prip_db14.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	dbj|GFG31719.1|	46.831	284	117	4	3	286	27	276	3.20e-70	217
+BAK32935.1_aquaporin_Belgica_antarctica	dbj|GFG35382.1|	32.955	264	140	5	24	278	21	256	2.67e-34	124
+BAK32935.1_aquaporin_Belgica_antarctica	dbj|GFG31718.1|	50.909	110	54	0	156	265	11	120	1.22e-33	118
+BAK32935.1_aquaporin_Belgica_antarctica	dbj|GFG36347.1|	35.238	105	59	3	161	263	11	108	6.90e-14	70.5
+BAK32935.1_aquaporin_Belgica_antarctica	dbj|GFG36345.1|	30.534	131	73	2	11	141	49	161	1.08e-11	60.8
+--------------------
+File: prip_db15.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_023708717.1|	44.792	288	119	6	3	290	6	253	5.60e-68	212
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_023708710.1|	42.748	262	118	4	4	265	8	237	1.09e-63	201
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_023701689.1|	37.561	205	122	2	80	278	64	268	1.45e-35	129
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_023701691.1|	37.561	205	122	2	80	278	51	255	1.71e-35	129
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_023701690.1|	37.561	205	122	2	80	278	51	255	1.71e-35	129
+--------------------
+File: prip_db16.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_026462217.1|	51.195	293	108	8	3	290	5	267	1.78e-91	272
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_026461703.1|	35.772	246	120	4	20	263	26	235	2.72e-41	142
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_026461702.1|	35.772	246	120	4	20	263	26	235	2.72e-41	142
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_026461701.1|	35.772	246	120	4	20	263	31	240	3.14e-41	142
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_026463710.1|	32.195	205	128	3	81	274	37	241	1.62e-25	101
+--------------------
+File: prip_db17.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_039433190.1|	61.856	291	76	4	1	290	1	257	1.88e-118	340
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_052563772.1|	61.512	291	77	4	1	290	1	257	1.60e-116	336
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_052562819.1|	40.741	270	129	7	3	271	14	253	1.44e-59	190
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_052562817.1|	41.221	262	124	6	3	263	7	239	3.39e-59	189
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_052562816.1|	41.221	262	124	6	3	263	7	239	3.39e-59	189
+--------------------
+File: prip_db18.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_026677945.1|	47.931	290	118	5	2	290	5	262	1.34e-85	256
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_008484232.1|	40.856	257	120	5	3	259	1	225	1.80e-57	185
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_008487274.2|	31.429	210	134	4	83	284	26	233	5.71e-26	102
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_026680357.1|	29.020	255	115	7	17	271	59	247	2.73e-21	89.7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_017303216.2|	29.744	195	88	5	97	290	16	162	1.32e-19	83.2
+--------------------
+File: prip_db19.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_016930642.1|	51.034	290	103	5	4	290	5	258	2.43e-88	264
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_016930412.1|	38.760	258	123	3	15	272	18	240	1.09e-56	182
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_036669236.1|	38.760	258	123	3	15	272	15	237	1.54e-56	182
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_016929660.1|	31.338	284	158	7	1	279	13	264	6.04e-36	130
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_016929659.1|	28.996	269	159	3	23	286	24	265	6.06e-33	122
+--------------------
+File: prip_db2.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_019872967.1|	45.675	289	129	3	4	291	5	266	2.78e-75	231
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_019872963.2|	39.474	266	130	5	7	272	32	266	7.32e-58	186
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_049821553.1|	39.474	266	130	5	7	272	14	248	1.40e-57	185
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_019873433.1|	34.906	212	127	4	81	284	55	263	2.68e-34	125
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_019873432.1|	34.906	212	127	4	81	284	96	304	3.73e-34	125
+--------------------
+File: prip_db20.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_055917603.1|	49.310	290	110	4	4	291	5	259	5.13e-96	283
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_055917604.1|	50.182	275	103	2	4	278	5	245	9.52e-92	272
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_055916611.1|	39.852	271	133	6	3	272	15	256	1.96e-59	190
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_055916612.1|	39.852	271	133	6	3	272	13	254	2.11e-59	190
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_055916613.1|	39.852	271	133	6	3	272	7	248	3.13e-59	189
+--------------------
+File: prip_db21.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_024214947.1|	45.070	284	125	5	3	285	7	260	6.08e-81	245
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_024214948.1|	43.083	253	113	5	21	272	39	261	7.42e-55	178
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_024214949.1|	43.083	253	113	5	21	272	38	260	8.12e-55	178
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_024214951.1|	43.083	253	113	5	21	272	19	241	8.17e-55	177
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_024214950.1|	43.083	253	113	5	21	272	23	245	9.39e-55	177
+--------------------
+File: prip_db22.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_045483356.1|	49.147	293	110	5	4	291	5	263	3.79e-91	271
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_045483355.1|	49.147	293	110	5	4	291	5	263	3.79e-91	271
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_045475663.1|	37.143	280	132	6	7	285	13	249	3.16e-52	171
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_045475581.1|	37.143	280	132	6	7	285	24	260	5.09e-52	171
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_045470735.1|	36.290	248	122	4	24	264	95	313	2.00e-35	130
+--------------------
+File: prip_db23.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	gb|KAI4459365.1|	44.561	285	120	5	6	289	7	254	6.06e-78	236
+BAK32935.1_aquaporin_Belgica_antarctica	gb|KAI4459359.1|	43.860	285	131	6	6	289	7	263	5.03e-74	227
+BAK32935.1_aquaporin_Belgica_antarctica	gb|KAI4459960.1|	46.369	179	93	2	89	267	17	192	2.93e-49	161
+BAK32935.1_aquaporin_Belgica_antarctica	gb|KAI4465196.1|	28.727	275	132	5	13	285	17	229	1.67e-26	103
+--------------------
+File: prip_db24.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_046669580.1|	49.481	289	110	6	3	290	21	274	1.93e-87	262
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_046669582.1|	49.477	287	109	6	3	288	21	272	2.00e-85	257
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_046669581.1|	49.129	287	110	6	3	288	4	255	8.30e-85	256
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_046669579.1|	49.648	284	107	6	3	285	21	269	1.51e-84	256
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_046669585.1|	39.711	277	132	6	1	272	1	247	7.90e-59	188
+--------------------
+File: prip_db25.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_026323480.1|	54.064	283	103	5	8	290	9	264	1.02e-96	285
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_026323707.1|	39.608	255	121	4	12	263	37	261	1.44e-50	167
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_026323708.1|	39.608	255	121	4	12	263	20	244	1.67e-50	167
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_026323709.1|	39.608	255	121	4	12	263	12	236	4.12e-50	166
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_026321991.1|	30.830	253	141	6	20	269	33	254	3.47e-30	114
+--------------------
+File: prip_db26.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	gb|KAF2883118.1|	45.205	292	125	5	3	290	5	265	5.97e-73	224
+BAK32935.1_aquaporin_Belgica_antarctica	gb|KAF2894216.1|	39.623	265	124	5	7	270	7	236	4.54e-52	170
+BAK32935.1_aquaporin_Belgica_antarctica	gb|KAF2903774.1|	33.209	268	141	4	11	267	80	320	1.07e-37	135
+BAK32935.1_aquaporin_Belgica_antarctica	gb|KAF2885192.1|	31.674	221	139	1	82	290	90	310	8.51e-30	114
+BAK32935.1_aquaporin_Belgica_antarctica	gb|KAF2883011.1|	30.488	246	135	7	15	259	49	259	1.01e-26	108
+--------------------
+File: prip_db27.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_046403530.1|	41.096	292	137	7	2	290	3	262	1.93e-63	201
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_046403531.1|	41.463	287	133	7	2	285	3	257	4.89e-62	197
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_046406867.1|	36.934	287	141	5	3	278	10	267	1.04e-51	171
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_046405745.1|	39.636	275	130	5	7	274	13	258	3.30e-48	161
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_046403477.1|	39.464	261	124	4	18	271	24	257	3.62e-47	159
+--------------------
+File: prip_db28.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	gb|KAG8222863.1|	40.625	288	128	6	2	286	3	250	3.65e-57	183
+BAK32935.1_aquaporin_Belgica_antarctica	gb|KAG8222865.1|	42.593	270	122	6	3	269	16	255	3.72e-56	181
+BAK32935.1_aquaporin_Belgica_antarctica	gb|KAG8222864.1|	50.562	178	81	3	87	264	57	227	1.37e-51	169
+BAK32935.1_aquaporin_Belgica_antarctica	gb|KAG8222866.1|	42.286	175	85	3	81	243	58	228	2.16e-36	130
+BAK32935.1_aquaporin_Belgica_antarctica	gb|KAG8238604.1|	35.443	158	96	2	97	248	3	160	8.82e-24	94.0
+--------------------
+File: prip_db29.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_054271000.1|	48.443	289	115	4	2	290	3	257	1.49e-79	242
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_054270851.1|	48.443	289	115	4	2	290	3	257	1.49e-79	242
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_054270999.1|	47.931	290	117	4	2	291	3	258	1.31e-77	238
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_054270850.1|	47.931	290	117	4	2	291	3	258	1.31e-77	238
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_054271001.1|	48.432	287	114	4	2	288	3	255	1.67e-77	236
+--------------------
+File: prip_db3.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_018330034.1|	44.983	289	128	4	4	290	6	265	9.09e-78	237
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_018330036.1|	44.291	289	130	4	4	290	6	265	6.32e-76	232
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_018330035.1|	45.070	284	125	4	4	285	6	260	5.19e-75	230
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_025830424.1|	39.535	215	98	5	3	217	29	211	3.27e-38	134
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_018320519.1|	31.621	253	142	6	24	274	28	251	5.07e-29	110
+--------------------
+File: prip_db30.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_037300466.1|	51.930	285	105	4	7	291	24	276	7.85e-93	276
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_037300468.1|	51.930	285	105	4	7	291	8	260	9.31e-93	275
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_037300467.1|	51.930	285	105	4	7	291	8	260	9.31e-93	275
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_037300778.1|	42.353	255	114	6	12	263	20	244	5.43e-54	176
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_037300777.1|	42.745	255	113	6	12	263	34	258	5.45e-54	176
+--------------------
+File: prip_db31.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	gb|KAI4487057.1|	40.283	283	129	3	4	286	31	273	5.01e-67	209
+BAK32935.1_aquaporin_Belgica_antarctica	gb|KAI4487054.1|	40.230	261	126	6	3	263	8	238	1.57e-53	174
+BAK32935.1_aquaporin_Belgica_antarctica	gb|KAI4501300.1|	37.129	202	118	4	81	274	65	265	1.99e-30	114
+BAK32935.1_aquaporin_Belgica_antarctica	gb|KAI4501301.1|	31.746	252	140	5	17	263	59	283	8.68e-29	110
+BAK32935.1_aquaporin_Belgica_antarctica	gb|KAI4497639.1|	25.524	286	164	5	11	283	10	259	5.75e-25	99.8
+--------------------
+File: prip_db32.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_005186075.1|	53.793	290	97	4	4	291	6	260	5.33e-104	303
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_005186076.1|	52.518	278	93	3	4	281	6	244	1.66e-97	286
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_005183592.1|	49.655	290	108	5	4	290	7	261	1.82e-88	264
+BAK32935.1_aquaporin_Belgica_antarctica	ref|NP_001295945.1|	38.745	271	134	5	3	272	1	240	4.27e-56	181
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_019893216.1|	39.147	258	126	4	15	271	25	252	3.88e-55	179
+--------------------
+File: prip_db33.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_022173312.1|	36.260	262	134	4	14	275	43	271	1.59e-48	162
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_022173318.1|	36.923	260	134	4	14	271	8	239	1.72e-48	161
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_022173316.1|	36.923	260	134	4	14	271	8	239	1.72e-48	161
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_022173315.1|	36.923	260	134	4	14	271	8	239	1.72e-48	161
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_022173311.1|	36.923	260	134	4	14	271	43	274	1.74e-48	162
+--------------------
+File: prip_db34.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_032457069.1|	39.726	292	134	4	2	290	3	255	2.07e-70	219
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_032457068.1|	39.726	292	134	4	2	290	3	255	2.07e-70	219
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_031787719.1|	39.726	292	134	4	2	290	3	255	2.07e-70	219
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_032457067.1|	39.721	287	131	4	2	285	3	250	2.12e-68	213
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_031787721.1|	39.721	287	131	4	2	285	3	250	2.12e-68	213
+--------------------
+File: prip_db35.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	emb|CAB0018999.1|	42.908	282	126	4	3	284	8	254	2.73e-71	220
+BAK32935.1_aquaporin_Belgica_antarctica	emb|CAB0018997.1|	42.908	282	126	4	3	284	8	254	2.73e-71	220
+BAK32935.1_aquaporin_Belgica_antarctica	emb|CAA9999443.1|	38.868	265	127	4	3	267	1	230	2.47e-44	150
+BAK32935.1_aquaporin_Belgica_antarctica	emb|CAA9999441.1|	38.868	265	127	4	3	267	1	230	2.47e-44	150
+BAK32935.1_aquaporin_Belgica_antarctica	emb|CAB0008485.1|	35.928	167	105	2	97	263	103	267	3.68e-25	100
+--------------------
+File: prip_db36.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_039289068.1|	47.059	289	122	5	4	290	5	264	2.37e-84	254
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_039289067.1|	47.059	289	122	5	4	290	5	264	2.37e-84	254
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_039289065.1|	47.059	289	122	5	4	290	77	336	1.12e-83	255
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_039289066.1|	48.679	265	110	4	4	266	77	317	2.14e-78	241
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_039289070.1|	47.410	251	106	4	4	252	77	303	1.45e-71	223
+--------------------
+File: prip_db37.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_015366197.1|	34.595	185	119	2	82	265	113	296	5.32e-25	100
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_015366200.1|	34.595	185	119	2	82	265	84	267	5.66e-25	100
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_015366201.1|	35.135	185	118	2	82	265	80	263	6.46e-25	100
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_015366196.1|	35.135	185	118	2	82	265	118	301	6.93e-25	100
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_015366202.1|	34.595	185	119	2	82	265	62	245	9.36e-25	99.4
+--------------------
+File: prip_db38.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_050358475.1|	51.748	286	108	5	6	290	7	263	7.37e-94	278
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_050358466.1|	51.748	286	108	5	6	290	7	263	7.37e-94	278
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_050356672.1|	40.892	269	118	4	3	259	1	240	3.50e-56	181
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_050356682.1|	43.983	241	106	3	19	259	24	235	5.71e-56	181
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_050356661.1|	43.673	245	101	4	19	259	49	260	5.72e-56	182
+--------------------
+File: prip_db39.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_012284133.1|	43.643	291	128	4	1	291	2	256	6.30e-77	234
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_012284124.1|	43.643	291	128	4	1	291	2	256	6.30e-77	234
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_012284145.1|	43.860	285	124	4	1	285	2	250	3.09e-74	228
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_012282084.1|	40.659	273	130	4	4	276	9	249	5.34e-58	186
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_012288704.1|	36.548	197	113	3	81	267	96	290	6.74e-32	120
+--------------------
+File: prip_db4.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	gb|KAG7209353.1|	41.379	290	133	5	1	289	67	320	8.72e-67	211
+BAK32935.1_aquaporin_Belgica_antarctica	gb|KAG7209352.1|	41.608	286	130	5	1	285	67	316	1.18e-65	207
+BAK32935.1_aquaporin_Belgica_antarctica	gb|KAG7209349.1|	43.028	251	115	3	22	272	25	247	3.11e-59	189
+BAK32935.1_aquaporin_Belgica_antarctica	gb|KAG7212268.1|	31.727	249	138	4	24	267	28	249	1.32e-30	115
+BAK32935.1_aquaporin_Belgica_antarctica	gb|KAG7198576.1|	31.034	261	147	4	10	264	7	240	2.19e-28	110
+--------------------
+File: prip_db40.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_022118398.2|	52.083	288	109	5	3	290	4	262	2.21e-93	277
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_022123793.2|	39.179	268	122	6	12	271	20	254	1.97e-50	167
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_045490331.1|	40.000	250	119	4	12	259	86	306	4.60e-50	168
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_022123792.2|	39.764	254	114	5	12	259	111	331	5.92e-50	168
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_022123791.2|	40.000	250	119	4	12	259	140	360	7.09e-50	169
+--------------------
+File: prip_db41.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_037963977.2|	51.579	285	110	5	7	290	8	265	1.35e-88	265
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_037963998.1|	36.630	273	132	3	3	263	1	244	3.36e-50	166
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_037963999.1|	38.976	254	124	3	12	263	15	239	1.07e-49	165
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_037963997.1|	38.976	254	124	3	12	263	40	264	1.83e-49	165
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_011560224.3|	32.946	258	130	8	20	271	32	252	7.36e-29	110
+--------------------
+File: prip_db42.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_015187316.1|	41.924	291	134	3	1	291	2	257	8.93e-73	224
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_015187317.1|	42.456	285	129	3	1	285	2	251	2.08e-71	221
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_015187296.1|	39.163	263	130	6	1	263	43	275	9.49e-52	171
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_015187298.1|	40.083	242	117	4	22	263	25	238	9.85e-52	170
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_015187295.1|	40.496	242	116	4	22	263	118	331	1.94e-51	172
+--------------------
+File: prip_db43.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_049845619.1|	48.084	287	119	5	4	290	6	262	7.98e-75	230
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_049845620.1|	47.719	285	119	6	4	288	6	260	4.54e-70	218
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_049845799.1|	42.007	269	127	4	4	272	8	247	1.67e-61	196
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_049847552.1|	35.870	276	138	5	20	291	27	267	6.16e-46	156
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_049847551.1|	36.066	244	122	5	20	259	9	222	8.19e-43	147
+--------------------
+File: prip_db44.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_047102448.1|	47.387	287	121	4	4	290	6	262	1.59e-74	229
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_047102449.1|	46.316	285	123	4	4	288	6	260	9.25e-70	216
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_047103101.1|	42.007	269	127	4	4	272	8	247	1.20e-61	195
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_047103559.1|	38.115	244	118	4	20	259	18	232	2.02e-45	154
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_047103566.1|	39.630	270	124	7	20	289	40	270	6.06e-42	145
+--------------------
+File: prip_db45.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_049954590.1|	47.387	287	121	4	4	290	6	262	1.78e-74	229
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_049954591.1|	46.316	285	123	4	4	288	6	260	1.03e-69	216
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_049954589.1|	41.636	269	128	4	4	272	8	247	4.96e-62	196
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_049954958.1|	38.115	244	118	4	20	259	18	232	2.04e-45	154
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_049954962.1|	40.000	270	123	7	20	289	40	270	1.86e-42	147
+--------------------
+File: prip_db46.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_035429572.1|	53.169	284	104	5	7	290	8	262	1.15e-93	278
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_035429571.1|	53.169	284	104	5	7	290	8	262	1.15e-93	278
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_035429569.1|	53.169	284	104	5	7	290	8	262	1.15e-93	278
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_035430709.1|	43.529	255	111	6	12	263	20	244	1.67e-56	183
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_035430707.1|	43.529	255	111	6	12	263	42	266	2.10e-56	183
+--------------------
+File: prip_db47.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_034234741.1|	45.329	289	120	6	7	290	8	263	3.35e-63	200
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_034233671.1|	35.055	271	140	7	6	276	7	241	7.76e-39	136
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_034238299.1|	32.812	192	124	1	81	267	66	257	1.59e-26	105
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_034248332.1|	37.640	178	100	5	97	273	112	279	8.82e-26	107
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_034244426.1|	33.333	174	107	3	92	264	4	169	2.41e-23	94.4
+--------------------
+File: prip_db48.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	emb|CAH1643431.1|	53.169	284	104	5	7	290	8	262	3.44e-94	278
+BAK32935.1_aquaporin_Belgica_antarctica	emb|CAH1643677.1|	44.094	254	111	5	12	263	38	262	8.49e-57	183
+BAK32935.1_aquaporin_Belgica_antarctica	emb|CAH1647202.1|	35.573	253	115	9	20	263	35	248	4.07e-33	121
+BAK32935.1_aquaporin_Belgica_antarctica	emb|CAH1636725.1|	34.766	256	129	9	7	259	8	228	2.42e-29	110
+BAK32935.1_aquaporin_Belgica_antarctica	emb|CAD0238295.1|	30.120	249	136	4	18	263	48	261	2.50e-17	79.0
+--------------------
+File: prip_db49.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_008190404.1|	49.477	287	110	6	6	290	7	260	6.28e-86	258
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_008190403.1|	49.477	287	110	6	6	290	7	260	6.28e-86	258
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_015839381.1|	38.095	273	134	5	1	271	1	240	1.92e-55	179
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_972862.1|	38.433	268	130	5	6	271	12	246	3.98e-55	179
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_015835628.1|	36.408	206	129	1	81	284	416	621	1.72e-34	131
+--------------------
+File: prip_db5.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_018569425.1|	46.207	290	126	3	2	290	3	263	6.31e-89	265
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_018569426.1|	45.965	285	124	3	4	287	5	260	1.78e-86	259
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_018566280.1|	41.791	268	116	5	12	271	16	251	8.62e-58	185
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_023312191.1|	31.321	265	148	5	24	283	15	250	1.57e-35	128
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_018576151.1|	36.946	203	119	3	81	274	55	257	8.54e-35	126
+--------------------
+File: prip_db50.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_047537451.1|	52.098	286	107	5	6	290	7	263	7.91e-95	280
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_047537442.1|	52.500	280	103	5	7	285	8	258	1.18e-91	273
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_047537434.1|	52.500	280	103	5	7	285	8	258	1.18e-91	273
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_047536801.1|	42.800	250	112	4	12	259	20	240	5.25e-55	178
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_047536809.1|	42.800	250	112	4	12	259	15	235	6.21e-55	178
+--------------------
+File: prip_db51.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_050866468.1|	42.759	290	131	3	1	290	2	256	2.46e-74	229
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_050866466.1|	42.759	290	131	3	1	290	8	262	3.98e-74	228
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_050866467.1|	43.158	285	127	3	1	285	8	257	4.69e-73	226
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_050866472.1|	40.551	254	123	4	23	276	26	251	3.68e-52	171
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_050850386.1|	35.616	219	130	3	81	290	58	274	4.28e-32	120
+--------------------
+File: prip_db52.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_021933797.1|	43.554	287	126	5	2	285	5	258	3.82e-67	210
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_021934042.1|	50.549	182	79	2	88	265	23	197	3.72e-54	175
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_021939296.1|	37.561	205	122	2	80	278	72	276	1.40e-35	129
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_021939297.1|	37.561	205	122	2	80	278	71	275	1.43e-35	129
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_021939299.1|	37.561	205	122	2	80	278	52	256	1.88e-35	129
+--------------------
+File: prip_db6.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_394391.1|	42.215	289	132	3	2	290	3	256	1.40e-72	224
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_006569282.1|	42.215	289	132	3	2	290	4	257	1.96e-72	224
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_006569285.1|	42.456	285	129	3	2	286	4	253	2.31e-71	221
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_006569284.1|	42.456	285	129	3	2	286	4	253	2.31e-71	221
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_006569283.1|	42.606	284	128	3	2	285	4	252	4.52e-71	220
+--------------------
+File: prip_db7.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_018913508.1|	43.253	289	131	3	2	290	4	259	1.18e-74	229
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_018913501.1|	43.253	289	131	3	2	290	4	259	1.18e-74	229
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_018906592.1|	41.600	250	120	2	18	267	30	253	1.61e-59	190
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_018903312.1|	42.023	257	118	6	19	271	39	268	2.31e-54	177
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_018903313.1|	42.023	257	118	6	19	271	22	251	2.40e-54	177
+--------------------
+File: prip_db8.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	emb|CAH0559073.1|	46.713	289	126	4	4	291	5	266	5.93e-80	242
+BAK32935.1_aquaporin_Belgica_antarctica	emb|CAH0558342.1|	32.246	276	149	4	24	290	59	305	3.25e-34	125
+BAK32935.1_aquaporin_Belgica_antarctica	emb|CAH0558341.1|	32.246	276	149	4	24	290	108	354	8.48e-34	125
+BAK32935.1_aquaporin_Belgica_antarctica	emb|CAH0557418.1|	34.855	241	117	7	24	259	28	233	4.57e-33	120
+BAK32935.1_aquaporin_Belgica_antarctica	emb|CAH0557416.1|	41.071	168	88	5	97	259	17	178	2.00e-30	112
+--------------------
+File: prip_db9.blast7
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_004520722.1|	52.901	293	98	5	4	291	6	263	3.82e-102	299
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_004520721.1|	52.595	289	97	5	3	286	5	258	1.86e-98	290
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_020717055.1|	37.879	264	132	6	7	269	51	283	3.25e-52	172
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_004535901.1|	37.218	266	135	6	7	271	51	285	1.60e-51	171
+BAK32935.1_aquaporin_Belgica_antarctica	ref|XP_004535902.1|	37.218	266	135	6	7	271	11	245	3.26e-51	169
+--------------------

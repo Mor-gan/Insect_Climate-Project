@@ -1,0 +1,118 @@
+File: frost_db1.blast7
+--------------------
+File: frost_db10.blast7
+--------------------
+File: frost_db11.blast7
+--------------------
+File: frost_db12.blast7
+--------------------
+File: frost_db13.blast7
+--------------------
+File: frost_db14.blast7
+--------------------
+File: frost_db15.blast7
+--------------------
+File: frost_db16.blast7
+--------------------
+File: frost_db17.blast7
+--------------------
+File: frost_db18.blast7
+--------------------
+File: frost_db19.blast7
+ACD81863.1_LP07623p_Drosophila_melanogaster	ref|XP_016930972.2|	53.026	347	79	10	1	283	1	327	4.48e-80	250
+ACD81863.1_LP07623p_Drosophila_melanogaster	ref|XP_016930972.2|	56.069	173	45	6	144	286	305	476	1.04e-28	114
+ACD81863.1_LP07623p_Drosophila_melanogaster	ref|XP_016930972.2|	47.887	213	39	6	143	283	243	455	5.85e-27	109
+--------------------
+File: frost_db2.blast7
+--------------------
+File: frost_db20.blast7
+--------------------
+File: frost_db21.blast7
+--------------------
+File: frost_db22.blast7
+--------------------
+File: frost_db23.blast7
+--------------------
+File: frost_db24.blast7
+ACD81863.1_LP07623p_Drosophila_melanogaster	ref|XP_046686666.1|	28.671	143	91	3	149	280	52	194	8.40e-12	63.5
+--------------------
+File: frost_db25.blast7
+--------------------
+File: frost_db26.blast7
+--------------------
+File: frost_db27.blast7
+--------------------
+File: frost_db28.blast7
+--------------------
+File: frost_db29.blast7
+--------------------
+File: frost_db3.blast7
+--------------------
+File: frost_db30.blast7
+--------------------
+File: frost_db31.blast7
+ACD81863.1_LP07623p_Drosophila_melanogaster	gb|KAI4489465.1|	48.182	110	50	4	172	280	1184	1287	7.74e-11	61.6
+--------------------
+File: frost_db32.blast7
+--------------------
+File: frost_db33.blast7
+--------------------
+File: frost_db34.blast7
+--------------------
+File: frost_db35.blast7
+--------------------
+File: frost_db36.blast7
+--------------------
+File: frost_db37.blast7
+--------------------
+File: frost_db38.blast7
+--------------------
+File: frost_db39.blast7
+--------------------
+File: frost_db4.blast7
+--------------------
+File: frost_db40.blast7
+--------------------
+File: frost_db41.blast7
+--------------------
+File: frost_db42.blast7
+--------------------
+File: frost_db43.blast7
+--------------------
+File: frost_db44.blast7
+--------------------
+File: frost_db45.blast7
+ACD81863.1_LP07623p_Drosophila_melanogaster	ref|XP_049946531.1|	30.714	140	90	3	145	283	10	143	4.32e-12	65.1
+ACD81863.1_LP07623p_Drosophila_melanogaster	ref|XP_049946531.1|	30.147	136	88	3	149	283	38	167	1.18e-11	63.9
+ACD81863.1_LP07623p_Drosophila_melanogaster	ref|XP_049946531.1|	30.147	136	88	3	149	283	46	175	1.37e-11	63.5
+ACD81863.1_LP07623p_Drosophila_melanogaster	ref|XP_049946531.1|	29.412	136	89	3	149	283	54	183	9.48e-11	61.2
+--------------------
+File: frost_db46.blast7
+--------------------
+File: frost_db47.blast7
+ACD81863.1_LP07623p_Drosophila_melanogaster	ref|XP_034241225.1|	40.845	142	76	3	144	279	246	385	3.55e-13	69.7
+ACD81863.1_LP07623p_Drosophila_melanogaster	ref|XP_034241225.1|	39.189	148	86	3	139	282	289	436	2.35e-12	67.0
+ACD81863.1_LP07623p_Drosophila_melanogaster	ref|XP_034241225.1|	39.437	142	80	2	139	279	261	397	3.34e-12	66.6
+ACD81863.1_LP07623p_Drosophila_melanogaster	ref|XP_034241225.1|	37.748	151	86	3	139	283	273	421	9.54e-12	65.1
+ACD81863.1_LP07623p_Drosophila_melanogaster	ref|XP_034241223.1|	40.000	145	83	3	139	279	253	397	9.61e-13	68.2
+--------------------
+File: frost_db48.blast7
+--------------------
+File: frost_db49.blast7
+--------------------
+File: frost_db5.blast7
+--------------------
+File: frost_db50.blast7
+--------------------
+File: frost_db51.blast7
+--------------------
+File: frost_db52.blast7
+--------------------
+File: frost_db6.blast7
+--------------------
+File: frost_db7.blast7
+--------------------
+File: frost_db8.blast7
+--------------------
+File: frost_db9.blast7
+--------------------
