@@ -1,0 +1,364 @@
+File: hsp70a_db1.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_001951915.1|	78.849	643	126	4	3	642	6	641	0.0	1039
+AAX33487.1_Drosophila_melanogaster	ref|XP_008190051.1|	78.694	643	127	4	3	642	6	641	0.0	1036
+AAX33487.1_Drosophila_melanogaster	ref|XP_001945786.2|	78.471	641	128	4	3	642	6	637	0.0	1035
+AAX33487.1_Drosophila_melanogaster	ref|XP_001949837.1|	76.791	642	127	2	1	642	4	623	0.0	1030
+AAX33487.1_Drosophila_melanogaster	ref|XP_001951207.1|	75.493	608	147	2	2	608	6	612	0.0	969
+--------------------
+File: hsp70a_db10.blast7
+AAX33487.1_Drosophila_melanogaster	emb|CAH1126372.1|	80.745	644	119	4	2	642	6	647	0.0	1069
+AAX33487.1_Drosophila_melanogaster	emb|CAG9764594.1|	80.435	644	121	4	2	642	6	647	0.0	1064
+AAX33487.1_Drosophila_melanogaster	emb|CAH1126370.1|	78.604	659	122	3	2	642	6	663	0.0	1063
+AAX33487.1_Drosophila_melanogaster	emb|CAG9764499.1|	79.938	643	124	3	2	642	6	645	0.0	1061
+AAX33487.1_Drosophila_melanogaster	emb|CAG9766834.1|	79.077	607	127	0	2	608	5	611	0.0	1016
+--------------------
+File: hsp70a_db11.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_044737062.1|	80.655	641	114	3	2	642	3	633	0.0	1073
+AAX33487.1_Drosophila_melanogaster	ref|XP_044731350.1|	80.184	651	118	5	2	642	3	652	0.0	1072
+AAX33487.1_Drosophila_melanogaster	ref|XP_044735454.1|	80.655	641	114	3	2	642	3	633	0.0	1071
+AAX33487.1_Drosophila_melanogaster	ref|XP_044731348.1|	80.184	651	118	5	2	642	55	704	0.0	1071
+AAX33487.1_Drosophila_melanogaster	ref|XP_044737060.1|	80.841	642	116	4	2	642	3	638	0.0	1071
+--------------------
+File: hsp70a_db12.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_014239635.1|	82.426	643	105	4	1	642	1	636	0.0	1094
+AAX33487.1_Drosophila_melanogaster	ref|XP_014256536.1|	79.751	642	114	3	1	642	1	626	0.0	1064
+AAX33487.1_Drosophila_melanogaster	ref|XP_014256533.1|	78.660	642	134	3	1	642	1	639	0.0	1058
+AAX33487.1_Drosophila_melanogaster	ref|XP_014248703.1|	78.383	643	123	4	1	642	1	628	0.0	1046
+AAX33487.1_Drosophila_melanogaster	ref|XP_014239186.1|	79.407	607	124	1	2	608	5	610	0.0	1025
+--------------------
+File: hsp70a_db13.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_044761169.1|	80.745	644	118	3	3	642	4	645	0.0	1081
+AAX33487.1_Drosophila_melanogaster	ref|XP_044767183.1|	80.715	643	120	2	3	642	4	645	0.0	1078
+AAX33487.1_Drosophila_melanogaster	ref|XP_044767184.1|	80.715	643	120	2	3	642	4	645	0.0	1076
+AAX33487.1_Drosophila_melanogaster	ref|XP_044766848.1|	80.435	644	121	4	2	642	5	646	0.0	1075
+AAX33487.1_Drosophila_melanogaster	ref|XP_044767182.1|	80.062	647	123	3	1	642	2	647	0.0	1058
+--------------------
+File: hsp70a_db14.blast7
+AAX33487.1_Drosophila_melanogaster	dbj|GFG30081.1|	79.639	609	124	0	1	609	4	612	0.0	1031
+AAX33487.1_Drosophila_melanogaster	dbj|GFG28490.1|	78.325	609	130	2	2	609	33	640	0.0	996
+AAX33487.1_Drosophila_melanogaster	dbj|GFG31716.1|	59.837	615	240	5	3	614	96	706	0.0	734
+AAX33487.1_Drosophila_melanogaster	dbj|GFG37699.1|	34.808	520	309	12	1	499	4	514	2.23e-90	304
+AAX33487.1_Drosophila_melanogaster	dbj|GFG40610.1|	32.151	451	295	8	1	444	260	706	4.63e-68	234
+--------------------
+File: hsp70a_db15.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_023725255.1|	78.906	640	127	2	2	641	6	637	0.0	1051
+AAX33487.1_Drosophila_melanogaster	ref|XP_023725254.1|	78.906	640	127	2	2	641	6	637	0.0	1051
+AAX33487.1_Drosophila_melanogaster	ref|XP_023726137.1|	79.441	608	125	0	2	609	5	612	0.0	1029
+AAX33487.1_Drosophila_melanogaster	ref|XP_023722714.1|	77.504	609	135	2	2	609	5	612	0.0	992
+AAX33487.1_Drosophila_melanogaster	ref|XP_033607669.1|	77.340	609	136	2	2	609	5	612	0.0	991
+--------------------
+File: hsp70a_db16.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_026480398.1|	73.717	643	164	3	1	642	1	639	0.0	1000
+AAX33487.1_Drosophila_melanogaster	ref|XP_026480396.1|	73.717	643	164	3	1	642	1	639	0.0	1000
+AAX33487.1_Drosophila_melanogaster	ref|XP_026480397.1|	73.479	641	165	3	3	642	6	642	0.0	993
+AAX33487.1_Drosophila_melanogaster	ref|XP_026468771.1|	76.355	609	142	2	2	609	5	612	0.0	980
+AAX33487.1_Drosophila_melanogaster	ref|XP_026462201.1|	69.518	643	181	3	2	642	7	636	0.0	922
+--------------------
+File: hsp70a_db17.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_039453668.1|	83.178	642	104	3	1	642	1	638	0.0	1089
+AAX33487.1_Drosophila_melanogaster	ref|XP_039453667.1|	83.178	642	104	3	1	642	1	638	0.0	1089
+AAX33487.1_Drosophila_melanogaster	ref|XP_039453664.1|	83.178	642	104	3	1	642	1	638	0.0	1089
+AAX33487.1_Drosophila_melanogaster	ref|XP_039439065.1|	80.099	608	121	0	2	609	5	612	0.0	1031
+AAX33487.1_Drosophila_melanogaster	ref|XP_052565507.1|	77.467	608	135	2	2	608	5	611	0.0	980
+--------------------
+File: hsp70a_db18.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_017301507.1|	79.128	642	118	3	1	642	1	626	0.0	1059
+AAX33487.1_Drosophila_melanogaster	ref|XP_008477020.1|	79.128	642	118	3	1	642	1	626	0.0	1059
+AAX33487.1_Drosophila_melanogaster	ref|XP_008477021.1|	79.128	642	121	2	1	642	1	629	0.0	1053
+AAX33487.1_Drosophila_melanogaster	ref|XP_008477019.1|	79.128	642	121	2	1	642	1	629	0.0	1053
+AAX33487.1_Drosophila_melanogaster	ref|XP_008477022.1|	78.972	642	122	2	1	642	1	629	0.0	1052
+--------------------
+File: hsp70a_db19.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_016926534.2|	96.579	643	21	1	1	642	1	643	0.0	1287
+AAX33487.1_Drosophila_melanogaster	ref|XP_036673283.1|	85.202	642	89	4	1	642	1	636	0.0	1136
+AAX33487.1_Drosophila_melanogaster	ref|XP_016941530.2|	75.857	642	144	2	1	642	4	634	0.0	1013
+AAX33487.1_Drosophila_melanogaster	ref|XP_016933935.1|	72.162	643	174	3	1	642	4	642	0.0	966
+AAX33487.1_Drosophila_melanogaster	ref|XP_016933934.1|	72.162	643	174	3	1	642	4	642	0.0	966
+--------------------
+File: hsp70a_db2.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_049823568.1|	81.153	642	116	3	2	642	5	642	0.0	1075
+AAX33487.1_Drosophila_melanogaster	ref|XP_049823569.1|	80.997	642	117	3	2	642	5	642	0.0	1074
+AAX33487.1_Drosophila_melanogaster	ref|XP_049823570.1|	81.435	641	116	2	2	642	5	642	0.0	1072
+AAX33487.1_Drosophila_melanogaster	ref|XP_049817362.1|	79.875	641	115	3	2	642	3	629	0.0	1053
+AAX33487.1_Drosophila_melanogaster	ref|XP_049817365.1|	79.563	641	117	4	2	642	3	629	0.0	1051
+--------------------
+File: hsp70a_db20.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_055902636.1|	85.248	644	92	3	1	642	1	643	0.0	1137
+AAX33487.1_Drosophila_melanogaster	ref|XP_055923965.1|	84.891	642	91	2	1	642	1	636	0.0	1130
+AAX33487.1_Drosophila_melanogaster	ref|XP_055923106.1|	84.891	642	91	2	1	642	1	636	0.0	1130
+AAX33487.1_Drosophila_melanogaster	ref|XP_055908466.1|	84.891	642	91	2	1	642	1	636	0.0	1130
+AAX33487.1_Drosophila_melanogaster	ref|XP_055902220.1|	84.891	642	91	2	1	642	1	636	0.0	1130
+--------------------
+File: hsp70a_db21.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_024217114.1|	81.153	642	112	3	1	642	1	633	0.0	1085
+AAX33487.1_Drosophila_melanogaster	ref|XP_014281580.1|	80.901	644	113	4	1	642	1	636	0.0	1085
+AAX33487.1_Drosophila_melanogaster	ref|XP_024214745.1|	80.997	642	113	3	1	642	1	633	0.0	1083
+AAX33487.1_Drosophila_melanogaster	ref|XP_014289183.1|	81.153	642	112	3	1	642	1	633	0.0	1082
+AAX33487.1_Drosophila_melanogaster	ref|XP_014275032.1|	78.471	641	116	2	2	642	5	623	0.0	1051
+--------------------
+File: hsp70a_db22.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_045482999.1|	81.026	643	118	2	3	642	4	645	0.0	1082
+AAX33487.1_Drosophila_melanogaster	ref|XP_045482997.1|	81.026	643	118	2	3	642	4	645	0.0	1082
+AAX33487.1_Drosophila_melanogaster	ref|XP_045482998.1|	80.871	643	119	2	3	642	4	645	0.0	1081
+AAX33487.1_Drosophila_melanogaster	ref|XP_045482994.1|	81.406	640	116	3	3	642	4	640	0.0	1080
+AAX33487.1_Drosophila_melanogaster	ref|XP_045483001.1|	80.715	643	120	2	3	642	4	645	0.0	1077
+--------------------
+File: hsp70a_db23.blast7
+AAX33487.1_Drosophila_melanogaster	gb|KAI4467293.1|	81.649	643	113	4	2	642	5	644	0.0	1090
+AAX33487.1_Drosophila_melanogaster	gb|KAI4467289.1|	81.182	643	116	4	2	642	5	644	0.0	1087
+AAX33487.1_Drosophila_melanogaster	gb|KAI4467284.1|	81.026	643	117	4	2	642	5	644	0.0	1085
+AAX33487.1_Drosophila_melanogaster	gb|KAI4467198.1|	81.182	643	116	4	2	642	5	644	0.0	1083
+AAX33487.1_Drosophila_melanogaster	gb|KAI4467292.1|	80.871	643	118	4	2	642	5	644	0.0	1081
+--------------------
+File: hsp70a_db24.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_046676447.1|	81.620	642	107	3	1	642	5	635	0.0	1085
+AAX33487.1_Drosophila_melanogaster	ref|XP_046669780.1|	81.620	642	107	4	1	642	5	635	0.0	1084
+AAX33487.1_Drosophila_melanogaster	ref|XP_046660841.1|	81.308	642	109	3	1	642	5	635	0.0	1082
+AAX33487.1_Drosophila_melanogaster	ref|XP_046660840.1|	81.308	642	109	3	1	642	5	635	0.0	1082
+AAX33487.1_Drosophila_melanogaster	ref|XP_046688090.1|	81.308	642	109	3	1	642	5	635	0.0	1082
+--------------------
+File: hsp70a_db25.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_026317056.1|	81.056	644	113	4	1	642	1	637	0.0	1079
+AAX33487.1_Drosophila_melanogaster	ref|XP_026317219.1|	84.211	608	95	1	1	608	1	607	0.0	1065
+AAX33487.1_Drosophila_melanogaster	ref|XP_026317218.1|	84.211	608	95	1	1	608	1	607	0.0	1065
+AAX33487.1_Drosophila_melanogaster	ref|XP_026314591.1|	77.581	620	137	2	1	619	1	619	0.0	1011
+AAX33487.1_Drosophila_melanogaster	ref|XP_026313957.1|	77.176	609	137	2	2	609	5	612	0.0	985
+--------------------
+File: hsp70a_db26.blast7
+AAX33487.1_Drosophila_melanogaster	gb|KAF2895470.1|	80.374	642	122	4	2	642	5	643	0.0	1070
+AAX33487.1_Drosophila_melanogaster	gb|KAF2903837.1|	79.283	642	129	4	2	642	5	643	0.0	1059
+AAX33487.1_Drosophila_melanogaster	gb|KAF2891858.1|	78.349	642	122	1	1	642	4	628	0.0	1053
+AAX33487.1_Drosophila_melanogaster	gb|KAF2880670.1|	78.416	644	134	3	2	642	5	646	0.0	1045
+AAX33487.1_Drosophila_melanogaster	gb|KAF2902625.1|	78.471	641	127	2	2	642	5	634	0.0	1033
+--------------------
+File: hsp70a_db27.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_046390805.1|	76.355	609	142	2	2	609	5	612	0.0	983
+AAX33487.1_Drosophila_melanogaster	ref|XP_046404468.1|	59.325	622	244	5	3	619	30	647	0.0	746
+AAX33487.1_Drosophila_melanogaster	ref|XP_046386644.1|	51.130	575	253	10	4	571	60	613	0.0	554
+AAX33487.1_Drosophila_melanogaster	ref|XP_046395458.1|	36.040	505	306	9	1	495	4	501	1.13e-94	310
+AAX33487.1_Drosophila_melanogaster	ref|XP_046395459.1|	35.084	476	292	9	30	495	18	486	5.63e-84	281
+--------------------
+File: hsp70a_db28.blast7
+AAX33487.1_Drosophila_melanogaster	gb|KAG8234709.1|	76.847	609	139	2	2	609	5	612	0.0	986
+AAX33487.1_Drosophila_melanogaster	gb|KAG8234157.1|	75.738	610	146	2	1	609	4	612	0.0	978
+AAX33487.1_Drosophila_melanogaster	gb|KAG8238709.1|	59.477	612	239	5	3	609	29	636	0.0	737
+AAX33487.1_Drosophila_melanogaster	gb|KAG8236815.1|	44.728	313	136	6	257	561	2	285	3.79e-76	244
+AAX33487.1_Drosophila_melanogaster	gb|KAG8234950.1|	41.221	262	144	5	37	290	20	279	3.80e-59	199
+--------------------
+File: hsp70a_db29.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_054270898.1|	79.341	668	105	4	1	642	5	665	0.0	1085
+AAX33487.1_Drosophila_melanogaster	ref|XP_054270900.1|	80.395	658	109	3	1	642	5	658	0.0	1085
+AAX33487.1_Drosophila_melanogaster	ref|XP_054270897.1|	82.698	630	105	2	1	630	5	630	0.0	1079
+AAX33487.1_Drosophila_melanogaster	ref|XP_054274612.1|	81.153	642	111	2	1	642	5	636	0.0	1076
+AAX33487.1_Drosophila_melanogaster	ref|XP_054275336.1|	80.997	642	112	2	1	642	5	636	0.0	1076
+--------------------
+File: hsp70a_db3.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_018322391.1|	80.997	642	113	2	1	642	4	636	0.0	1076
+AAX33487.1_Drosophila_melanogaster	ref|XP_018336683.1|	79.632	653	117	4	1	642	4	651	0.0	1063
+AAX33487.1_Drosophila_melanogaster	ref|XP_018332229.1|	79.193	644	114	2	1	642	1	626	0.0	1050
+AAX33487.1_Drosophila_melanogaster	ref|XP_018330022.1|	76.252	619	142	3	2	619	5	619	0.0	984
+AAX33487.1_Drosophila_melanogaster	ref|XP_018326676.1|	62.582	612	225	3	2	611	17	626	0.0	796
+--------------------
+File: hsp70a_db30.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_030038133.2|	80.841	642	114	3	1	642	1	633	0.0	1070
+AAX33487.1_Drosophila_melanogaster	ref|XP_037294571.1|	80.685	642	115	3	1	642	1	633	0.0	1069
+AAX33487.1_Drosophila_melanogaster	ref|XP_037301452.1|	80.841	642	114	3	1	642	1	633	0.0	1068
+AAX33487.1_Drosophila_melanogaster	ref|XP_030032651.1|	80.841	642	114	3	1	642	1	633	0.0	1068
+AAX33487.1_Drosophila_melanogaster	ref|XP_030034373.2|	78.660	642	131	3	1	642	1	636	0.0	1046
+--------------------
+File: hsp70a_db31.blast7
+AAX33487.1_Drosophila_melanogaster	gb|KAI4502175.1|	77.054	645	140	4	1	642	1	640	0.0	1029
+AAX33487.1_Drosophila_melanogaster	gb|KAI4499970.1|	77.176	609	137	2	2	609	5	612	0.0	991
+AAX33487.1_Drosophila_melanogaster	gb|KAI4486194.1|	77.541	610	135	2	1	609	4	612	0.0	985
+AAX33487.1_Drosophila_melanogaster	gb|KAI4486151.1|	77.541	610	135	2	1	609	4	612	0.0	985
+AAX33487.1_Drosophila_melanogaster	gb|KAI4491322.1|	59.677	620	240	6	3	619	51	663	0.0	743
+--------------------
+File: hsp70a_db32.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_005189459.1|	84.292	643	94	3	1	642	1	637	0.0	1116
+AAX33487.1_Drosophila_melanogaster	ref|XP_005189456.1|	84.448	643	98	2	1	642	1	642	0.0	1116
+AAX33487.1_Drosophila_melanogaster	ref|XP_019894818.1|	84.735	642	91	1	1	642	1	635	0.0	1110
+AAX33487.1_Drosophila_melanogaster	ref|XP_005189457.1|	84.627	644	91	3	1	642	1	638	0.0	1107
+AAX33487.1_Drosophila_melanogaster	ref|XP_005183030.1|	79.901	607	122	0	2	608	5	611	0.0	996
+--------------------
+File: hsp70a_db33.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_022167905.1|	77.570	642	135	3	3	642	6	640	0.0	1036
+AAX33487.1_Drosophila_melanogaster	ref|XP_022167991.1|	77.570	642	141	2	3	642	6	646	0.0	1035
+AAX33487.1_Drosophila_melanogaster	ref|XP_022182741.1|	78.627	641	128	4	3	642	6	638	0.0	1033
+AAX33487.1_Drosophila_melanogaster	ref|XP_022161026.1|	76.480	642	129	2	1	642	4	623	0.0	1026
+AAX33487.1_Drosophila_melanogaster	ref|XP_022167418.1|	77.656	640	135	3	3	642	6	637	0.0	1025
+--------------------
+File: hsp70a_db34.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_001604951.2|	77.864	646	133	5	1	642	21	660	0.0	1041
+AAX33487.1_Drosophila_melanogaster	ref|XP_001599773.3|	76.662	647	140	5	1	642	22	662	0.0	1032
+AAX33487.1_Drosophila_melanogaster	ref|XP_031779567.1|	76.899	645	140	5	1	642	23	661	0.0	1028
+AAX33487.1_Drosophila_melanogaster	ref|XP_032452163.1|	76.683	609	140	2	2	609	5	612	0.0	985
+AAX33487.1_Drosophila_melanogaster	ref|NP_001166228.1|	76.683	609	140	2	2	609	5	612	0.0	985
+--------------------
+File: hsp70a_db35.blast7
+AAX33487.1_Drosophila_melanogaster	emb|CAA9999571.1|	79.005	643	128	3	1	642	1	637	0.0	1062
+AAX33487.1_Drosophila_melanogaster	emb|CAA9997257.1|	79.005	643	128	3	1	642	1	637	0.0	1062
+AAX33487.1_Drosophila_melanogaster	emb|CAB0002690.1|	78.972	642	127	4	1	642	1	634	0.0	1058
+AAX33487.1_Drosophila_melanogaster	emb|CAB0011110.1|	78.972	642	127	4	1	642	1	634	0.0	1057
+AAX33487.1_Drosophila_melanogaster	emb|CAB0014786.1|	76.683	609	140	2	2	609	5	612	0.0	976
+--------------------
+File: hsp70a_db36.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_022203279.2|	80.715	643	117	4	2	642	6	643	0.0	1080
+AAX33487.1_Drosophila_melanogaster	ref|XP_039293584.1|	80.404	643	119	4	2	642	6	643	0.0	1078
+AAX33487.1_Drosophila_melanogaster	ref|XP_022207538.2|	80.560	643	118	4	2	642	6	643	0.0	1078
+AAX33487.1_Drosophila_melanogaster	ref|XP_022190295.2|	79.938	643	125	3	2	642	6	646	0.0	1075
+AAX33487.1_Drosophila_melanogaster	ref|XP_022196826.2|	79.782	643	126	3	2	642	6	646	0.0	1073
+--------------------
+File: hsp70a_db37.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_015375177.1|	78.505	642	131	3	3	642	6	642	0.0	1029
+AAX33487.1_Drosophila_melanogaster	ref|XP_015371967.1|	76.636	642	128	2	1	642	4	623	0.0	1026
+AAX33487.1_Drosophila_melanogaster	ref|XP_015373896.1|	77.379	641	139	3	3	642	6	641	0.0	1021
+AAX33487.1_Drosophila_melanogaster	ref|XP_015372059.1|	76.708	644	139	4	3	642	6	642	0.0	1017
+AAX33487.1_Drosophila_melanogaster	ref|XP_015366002.1|	75.493	608	147	2	2	608	6	612	0.0	970
+--------------------
+File: hsp70a_db38.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_050357060.1|	81.481	648	103	3	1	642	1	637	0.0	1083
+AAX33487.1_Drosophila_melanogaster	ref|XP_050357059.1|	81.481	648	103	3	1	642	1	637	0.0	1083
+AAX33487.1_Drosophila_melanogaster	ref|XP_050357058.1|	81.481	648	103	3	1	642	1	637	0.0	1083
+AAX33487.1_Drosophila_melanogaster	ref|XP_050357057.1|	81.481	648	103	3	1	642	1	637	0.0	1083
+AAX33487.1_Drosophila_melanogaster	ref|XP_050357056.1|	81.620	642	115	2	1	642	1	639	0.0	1081
+--------------------
+File: hsp70a_db39.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_012278936.1|	77.280	647	134	4	1	642	1	639	0.0	1043
+AAX33487.1_Drosophila_melanogaster	ref|XP_023288735.1|	77.280	647	134	4	1	642	1	639	0.0	1041
+AAX33487.1_Drosophila_melanogaster	ref|XP_012272172.1|	75.466	644	145	3	1	642	1	633	0.0	1023
+AAX33487.1_Drosophila_melanogaster	ref|XP_012275191.1|	75.862	609	145	2	2	609	5	612	0.0	979
+AAX33487.1_Drosophila_melanogaster	ref|XP_012280267.1|	59.508	610	240	6	3	609	32	637	0.0	731
+--------------------
+File: hsp70a_db4.blast7
+AAX33487.1_Drosophila_melanogaster	gb|KAG7208988.1|	74.534	644	160	3	2	642	64	706	0.0	989
+AAX33487.1_Drosophila_melanogaster	gb|KAG7190339.1|	73.891	586	149	4	58	642	1	583	0.0	856
+AAX33487.1_Drosophila_melanogaster	gb|KAG7202495.1|	60.645	620	234	7	3	619	51	663	0.0	743
+AAX33487.1_Drosophila_melanogaster	gb|KAG7190440.1|	53.036	560	243	9	4	556	61	607	0.0	572
+AAX33487.1_Drosophila_melanogaster	gb|KAG7206377.1|	34.980	506	303	12	1	491	4	498	1.33e-88	293
+--------------------
+File: hsp70a_db40.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_022130952.1|	80.062	642	116	2	1	642	1	630	0.0	1063
+AAX33487.1_Drosophila_melanogaster	ref|XP_022115496.2|	78.168	655	129	3	1	642	1	654	0.0	1052
+AAX33487.1_Drosophila_melanogaster	ref|XP_022129796.2|	73.988	642	153	3	1	642	1	628	0.0	993
+AAX33487.1_Drosophila_melanogaster	ref|XP_022130638.1|	75.205	609	149	2	2	609	6	613	0.0	969
+AAX33487.1_Drosophila_melanogaster	ref|XP_022118662.2|	69.626	642	183	4	1	642	3	632	0.0	942
+--------------------
+File: hsp70a_db41.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_037966318.1|	80.218	642	114	3	1	642	1	629	0.0	1073
+AAX33487.1_Drosophila_melanogaster	ref|XP_037978500.2|	81.219	607	113	1	1	607	1	606	0.0	1045
+AAX33487.1_Drosophila_melanogaster	ref|XP_037961319.2|	81.219	607	113	1	1	607	1	606	0.0	1045
+AAX33487.1_Drosophila_melanogaster	ref|XP_037961322.2|	81.219	607	113	1	1	607	1	606	0.0	1044
+AAX33487.1_Drosophila_melanogaster	ref|XP_048477675.1|	80.428	608	118	1	1	608	1	607	0.0	1036
+--------------------
+File: hsp70a_db42.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_015189296.1|	78.140	645	133	4	1	642	1	640	0.0	1046
+AAX33487.1_Drosophila_melanogaster	ref|XP_015174688.1|	77.705	610	134	2	1	609	4	612	0.0	994
+AAX33487.1_Drosophila_melanogaster	ref|XP_015174687.1|	77.705	610	134	2	1	609	4	612	0.0	994
+AAX33487.1_Drosophila_melanogaster	ref|XP_015177712.1|	77.011	609	138	2	2	609	5	612	0.0	989
+AAX33487.1_Drosophila_melanogaster	ref|XP_015179268.1|	59.839	620	239	6	3	619	33	645	0.0	743
+--------------------
+File: hsp70a_db43.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_049862255.1|	76.672	643	143	3	1	642	4	640	0.0	1026
+AAX33487.1_Drosophila_melanogaster	ref|XP_049862236.1|	75.739	643	149	3	1	642	4	640	0.0	1018
+AAX33487.1_Drosophila_melanogaster	ref|XP_049835207.1|	75.857	642	149	2	1	642	5	640	0.0	1009
+AAX33487.1_Drosophila_melanogaster	ref|XP_049827039.1|	76.771	607	140	1	3	609	6	611	0.0	996
+AAX33487.1_Drosophila_melanogaster	ref|XP_049842993.1|	77.011	609	138	2	2	609	6	613	0.0	967
+--------------------
+File: hsp70a_db44.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_047111516.1|	76.050	643	147	3	1	642	4	640	0.0	1028
+AAX33487.1_Drosophila_melanogaster	ref|XP_047110375.1|	75.894	643	148	3	1	642	4	640	0.0	1024
+AAX33487.1_Drosophila_melanogaster	ref|XP_047116655.1|	77.961	608	133	1	1	608	5	611	0.0	1014
+AAX33487.1_Drosophila_melanogaster	ref|XP_047097135.1|	76.606	607	141	1	3	609	6	611	0.0	996
+AAX33487.1_Drosophila_melanogaster	ref|XP_047100229.1|	76.847	609	139	2	2	609	6	613	0.0	966
+--------------------
+File: hsp70a_db45.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_049956972.1|	76.050	643	147	3	1	642	4	640	0.0	1026
+AAX33487.1_Drosophila_melanogaster	ref|XP_049958340.1|	75.739	643	149	3	1	642	4	640	0.0	1022
+AAX33487.1_Drosophila_melanogaster	ref|XP_049939435.1|	77.961	608	133	1	1	608	5	611	0.0	1014
+AAX33487.1_Drosophila_melanogaster	ref|XP_049962153.1|	76.606	607	141	1	3	609	6	611	0.0	994
+AAX33487.1_Drosophila_melanogaster	ref|XP_049946044.1|	77.011	609	138	2	2	609	6	613	0.0	967
+--------------------
+File: hsp70a_db46.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_050555183.1|	84.868	608	91	1	1	608	1	607	0.0	1084
+AAX33487.1_Drosophila_melanogaster	ref|XP_050555169.1|	84.868	608	91	1	1	608	1	607	0.0	1081
+AAX33487.1_Drosophila_melanogaster	ref|XP_035456844.2|	84.868	608	91	1	1	608	1	607	0.0	1081
+AAX33487.1_Drosophila_melanogaster	ref|XP_050555168.1|	84.704	608	92	1	1	608	1	607	0.0	1080
+AAX33487.1_Drosophila_melanogaster	ref|XP_050555167.1|	84.704	608	92	1	1	608	1	607	0.0	1080
+--------------------
+File: hsp70a_db47.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_034257140.1|	79.907	642	124	3	1	642	1	637	0.0	1066
+AAX33487.1_Drosophila_melanogaster	ref|XP_034257042.1|	79.439	642	127	3	1	642	1	637	0.0	1065
+AAX33487.1_Drosophila_melanogaster	ref|XP_034256974.1|	79.439	642	127	3	1	642	1	637	0.0	1064
+AAX33487.1_Drosophila_melanogaster	ref|XP_034249545.1|	77.847	641	132	1	2	642	7	637	0.0	1032
+AAX33487.1_Drosophila_melanogaster	ref|XP_034249544.1|	77.847	641	132	1	2	642	7	637	0.0	1032
+--------------------
+File: hsp70a_db48.blast7
+AAX33487.1_Drosophila_melanogaster	emb|CAH1643983.1|	84.539	608	93	1	1	608	1	607	0.0	1076
+AAX33487.1_Drosophila_melanogaster	emb|CAH1641326.1|	76.324	642	137	3	1	642	1	627	0.0	1003
+AAX33487.1_Drosophila_melanogaster	emb|CAH1646914.1|	77.504	609	135	2	2	609	6	613	0.0	990
+AAX33487.1_Drosophila_melanogaster	emb|CAH1635801.1|	71.005	607	175	1	2	608	3	608	0.0	923
+AAX33487.1_Drosophila_melanogaster	emb|CAH1643751.1|	59.934	609	237	5	3	608	33	637	0.0	739
+--------------------
+File: hsp70a_db49.blast7
+AAX33487.1_Drosophila_melanogaster	ref|NP_001164200.1|	80.249	643	123	3	2	642	5	645	0.0	1064
+AAX33487.1_Drosophila_melanogaster	ref|NP_001164199.1|	80.249	643	123	3	2	642	5	645	0.0	1064
+AAX33487.1_Drosophila_melanogaster	ref|NP_001164098.1|	80.343	641	111	2	2	642	5	630	0.0	1056
+AAX33487.1_Drosophila_melanogaster	ref|XP_974442.1|	79.471	643	129	2	2	642	5	646	0.0	1048
+AAX33487.1_Drosophila_melanogaster	ref|XP_973521.1|	79.934	608	122	0	1	608	4	611	0.0	1018
+--------------------
+File: hsp70a_db5.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_023310850.1|	82.516	612	106	1	2	613	5	615	0.0	1063
+AAX33487.1_Drosophila_melanogaster	ref|XP_023310849.1|	82.516	612	106	1	2	613	5	615	0.0	1063
+AAX33487.1_Drosophila_melanogaster	ref|XP_018561180.1|	80.000	650	121	3	1	642	1	649	0.0	1062
+AAX33487.1_Drosophila_melanogaster	ref|XP_018564820.1|	78.159	641	123	3	2	642	5	628	0.0	1045
+AAX33487.1_Drosophila_melanogaster	ref|XP_018579236.1|	78.349	642	120	1	1	642	4	626	0.0	1040
+--------------------
+File: hsp70a_db50.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_047540880.1|	80.620	645	111	3	1	642	1	634	0.0	1075
+AAX33487.1_Drosophila_melanogaster	ref|XP_047540751.1|	80.871	643	111	3	1	642	1	632	0.0	1075
+AAX33487.1_Drosophila_melanogaster	ref|XP_047540760.1|	80.556	648	109	3	1	642	1	637	0.0	1074
+AAX33487.1_Drosophila_melanogaster	ref|XP_047540762.1|	80.247	648	111	3	1	642	1	637	0.0	1071
+AAX33487.1_Drosophila_melanogaster	ref|XP_047540768.1|	80.401	648	110	3	1	642	1	637	0.0	1071
+--------------------
+File: hsp70a_db51.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_050851055.1|	76.471	646	143	4	1	642	1	641	0.0	1022
+AAX33487.1_Drosophila_melanogaster	ref|XP_050850710.1|	76.863	644	132	4	1	642	1	629	0.0	1018
+AAX33487.1_Drosophila_melanogaster	ref|XP_050847922.1|	76.367	622	139	4	2	621	5	620	0.0	992
+AAX33487.1_Drosophila_melanogaster	ref|XP_050869914.1|	77.176	609	137	2	2	609	5	612	0.0	989
+AAX33487.1_Drosophila_melanogaster	ref|XP_050869913.1|	77.176	609	137	2	2	609	5	612	0.0	989
+--------------------
+File: hsp70a_db52.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_021938753.1|	78.315	641	127	4	2	642	6	634	0.0	1046
+AAX33487.1_Drosophila_melanogaster	ref|XP_021939718.1|	78.783	608	129	0	2	609	5	612	0.0	1020
+AAX33487.1_Drosophila_melanogaster	ref|XP_021941038.1|	77.340	609	136	2	2	609	5	612	0.0	988
+AAX33487.1_Drosophila_melanogaster	ref|XP_021941034.1|	77.340	609	136	2	2	609	5	612	0.0	988
+AAX33487.1_Drosophila_melanogaster	ref|XP_021941029.1|	77.340	609	136	2	2	609	13	620	0.0	988
+--------------------
+File: hsp70a_db6.blast7
+AAX33487.1_Drosophila_melanogaster	ref|NP_001153544.1|	75.078	642	153	3	2	642	5	640	0.0	994
+AAX33487.1_Drosophila_melanogaster	ref|NP_001153522.1|	76.847	609	139	2	2	609	5	612	0.0	984
+AAX33487.1_Drosophila_melanogaster	ref|NP_001153524.1|	60.000	620	238	6	3	619	33	645	0.0	745
+AAX33487.1_Drosophila_melanogaster	ref|NP_001153520.1|	51.993	602	264	12	4	596	61	646	0.0	580
+AAX33487.1_Drosophila_melanogaster	ref|XP_006561225.1|	36.673	499	294	13	1	486	4	493	4.23e-95	311
+--------------------
+File: hsp70a_db7.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_018914257.1|	84.020	607	96	1	2	608	4	609	0.0	1076
+AAX33487.1_Drosophila_melanogaster	ref|XP_018911555.1|	79.751	642	128	2	2	642	6	646	0.0	1059
+AAX33487.1_Drosophila_melanogaster	ref|XP_018904152.1|	83.388	608	100	1	2	609	6	612	0.0	1057
+AAX33487.1_Drosophila_melanogaster	ref|XP_018910168.1|	81.745	619	111	2	2	620	6	622	0.0	1056
+AAX33487.1_Drosophila_melanogaster	ref|XP_018910167.1|	81.745	619	111	2	2	620	6	622	0.0	1056
+--------------------
+File: hsp70a_db8.blast7
+AAX33487.1_Drosophila_melanogaster	emb|CAH0554001.1|	78.727	644	126	2	1	642	2	636	0.0	1046
+AAX33487.1_Drosophila_melanogaster	emb|CAH0563617.1|	77.223	641	131	3	2	642	5	630	0.0	1030
+AAX33487.1_Drosophila_melanogaster	emb|CAH0558708.1|	60.656	610	233	5	3	609	31	636	0.0	741
+AAX33487.1_Drosophila_melanogaster	emb|CAH0546572.1|	56.721	610	249	3	3	606	15	615	0.0	718
+AAX33487.1_Drosophila_melanogaster	emb|CAH0553236.1|	80.808	396	75	1	2	397	6	400	0.0	676
+--------------------
+File: hsp70a_db9.blast7
+AAX33487.1_Drosophila_melanogaster	ref|XP_004536234.1|	86.314	643	82	3	1	642	1	638	0.0	1131
+AAX33487.1_Drosophila_melanogaster	ref|XP_004536235.1|	86.003	643	84	3	1	642	1	638	0.0	1129
+AAX33487.1_Drosophila_melanogaster	ref|XP_004533587.1|	85.116	645	87	4	1	642	1	639	0.0	1098
+AAX33487.1_Drosophila_melanogaster	ref|XP_004536638.1|	79.095	641	128	2	2	642	3	637	0.0	1043
+AAX33487.1_Drosophila_melanogaster	ref|XP_004518150.1|	76.355	609	142	2	2	609	5	612	0.0	976
+--------------------
