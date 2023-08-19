@@ -1,4 +1,4 @@
-- **Making a phylogentic tree**
+## **Making a phylogentic tree**
 
     
     - Make a color text using the RMD color format.
@@ -9,5 +9,12 @@
        - The command : 
        ```
        formatFigtree.pl ListTrees -C TableTaxa/color
-    - the **ListTree** file is the list of all the .treefile from iqtree.
+    - the **ListTree** file is the list of all the .treefile from iqtree. Using the command below:
+   
+    ```
+    ls -l > "chosenfile"
+    ```
+
+### **Common Script**
+
     
