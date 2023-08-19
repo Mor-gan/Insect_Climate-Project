@@ -1,0 +1,1103 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Mar 23 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    IT081968 (AVX512, FMA3, 12 GB RAM)
+Command: iqtree -s HSP70_algn.maf.trim
+Seed:    110020 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Aug 18 02:26:05 2023
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file HSP70_algn.maf.trim ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 205 sequences with 611 columns, 540 distinct patterns
+506 parsimony-informative, 20 singleton sites, 85 constant sites
+WARNING: Some sequence names are changed as follows:
+XP_001945786.2_heat_shock_protein_70_A1-like_[Acyrthosiphon_pisum] -> XP_001945786.2_heat_shock_protein_70_A1-like__Acyrthosiphon_pisum_
+XP_015372059.1_PREDICTED_heat_shock_protein_70_A1-like_[Diuraphis_noxia] -> XP_015372059.1_PREDICTED_heat_shock_protein_70_A1-like__Diuraphis_noxia_
+XP_015373896.1_PREDICTED_heat_shock_protein_68-like_[Diuraphis_noxia] -> XP_015373896.1_PREDICTED_heat_shock_protein_68-like__Diuraphis_noxia_
+XP_001951915.1_heat_shock_protein_68-like_[Acyrthosiphon_pisum] -> XP_001951915.1_heat_shock_protein_68-like__Acyrthosiphon_pisum_
+XP_008190051.1_heat_shock_protein_68-like_[Acyrthosiphon_pisum] -> XP_008190051.1_heat_shock_protein_68-like__Acyrthosiphon_pisum_
+XP_015375177.1_PREDICTED_heat_shock_protein_68-like_[Diuraphis_noxia] -> XP_015375177.1_PREDICTED_heat_shock_protein_68-like__Diuraphis_noxia_
+XP_049817362.1_major_heat_shock_70_kDa_protein_Ab-like_[Aethina_tumida] -> XP_049817362.1_major_heat_shock_70_kDa_protein_Ab-like__Aethina_tumida_
+XP_049817365.1_major_heat_shock_70_kDa_protein_Ba-like_[Aethina_tumida] -> XP_049817365.1_major_heat_shock_70_kDa_protein_Ba-like__Aethina_tumida_
+XP_018564820.1_heat_shock_protein_68-like_[Anoplophora_glabripennis] -> XP_018564820.1_heat_shock_protein_68-like__Anoplophora_glabripennis_
+NP_001164098.1_heat_shock_protein_TC005094_[Tribolium_castaneum] -> NP_001164098.1_heat_shock_protein_TC005094__Tribolium_castaneum_
+XP_018322391.1_major_heat_shock_70_kDa_protein_Ba-like_[Agrilus_planipennis] -> XP_018322391.1_major_heat_shock_70_kDa_protein_Ba-like__Agrilus_planipennis_
+XP_049823568.1_heat_shock_protein_68-like_isoform_X1_[Aethina_tumida] -> XP_049823568.1_heat_shock_protein_68-like_isoform_X1__Aethina_tumida_
+XP_049823569.1_heat_shock_protein_68-like_isoform_X2_[Aethina_tumida] -> XP_049823569.1_heat_shock_protein_68-like_isoform_X2__Aethina_tumida_
+XP_049823570.1_heat_shock_protein_68-like_[Aethina_tumida] -> XP_049823570.1_heat_shock_protein_68-like__Aethina_tumida_
+XP_044766848.1_heat_shock_protein_70_A1-like_[Coccinella_septempunctata] -> XP_044766848.1_heat_shock_protein_70_A1-like__Coccinella_septempunctata_
+XP_044761169.1_heat_shock_protein_70_B2-like_[Coccinella_septempunctata] -> XP_044761169.1_heat_shock_protein_70_B2-like__Coccinella_septempunctata_
+XP_044767182.1_heat_shock_protein_70_B2-like_[Coccinella_septempunctata] -> XP_044767182.1_heat_shock_protein_70_B2-like__Coccinella_septempunctata_
+XP_044767183.1_heat_shock_protein_70_A1-like_[Coccinella_septempunctata] -> XP_044767183.1_heat_shock_protein_70_A1-like__Coccinella_septempunctata_
+XP_044767184.1_heat_shock_protein_70_A1-like_[Coccinella_septempunctata] -> XP_044767184.1_heat_shock_protein_70_A1-like__Coccinella_septempunctata_
+XP_045482994.1_heat_shock_protein_70_A1-like_[Harmonia_axyridis] -> XP_045482994.1_heat_shock_protein_70_A1-like__Harmonia_axyridis_
+XP_045482997.1_heat_shock_protein_70_A1-like_[Harmonia_axyridis] -> XP_045482997.1_heat_shock_protein_70_A1-like__Harmonia_axyridis_
+XP_045482998.1_heat_shock_protein_70_A1-like_[Harmonia_axyridis] -> XP_045482998.1_heat_shock_protein_70_A1-like__Harmonia_axyridis_
+XP_045482999.1_heat_shock_protein_70_A1-like_[Harmonia_axyridis] -> XP_045482999.1_heat_shock_protein_70_A1-like__Harmonia_axyridis_
+XP_045483001.1_heat_shock_protein_70_A1-like_[Harmonia_axyridis] -> XP_045483001.1_heat_shock_protein_70_A1-like__Harmonia_axyridis_
+NP_001164199.1_heat_shock_protein_68a_[Tribolium_castaneum] -> NP_001164199.1_heat_shock_protein_68a__Tribolium_castaneum_
+NP_001164200.1_heat_shock_protein_68b_[Tribolium_castaneum] -> NP_001164200.1_heat_shock_protein_68b__Tribolium_castaneum_
+XP_974442.1_PREDICTED_heat_shock_protein_70_A1_[Tribolium_castaneum] -> XP_974442.1_PREDICTED_heat_shock_protein_70_A1__Tribolium_castaneum_
+XP_023310849.1_heat_shock_protein_68_[Anoplophora_glabripennis] -> XP_023310849.1_heat_shock_protein_68__Anoplophora_glabripennis_
+XP_023310850.1_heat_shock_protein_68_[Anoplophora_glabripennis] -> XP_023310850.1_heat_shock_protein_68__Anoplophora_glabripennis_
+XP_018561180.1_heat_shock_protein_70_A1_[Anoplophora_glabripennis] -> XP_018561180.1_heat_shock_protein_70_A1__Anoplophora_glabripennis_
+XP_018336683.1_heat_shock_protein_70_A1_[Agrilus_planipennis] -> XP_018336683.1_heat_shock_protein_70_A1__Agrilus_planipennis_
+XP_044731348.1_heat_shock_protein_70_A1-like_isoform_X1_[Chrysoperla_carnea] -> XP_044731348.1_heat_shock_protein_70_A1-like_isoform_X1__Chrysoperla_carnea_
+XP_044731350.1_heat_shock_protein_70_A1-like_isoform_X1_[Chrysoperla_carnea] -> XP_044731350.1_heat_shock_protein_70_A1-like_isoform_X1__Chrysoperla_carnea_
+XP_044735454.1_heat_shock_protein_70_A1-like_isoform_X5_[Chrysoperla_carnea] -> XP_044735454.1_heat_shock_protein_70_A1-like_isoform_X5__Chrysoperla_carnea_
+XP_044737062.1_heat_shock_protein_70_A1-like_isoform_X5_[Chrysoperla_carnea] -> XP_044737062.1_heat_shock_protein_70_A1-like_isoform_X5__Chrysoperla_carnea_
+XP_044737060.1_heat_shock_protein_68-like_isoform_X3_[Chrysoperla_carnea] -> XP_044737060.1_heat_shock_protein_68-like_isoform_X3__Chrysoperla_carnea_
+XP_018904152.1_PREDICTED_heat_shock_protein_68-like_[Bemisia_tabaci] -> XP_018904152.1_PREDICTED_heat_shock_protein_68-like__Bemisia_tabaci_
+XP_018911555.1_PREDICTED_heat_shock_protein_68-like_[Bemisia_tabaci] -> XP_018911555.1_PREDICTED_heat_shock_protein_68-like__Bemisia_tabaci_
+XP_018910167.1_PREDICTED_heat_shock_protein_68-like_isoform_X1_[Bemisia_tabaci] -> XP_018910167.1_PREDICTED_heat_shock_protein_68-like_isoform_X1__Bemisia_tabaci_
+XP_018910168.1_PREDICTED_heat_shock_protein_68-like_isoform_X2_[Bemisia_tabaci] -> XP_018910168.1_PREDICTED_heat_shock_protein_68-like_isoform_X2__Bemisia_tabaci_
+XP_018914257.1_PREDICTED_major_heat_shock_70_kDa_protein_Ab-like_[Bemisia_tabaci] -> XP_018914257.1_PREDICTED_major_heat_shock_70_kDa_protein_Ab-like__Bemisia_tabaci_
+XP_046660840.1_heat_shock_protein_70_A1-like_[Homalodisca_vitripennis] -> XP_046660840.1_heat_shock_protein_70_A1-like__Homalodisca_vitripennis_
+XP_046660841.1_heat_shock_protein_70_A1-like_[Homalodisca_vitripennis] -> XP_046660841.1_heat_shock_protein_70_A1-like__Homalodisca_vitripennis_
+XP_046688090.1_heat_shock_protein_70_A1-like_[Homalodisca_vitripennis] -> XP_046688090.1_heat_shock_protein_70_A1-like__Homalodisca_vitripennis_
+XP_046676447.1_heat_shock_protein_70_A1-like_[Homalodisca_vitripennis] -> XP_046676447.1_heat_shock_protein_70_A1-like__Homalodisca_vitripennis_
+XP_046669780.1_heat_shock_protein_70_A1-like_[Homalodisca_vitripennis] -> XP_046669780.1_heat_shock_protein_70_A1-like__Homalodisca_vitripennis_
+XP_054274612.1_major_heat_shock_70_kDa_protein_Ba-like_[Macrosteles_quadrilineatus] -> XP_054274612.1_major_heat_shock_70_kDa_protein_Ba-like__Macrosteles_quadrilineatus_
+XP_054275336.1_heat_shock_protein_68-like_[Macrosteles_quadrilineatus] -> XP_054275336.1_heat_shock_protein_68-like__Macrosteles_quadrilineatus_
+XP_054270897.1_heat_shock_protein_70_A1-like_isoform_X1_[Macrosteles_quadrilineatus] -> XP_054270897.1_heat_shock_protein_70_A1-like_isoform_X1__Macrosteles_quadrilineatus_
+XP_054270898.1_heat_shock_protein_70_A1-like_isoform_X2_[Macrosteles_quadrilineatus] -> XP_054270898.1_heat_shock_protein_70_A1-like_isoform_X2__Macrosteles_quadrilineatus_
+XP_054270900.1_heat_shock_protein_70_A1-like_isoform_X3_[Macrosteles_quadrilineatus] -> XP_054270900.1_heat_shock_protein_70_A1-like_isoform_X3__Macrosteles_quadrilineatus_
+XP_008477019.1_heat_shock_protein_70_A1-like_isoform_X1_[Diaphorina_citri] -> XP_008477019.1_heat_shock_protein_70_A1-like_isoform_X1__Diaphorina_citri_
+XP_008477021.1_heat_shock_protein_70_A1-like_[Diaphorina_citri] -> XP_008477021.1_heat_shock_protein_70_A1-like__Diaphorina_citri_
+XP_008477022.1_heat_shock_protein_70_A1-like_[Diaphorina_citri] -> XP_008477022.1_heat_shock_protein_70_A1-like__Diaphorina_citri_
+XP_008477020.1_heat_shock_protein_70_A1-like_isoform_X3_[Diaphorina_citri] -> XP_008477020.1_heat_shock_protein_70_A1-like_isoform_X3__Diaphorina_citri_
+XP_017301507.1_heat_shock_protein_70_A1-like_isoform_X2_[Diaphorina_citri] -> XP_017301507.1_heat_shock_protein_70_A1-like_isoform_X2__Diaphorina_citri_
+XP_026317056.1_heat_shock_protein_68-like_[Hyposmocoma_kahamanoa] -> XP_026317056.1_heat_shock_protein_68-like__Hyposmocoma_kahamanoa_
+XP_030032651.1_heat_shock_protein_68_[Manduca_sexta] -> XP_030032651.1_heat_shock_protein_68__Manduca_sexta_
+XP_037301452.1_heat_shock_protein_68-like_[Manduca_sexta] -> XP_037301452.1_heat_shock_protein_68-like__Manduca_sexta_
+XP_030038133.2_heat_shock_protein_68_[Manduca_sexta] -> XP_030038133.2_heat_shock_protein_68__Manduca_sexta_
+XP_037294571.1_heat_shock_protein_68-like_[Manduca_sexta] -> XP_037294571.1_heat_shock_protein_68-like__Manduca_sexta_
+XP_035456844.2_major_heat_shock_70_kDa_protein_Ba_[Spodoptera_frugiperda] -> XP_035456844.2_major_heat_shock_70_kDa_protein_Ba__Spodoptera_frugiperda_
+XP_050555167.1_heat_shock_protein_68-like_isoform_X2_[Spodoptera_frugiperda] -> XP_050555167.1_heat_shock_protein_68-like_isoform_X2__Spodoptera_frugiperda_
+XP_050555168.1_heat_shock_protein_68-like_isoform_X3_[Spodoptera_frugiperda] -> XP_050555168.1_heat_shock_protein_68-like_isoform_X3__Spodoptera_frugiperda_
+XP_050555169.1_heat_shock_protein_68-like_isoform_X4_[Spodoptera_frugiperda] -> XP_050555169.1_heat_shock_protein_68-like_isoform_X4__Spodoptera_frugiperda_
+XP_050555183.1_heat_shock_protein_68-like_[Spodoptera_frugiperda] -> XP_050555183.1_heat_shock_protein_68-like__Spodoptera_frugiperda_
+XP_037966318.1_uncharacterized_protein_LOC105388666_[Plutella_xylostella] -> XP_037966318.1_uncharacterized_protein_LOC105388666__Plutella_xylostella_
+XP_050357056.1_heat_shock_protein_68-like_isoform_X4_[Nymphalis_io] -> XP_050357056.1_heat_shock_protein_68-like_isoform_X4__Nymphalis_io_
+XP_050357057.1_heat_shock_protein_68-like_isoform_X5_[Nymphalis_io] -> XP_050357057.1_heat_shock_protein_68-like_isoform_X5__Nymphalis_io_
+XP_050357058.1_heat_shock_protein_68-like_isoform_X6_[Nymphalis_io] -> XP_050357058.1_heat_shock_protein_68-like_isoform_X6__Nymphalis_io_
+XP_050357059.1_heat_shock_protein_68-like_isoform_X7_[Nymphalis_io] -> XP_050357059.1_heat_shock_protein_68-like_isoform_X7__Nymphalis_io_
+XP_050357060.1_heat_shock_protein_68-like_isoform_X8_[Nymphalis_io] -> XP_050357060.1_heat_shock_protein_68-like_isoform_X8__Nymphalis_io_
+XP_047540751.1_heat_shock_protein_68-like_[Vanessa_atalanta] -> XP_047540751.1_heat_shock_protein_68-like__Vanessa_atalanta_
+XP_047540760.1_heat_shock_protein_68-like_[Vanessa_atalanta] -> XP_047540760.1_heat_shock_protein_68-like__Vanessa_atalanta_
+XP_047540762.1_heat_shock_protein_68-like_[Vanessa_atalanta] -> XP_047540762.1_heat_shock_protein_68-like__Vanessa_atalanta_
+XP_047540768.1_heat_shock_protein_68-like_[Vanessa_atalanta] -> XP_047540768.1_heat_shock_protein_68-like__Vanessa_atalanta_
+XP_047540880.1_heat_shock_protein_68-like_[Vanessa_atalanta] -> XP_047540880.1_heat_shock_protein_68-like__Vanessa_atalanta_
+XP_022130952.1_heat_shock_protein_68_[Pieris_rapae] -> XP_022130952.1_heat_shock_protein_68__Pieris_rapae_
+XP_026317218.1_heat_shock_protein_68-like_isoform_X1_[Hyposmocoma_kahamanoa] -> XP_026317218.1_heat_shock_protein_68-like_isoform_X1__Hyposmocoma_kahamanoa_
+XP_026317219.1_heat_shock_protein_68-like_isoform_X2_[Hyposmocoma_kahamanoa] -> XP_026317219.1_heat_shock_protein_68-like_isoform_X2__Hyposmocoma_kahamanoa_
+XP_037961319.2_heat_shock_protein_68_[Plutella_xylostella] -> XP_037961319.2_heat_shock_protein_68__Plutella_xylostella_
+XP_037978500.2_heat_shock_protein_68_[Plutella_xylostella] -> XP_037978500.2_heat_shock_protein_68__Plutella_xylostella_
+XP_037961322.2_heat_shock_protein_68_[Plutella_xylostella] -> XP_037961322.2_heat_shock_protein_68__Plutella_xylostella_
+XP_022115496.2_heat_shock_protein_68-like_[Pieris_rapae] -> XP_022115496.2_heat_shock_protein_68-like__Pieris_rapae_
+XP_048477675.1_heat_shock_protein_68_isoform_X4_[Plutella_xylostella] -> XP_048477675.1_heat_shock_protein_68_isoform_X4__Plutella_xylostella_
+XP_030034373.2_heat_shock_protein_68_[Manduca_sexta] -> XP_030034373.2_heat_shock_protein_68__Manduca_sexta_
+XP_014239635.1_major_heat_shock_70_kDa_protein_Ba-like_[Cimex_lectularius] -> XP_014239635.1_major_heat_shock_70_kDa_protein_Ba-like__Cimex_lectularius_
+XP_014281580.1_major_heat_shock_70_kDa_protein_Ba_[Halyomorpha_halys] -> XP_014281580.1_major_heat_shock_70_kDa_protein_Ba__Halyomorpha_halys_
+XP_014289183.1_major_heat_shock_70_kDa_protein_Ba-like_[Halyomorpha_halys] -> XP_014289183.1_major_heat_shock_70_kDa_protein_Ba-like__Halyomorpha_halys_
+XP_024217114.1_major_heat_shock_70_kDa_protein_Ba-like_[Halyomorpha_halys] -> XP_024217114.1_major_heat_shock_70_kDa_protein_Ba-like__Halyomorpha_halys_
+XP_024214745.1_major_heat_shock_70_kDa_protein_Ba_[Halyomorpha_halys] -> XP_024214745.1_major_heat_shock_70_kDa_protein_Ba__Halyomorpha_halys_
+XP_014256536.1_major_heat_shock_70_kDa_protein_Ab-like_[Cimex_lectularius] -> XP_014256536.1_major_heat_shock_70_kDa_protein_Ab-like__Cimex_lectularius_
+XP_014256533.1_heat_shock_protein_68-like_[Cimex_lectularius] -> XP_014256533.1_heat_shock_protein_68-like__Cimex_lectularius_
+XP_014248703.1_heat_shock_protein_68-like_[Cimex_lectularius] -> XP_014248703.1_heat_shock_protein_68-like__Cimex_lectularius_
+XP_023725254.1_heat_shock_protein_70_A1_[Cryptotermes_secundus] -> XP_023725254.1_heat_shock_protein_70_A1__Cryptotermes_secundus_
+XP_023725255.1_heat_shock_protein_70_A1_[Cryptotermes_secundus] -> XP_023725255.1_heat_shock_protein_70_A1__Cryptotermes_secundus_
+XP_021938753.1_heat_shock_protein_70_A1-like_[Zootermopsis_nevadensis] -> XP_021938753.1_heat_shock_protein_70_A1-like__Zootermopsis_nevadensis_
+XP_022190295.2_heat_shock_protein_68_[Nilaparvata_lugens] -> XP_022190295.2_heat_shock_protein_68__Nilaparvata_lugens_
+XP_022196826.2_heat_shock_protein_68-like_[Nilaparvata_lugens] -> XP_022196826.2_heat_shock_protein_68-like__Nilaparvata_lugens_
+XP_022203279.2_heat_shock_protein_68-like_[Nilaparvata_lugens] -> XP_022203279.2_heat_shock_protein_68-like__Nilaparvata_lugens_
+XP_039293584.1_heat_shock_protein_68-like_[Nilaparvata_lugens] -> XP_039293584.1_heat_shock_protein_68-like__Nilaparvata_lugens_
+XP_022207538.2_heat_shock_protein_68_[Nilaparvata_lugens] -> XP_022207538.2_heat_shock_protein_68__Nilaparvata_lugens_
+XP_034256974.1_heat_shock_protein_70_A1-like_[Thrips_palmi] -> XP_034256974.1_heat_shock_protein_70_A1-like__Thrips_palmi_
+XP_034257042.1_heat_shock_protein_68-like_[Thrips_palmi] -> XP_034257042.1_heat_shock_protein_68-like__Thrips_palmi_
+XP_034257140.1_heat_shock_protein_70_A1-like_[Thrips_palmi] -> XP_034257140.1_heat_shock_protein_70_A1-like__Thrips_palmi_
+XP_004533587.1_heat_shock_protein_68_[Ceratitis_capitata] -> XP_004533587.1_heat_shock_protein_68__Ceratitis_capitata_
+XP_005189456.1_PREDICTED_major_heat_shock_70_kDa_protein_Ba-like_[Musca_domestica] -> XP_005189456.1_PREDICTED_major_heat_shock_70_kDa_protein_Ba-like__Musca_domestica_
+XP_005189459.1_PREDICTED_major_heat_shock_70_kDa_protein_Ab-like_[Musca_domestica] -> XP_005189459.1_PREDICTED_major_heat_shock_70_kDa_protein_Ab-like__Musca_domestica_
+XP_036673283.1_LOW_QUALITY_PROTEIN_heat_shock_protein_68_[Drosophila_suzukii] -> XP_036673283.1_LOW_QUALITY_PROTEIN_heat_shock_protein_68__Drosophila_suzukii_
+XP_055902636.1_heat_shock_protein_68_[Eupeodes_corollae] -> XP_055902636.1_heat_shock_protein_68__Eupeodes_corollae_
+XP_004536234.1_heat_shock_protein_70_[Ceratitis_capitata] -> XP_004536234.1_heat_shock_protein_70__Ceratitis_capitata_
+XP_004536235.1_heat_shock_protein_70-like_[Ceratitis_capitata] -> XP_004536235.1_heat_shock_protein_70-like__Ceratitis_capitata_
+XP_005189457.1_PREDICTED_heat_shock_protein_70-like_[Musca_domestica] -> XP_005189457.1_PREDICTED_heat_shock_protein_70-like__Musca_domestica_
+XP_019894818.1_PREDICTED_heat_shock_protein_70_[Musca_domestica] -> XP_019894818.1_PREDICTED_heat_shock_protein_70__Musca_domestica_
+XP_055902220.1_major_heat_shock_70_kDa_protein_Ba_[Eupeodes_corollae] -> XP_055902220.1_major_heat_shock_70_kDa_protein_Ba__Eupeodes_corollae_
+XP_055923106.1_major_heat_shock_70_kDa_protein_Ba_[Eupeodes_corollae] -> XP_055923106.1_major_heat_shock_70_kDa_protein_Ba__Eupeodes_corollae_
+XP_055923965.1_major_heat_shock_70_kDa_protein_Ba_[Eupeodes_corollae] -> XP_055923965.1_major_heat_shock_70_kDa_protein_Ba__Eupeodes_corollae_
+XP_055908466.1_major_heat_shock_70_kDa_protein_Ba-like_[Eupeodes_corollae] -> XP_055908466.1_major_heat_shock_70_kDa_protein_Ba-like__Eupeodes_corollae_
+XP_016926534.2_major_heat_shock_70_kDa_protein_Ba_[Drosophila_suzukii] -> XP_016926534.2_major_heat_shock_70_kDa_protein_Ba__Drosophila_suzukii_
+XP_039453664.1_heat_shock_protein_70_B2_[Culex_pipiens_pallens] -> XP_039453664.1_heat_shock_protein_70_B2__Culex_pipiens_pallens_
+XP_039453667.1_heat_shock_protein_70_B2_[Culex_pipiens_pallens] -> XP_039453667.1_heat_shock_protein_70_B2__Culex_pipiens_pallens_
+XP_039453668.1_heat_shock_protein_70_B2_[Culex_pipiens_pallens] -> XP_039453668.1_heat_shock_protein_70_B2__Culex_pipiens_pallens_
+XP_026314591.1_heat_shock_protein_68-like_[Hyposmocoma_kahamanoa] -> XP_026314591.1_heat_shock_protein_68-like__Hyposmocoma_kahamanoa_
+XP_022129796.2_heat_shock_protein_68-like_[Pieris_rapae] -> XP_022129796.2_heat_shock_protein_68-like__Pieris_rapae_
+XP_001949837.1_heat_shock_protein_70_B2_[Acyrthosiphon_pisum] -> XP_001949837.1_heat_shock_protein_70_B2__Acyrthosiphon_pisum_
+XP_015371967.1_PREDICTED_heat_shock_protein_70_B2-like_[Diuraphis_noxia] -> XP_015371967.1_PREDICTED_heat_shock_protein_70_B2-like__Diuraphis_noxia_
+XP_018332229.1_major_heat_shock_70_kDa_protein_Ba_[Agrilus_planipennis] -> XP_018332229.1_major_heat_shock_70_kDa_protein_Ba__Agrilus_planipennis_
+XP_018579236.1_heat_shock_70_kDa_protein_cognate_2_[Anoplophora_glabripennis] -> XP_018579236.1_heat_shock_70_kDa_protein_cognate_2__Anoplophora_glabripennis_
+XP_973521.1_PREDICTED_heat_shock_70_kDa_protein_cognate_2_[Tribolium_castaneum] -> XP_973521.1_PREDICTED_heat_shock_70_kDa_protein_cognate_2__Tribolium_castaneum_
+XP_014239186.1_heat_shock_70_kDa_protein_cognate_2-like_[Cimex_lectularius] -> XP_014239186.1_heat_shock_70_kDa_protein_cognate_2-like__Cimex_lectularius_
+XP_014275032.1_heat_shock_70_kDa_protein_cognate_2-like_[Halyomorpha_halys] -> XP_014275032.1_heat_shock_70_kDa_protein_cognate_2-like__Halyomorpha_halys_
+XP_023726137.1_heat_shock_70_kDa_protein_cognate_2_[Cryptotermes_secundus] -> XP_023726137.1_heat_shock_70_kDa_protein_cognate_2__Cryptotermes_secundus_
+XP_021939718.1_heat_shock_70_kDa_protein_cognate_2-like_[Zootermopsis_nevadensis] -> XP_021939718.1_heat_shock_70_kDa_protein_cognate_2-like__Zootermopsis_nevadensis_
+XP_034249544.1_major_heat_shock_70_kDa_protein_Ab-like_isoform_X2_[Thrips_palmi] -> XP_034249544.1_major_heat_shock_70_kDa_protein_Ab-like_isoform_X2__Thrips_palmi_
+XP_034249545.1_major_heat_shock_70_kDa_protein_Ab-like_isoform_X2_[Thrips_palmi] -> XP_034249545.1_major_heat_shock_70_kDa_protein_Ab-like_isoform_X2__Thrips_palmi_
+XP_004536638.1_heat_shock_70_kDa_protein_cognate_2_[Ceratitis_capitata] -> XP_004536638.1_heat_shock_70_kDa_protein_cognate_2__Ceratitis_capitata_
+XP_005183030.1_PREDICTED_heat_shock_70_kDa_protein_cognate_2_[Musca_domestica] -> XP_005183030.1_PREDICTED_heat_shock_70_kDa_protein_cognate_2__Musca_domestica_
+XP_039439065.1_heat_shock_70_kDa_protein_cognate_2_[Culex_pipiens_pallens] -> XP_039439065.1_heat_shock_70_kDa_protein_cognate_2__Culex_pipiens_pallens_
+XP_016941530.2_heat_shock_70_kDa_protein_cognate_2_[Drosophila_suzukii] -> XP_016941530.2_heat_shock_70_kDa_protein_cognate_2__Drosophila_suzukii_
+XP_049827039.1_heat_shock_protein_68-like_[Schistocerca_gregaria] -> XP_049827039.1_heat_shock_protein_68-like__Schistocerca_gregaria_
+XP_047097135.1_heat_shock_protein_70_B2-like_[Schistocerca_piceifrons] -> XP_047097135.1_heat_shock_protein_70_B2-like__Schistocerca_piceifrons_
+XP_049962153.1_heat_shock_protein_70_B2-like_[Schistocerca_serialis_cubense] -> XP_049962153.1_heat_shock_protein_70_B2-like__Schistocerca_serialis_cubense_
+XP_001599773.3_heat_shock_protein_68_[Nasonia_vitripennis] -> XP_001599773.3_heat_shock_protein_68__Nasonia_vitripennis_
+XP_031779567.1_heat_shock_protein_68-like_[Nasonia_vitripennis] -> XP_031779567.1_heat_shock_protein_68-like__Nasonia_vitripennis_
+XP_001604951.2_heat_shock_protein_68_[Nasonia_vitripennis] -> XP_001604951.2_heat_shock_protein_68__Nasonia_vitripennis_
+XP_012278936.1_major_heat_shock_70_kDa_protein_Ba_isoform_X1_[Orussus_abietinus] -> XP_012278936.1_major_heat_shock_70_kDa_protein_Ba_isoform_X1__Orussus_abietinus_
+XP_023288735.1_major_heat_shock_70_kDa_protein_Ba_isoform_X2_[Orussus_abietinus] -> XP_023288735.1_major_heat_shock_70_kDa_protein_Ba_isoform_X2__Orussus_abietinus_
+XP_015189296.1_PREDICTED_heat_shock_protein_70_A2-like_[Polistes_dominula] -> XP_015189296.1_PREDICTED_heat_shock_protein_70_A2-like__Polistes_dominula_
+XP_050851055.1_heat_shock_protein_68-like_[Vespula_vulgaris] -> XP_050851055.1_heat_shock_protein_68-like__Vespula_vulgaris_
+XP_050850710.1_heat_shock_protein_68-like_[Vespula_vulgaris] -> XP_050850710.1_heat_shock_protein_68-like__Vespula_vulgaris_
+XP_012272172.1_heat_shock_protein_68-like_[Orussus_abietinus] -> XP_012272172.1_heat_shock_protein_68-like__Orussus_abietinus_
+XP_049835207.1_heat_shock_protein_68-like_[Schistocerca_gregaria] -> XP_049835207.1_heat_shock_protein_68-like__Schistocerca_gregaria_
+XP_047116655.1_heat_shock_protein_70_A2-like_[Schistocerca_piceifrons] -> XP_047116655.1_heat_shock_protein_70_A2-like__Schistocerca_piceifrons_
+XP_049939435.1_heat_shock_protein_68-like_[Schistocerca_serialis_cubense] -> XP_049939435.1_heat_shock_protein_68-like__Schistocerca_serialis_cubense_
+XP_049862236.1_heat_shock_protein_70_A1-like_[Schistocerca_gregaria] -> XP_049862236.1_heat_shock_protein_70_A1-like__Schistocerca_gregaria_
+XP_047110375.1_heat_shock_protein_70_A1-like_[Schistocerca_piceifrons] -> XP_047110375.1_heat_shock_protein_70_A1-like__Schistocerca_piceifrons_
+XP_047111516.1_heat_shock_protein_70_A1-like_[Schistocerca_piceifrons] -> XP_047111516.1_heat_shock_protein_70_A1-like__Schistocerca_piceifrons_
+XP_049956972.1_heat_shock_protein_70_A1-like_[Schistocerca_serialis_cubense] -> XP_049956972.1_heat_shock_protein_70_A1-like__Schistocerca_serialis_cubense_
+XP_049958340.1_heat_shock_protein_70_A1-like_[Schistocerca_serialis_cubense] -> XP_049958340.1_heat_shock_protein_70_A1-like__Schistocerca_serialis_cubense_
+XP_049862255.1_heat_shock_protein_70_A1-like_[Schistocerca_gregaria] -> XP_049862255.1_heat_shock_protein_70_A1-like__Schistocerca_gregaria_
+XP_001951207.1_heat_shock_70_kDa_protein_cognate_4_[Acyrthosiphon_pisum] -> XP_001951207.1_heat_shock_70_kDa_protein_cognate_4__Acyrthosiphon_pisum_
+XP_015366002.1_PREDICTED_heat_shock_70_kDa_protein_cognate_4_[Diuraphis_noxia] -> XP_015366002.1_PREDICTED_heat_shock_70_kDa_protein_cognate_4__Diuraphis_noxia_
+NP_001153522.1_heat_shock_protein_cognate_4_[Apis_mellifera] -> NP_001153522.1_heat_shock_protein_cognate_4__Apis_mellifera_
+XP_012275191.1_heat_shock_70_kDa_protein_cognate_4_[Orussus_abietinus] -> XP_012275191.1_heat_shock_70_kDa_protein_cognate_4__Orussus_abietinus_
+NP_001166228.1_heat_shock_cognate_70_[Nasonia_vitripennis] -> NP_001166228.1_heat_shock_cognate_70__Nasonia_vitripennis_
+XP_032452163.1_heat_shock_cognate_70_isoform_X1_[Nasonia_vitripennis] -> XP_032452163.1_heat_shock_cognate_70_isoform_X1__Nasonia_vitripennis_
+XP_015177712.1_PREDICTED_heat_shock_70_kDa_protein_cognate_4_[Polistes_dominula] -> XP_015177712.1_PREDICTED_heat_shock_70_kDa_protein_cognate_4__Polistes_dominula_
+XP_050847922.1_heat_shock_70_kDa_protein_cognate_4_[Vespula_vulgaris] -> XP_050847922.1_heat_shock_70_kDa_protein_cognate_4__Vespula_vulgaris_
+XP_026468771.1_heat_shock_70_kDa_protein_cognate_4-like_[Ctenocephalides_felis] -> XP_026468771.1_heat_shock_70_kDa_protein_cognate_4-like__Ctenocephalides_felis_
+XP_026313957.1_heat_shock_70_kDa_protein_cognate_4_[Hyposmocoma_kahamanoa] -> XP_026313957.1_heat_shock_70_kDa_protein_cognate_4__Hyposmocoma_kahamanoa_
+XP_022130638.1_heat_shock_70_kDa_protein_cognate_4_[Pieris_rapae] -> XP_022130638.1_heat_shock_70_kDa_protein_cognate_4__Pieris_rapae_
+XP_023722714.1_heat_shock_70_kDa_protein_cognate_4_[Cryptotermes_secundus] -> XP_023722714.1_heat_shock_70_kDa_protein_cognate_4__Cryptotermes_secundus_
+XP_033607669.1_heat_shock_70_kDa_protein_cognate_4_[Cryptotermes_secundus] -> XP_033607669.1_heat_shock_70_kDa_protein_cognate_4__Cryptotermes_secundus_
+XP_021941029.1_heat_shock_70_kDa_protein_cognate_4_isoform_X3_[Zootermopsis_nevadensis] -> XP_021941029.1_heat_shock_70_kDa_protein_cognate_4_isoform_X3__Zootermopsis_nevadensis_
+XP_021941034.1_heat_shock_70_kDa_protein_cognate_4_isoform_X4_[Zootermopsis_nevadensis] -> XP_021941034.1_heat_shock_70_kDa_protein_cognate_4_isoform_X4__Zootermopsis_nevadensis_
+XP_021941038.1_heat_shock_70_kDa_protein_cognate_4_isoform_X4_[Zootermopsis_nevadensis] -> XP_021941038.1_heat_shock_70_kDa_protein_cognate_4_isoform_X4__Zootermopsis_nevadensis_
+XP_049842993.1_heat_shock_70_kDa_protein_cognate_4_isoform_X2_[Schistocerca_gregaria] -> XP_049842993.1_heat_shock_70_kDa_protein_cognate_4_isoform_X2__Schistocerca_gregaria_
+XP_047100229.1_heat_shock_70_kDa_protein_cognate_4_isoform_X2_[Schistocerca_piceifrons] -> XP_047100229.1_heat_shock_70_kDa_protein_cognate_4_isoform_X2__Schistocerca_piceifrons_
+XP_049946044.1_heat_shock_70_kDa_protein_cognate_4_isoform_X2_[Schistocerca_serialis_cubense] -> XP_049946044.1_heat_shock_70_kDa_protein_cognate_4_isoform_X2__Schistocerca_serialis_cubense_
+XP_046390805.1_heat_shock_70_kDa_protein_cognate_4_[Ischnura_elegans] -> XP_046390805.1_heat_shock_70_kDa_protein_cognate_4__Ischnura_elegans_
+XP_018330022.1_heat_shock_70_kDa_protein_cognate_4_[Agrilus_planipennis] -> XP_018330022.1_heat_shock_70_kDa_protein_cognate_4__Agrilus_planipennis_
+XP_004518150.1_heat_shock_70_kDa_protein_cognate_4_[Ceratitis_capitata] -> XP_004518150.1_heat_shock_70_kDa_protein_cognate_4__Ceratitis_capitata_
+NP_001153544.1_heat_shock_protein_Hsp70Ab-like_[Apis_mellifera] -> NP_001153544.1_heat_shock_protein_Hsp70Ab-like__Apis_mellifera_
+XP_015174687.1_PREDICTED_heat_shock_70_kDa_protein_cognate_4-like_[Polistes_dominula] -> XP_015174687.1_PREDICTED_heat_shock_70_kDa_protein_cognate_4-like__Polistes_dominula_
+XP_015174688.1_PREDICTED_heat_shock_70_kDa_protein_cognate_4-like_[Polistes_dominula] -> XP_015174688.1_PREDICTED_heat_shock_70_kDa_protein_cognate_4-like__Polistes_dominula_
+XP_050869913.1_heat_shock_70_kDa_protein_cognate_4-like_[Vespula_vulgaris] -> XP_050869913.1_heat_shock_70_kDa_protein_cognate_4-like__Vespula_vulgaris_
+XP_050869914.1_heat_shock_70_kDa_protein_cognate_4-like_[Vespula_vulgaris] -> XP_050869914.1_heat_shock_70_kDa_protein_cognate_4-like__Vespula_vulgaris_
+XP_052565507.1_heat_shock_70_kDa_protein_cognate_4-like_[Culex_pipiens_pallens] -> XP_052565507.1_heat_shock_70_kDa_protein_cognate_4-like__Culex_pipiens_pallens_
+XP_016933934.1_heat_shock_70_kDa_protein_cognate_1_[Drosophila_suzukii] -> XP_016933934.1_heat_shock_70_kDa_protein_cognate_1__Drosophila_suzukii_
+XP_016933935.1_heat_shock_70_kDa_protein_cognate_1_[Drosophila_suzukii] -> XP_016933935.1_heat_shock_70_kDa_protein_cognate_1__Drosophila_suzukii_
+XP_026462201.1_heat_shock_70_kDa_protein_cognate_4-like_isoform_X1_[Ctenocephalides_felis] -> XP_026462201.1_heat_shock_70_kDa_protein_cognate_4-like_isoform_X1__Ctenocephalides_felis_
+XP_026480396.1_heat_shock_protein_70_A1-like_isoform_X1_[Ctenocephalides_felis] -> XP_026480396.1_heat_shock_protein_70_A1-like_isoform_X1__Ctenocephalides_felis_
+XP_026480398.1_heat_shock_protein_70_A1-like_[Ctenocephalides_felis] -> XP_026480398.1_heat_shock_protein_70_A1-like__Ctenocephalides_felis_
+XP_026480397.1_heat_shock_protein_70_A1-like_isoform_X2_[Ctenocephalides_felis] -> XP_026480397.1_heat_shock_protein_70_A1-like_isoform_X2__Ctenocephalides_felis_
+XP_022118662.2_heat_shock_protein_68_[Pieris_rapae] -> XP_022118662.2_heat_shock_protein_68__Pieris_rapae_
+XP_018326676.1_heat_shock_70_kDa_protein_II-like_[Agrilus_planipennis] -> XP_018326676.1_heat_shock_70_kDa_protein_II-like__Agrilus_planipennis_
+NP_001153524.1_heat_shock_protein_cognate_3_precursor_[Apis_mellifera] -> NP_001153524.1_heat_shock_protein_cognate_3_precursor__Apis_mellifera_
+XP_012280267.1_heat_shock_70_kDa_protein_cognate_3_isoform_X1_[Orussus_abietinus] -> XP_012280267.1_heat_shock_70_kDa_protein_cognate_3_isoform_X1__Orussus_abietinus_
+XP_015179268.1_PREDICTED_heat_shock_70_kDa_protein_cognate_3_isoform_X1_[Polistes_dominula] -> XP_015179268.1_PREDICTED_heat_shock_70_kDa_protein_cognate_3_isoform_X1__Polistes_dominula_
+XP_046404468.1_endoplasmic_reticulum_chaperone_BiP_[Ischnura_elegans] -> XP_046404468.1_endoplasmic_reticulum_chaperone_BiP__Ischnura_elegans_
+NP_001153520.1_heat_shock_protein_cognate_5_[Apis_mellifera] -> NP_001153520.1_heat_shock_protein_cognate_5__Apis_mellifera_
+XP_046386644.1_heat_shock_70_kDa_protein_cognate_5_[Ischnura_elegans] -> XP_046386644.1_heat_shock_70_kDa_protein_cognate_5__Ischnura_elegans_
+XP_006561225.1_97_kDa_heat_shock_protein_isoform_X2_[Apis_mellifera] -> XP_006561225.1_97_kDa_heat_shock_protein_isoform_X2__Apis_mellifera_
+XP_046395458.1_heat_shock_70_kDa_protein_4_isoform_X1_[Ischnura_elegans] -> XP_046395458.1_heat_shock_70_kDa_protein_4_isoform_X1__Ischnura_elegans_
+XP_046395459.1_heat_shock_70_kDa_protein_4_isoform_X2_[Ischnura_elegans] -> XP_046395459.1_heat_shock_70_kDa_protein_4_isoform_X2__Ischnura_elegans_
+
+                                                                                               Gap/Ambiguity  Composition  p-value
+   1  XP_001945786.2_heat_shock_protein_70_A1-like__Acyrthosiphon_pisum_                               0.00%    passed    100.00%
+   2  XP_015372059.1_PREDICTED_heat_shock_protein_70_A1-like__Diuraphis_noxia_                         0.16%    passed    100.00%
+   3  XP_015373896.1_PREDICTED_heat_shock_protein_68-like__Diuraphis_noxia_                            0.33%    passed    100.00%
+   4  XP_001951915.1_heat_shock_protein_68-like__Acyrthosiphon_pisum_                                  0.00%    passed    100.00%
+   5  XP_008190051.1_heat_shock_protein_68-like__Acyrthosiphon_pisum_                                  0.00%    passed    100.00%
+   6  XP_015375177.1_PREDICTED_heat_shock_protein_68-like__Diuraphis_noxia_                            0.00%    passed    100.00%
+   7  XP_049817362.1_major_heat_shock_70_kDa_protein_Ab-like__Aethina_tumida_                          0.00%    passed     95.63%
+   8  XP_049817365.1_major_heat_shock_70_kDa_protein_Ba-like__Aethina_tumida_                          0.00%    passed     97.86%
+   9  XP_018564820.1_heat_shock_protein_68-like__Anoplophora_glabripennis_                             0.00%    passed     99.99%
+  10  NP_001164098.1_heat_shock_protein_TC005094__Tribolium_castaneum_                                 0.00%    passed     99.94%
+  11  XP_018322391.1_major_heat_shock_70_kDa_protein_Ba-like__Agrilus_planipennis_                     0.00%    passed     99.54%
+  12  XP_049823568.1_heat_shock_protein_68-like_isoform_X1__Aethina_tumida_                            0.00%    passed    100.00%
+  13  XP_049823569.1_heat_shock_protein_68-like_isoform_X2__Aethina_tumida_                            0.00%    passed    100.00%
+  14  XP_049823570.1_heat_shock_protein_68-like__Aethina_tumida_                                       0.00%    passed    100.00%
+  15  XP_044766848.1_heat_shock_protein_70_A1-like__Coccinella_septempunctata_                         0.00%    passed    100.00%
+  16  XP_044761169.1_heat_shock_protein_70_B2-like__Coccinella_septempunctata_                         0.00%    passed    100.00%
+  17  XP_044767182.1_heat_shock_protein_70_B2-like__Coccinella_septempunctata_                         0.00%    passed    100.00%
+  18  XP_044767183.1_heat_shock_protein_70_A1-like__Coccinella_septempunctata_                         0.00%    passed    100.00%
+  19  XP_044767184.1_heat_shock_protein_70_A1-like__Coccinella_septempunctata_                         0.00%    passed    100.00%
+  20  XP_045482994.1_heat_shock_protein_70_A1-like__Harmonia_axyridis_                                 0.00%    passed    100.00%
+  21  XP_045482997.1_heat_shock_protein_70_A1-like__Harmonia_axyridis_                                 0.00%    passed    100.00%
+  22  XP_045482998.1_heat_shock_protein_70_A1-like__Harmonia_axyridis_                                 0.00%    passed    100.00%
+  23  XP_045482999.1_heat_shock_protein_70_A1-like__Harmonia_axyridis_                                 0.00%    passed    100.00%
+  24  XP_045483001.1_heat_shock_protein_70_A1-like__Harmonia_axyridis_                                 0.00%    passed    100.00%
+  25  NP_001164199.1_heat_shock_protein_68a__Tribolium_castaneum_                                      0.00%    passed    100.00%
+  26  NP_001164200.1_heat_shock_protein_68b__Tribolium_castaneum_                                      0.00%    passed    100.00%
+  27  XP_974442.1_PREDICTED_heat_shock_protein_70_A1__Tribolium_castaneum_                             0.00%    passed     99.99%
+  28  XP_023310849.1_heat_shock_protein_68__Anoplophora_glabripennis_                                  0.00%    passed    100.00%
+  29  XP_023310850.1_heat_shock_protein_68__Anoplophora_glabripennis_                                  0.00%    passed    100.00%
+  30  XP_018561180.1_heat_shock_protein_70_A1__Anoplophora_glabripennis_                               0.00%    passed    100.00%
+  31  XP_018336683.1_heat_shock_protein_70_A1__Agrilus_planipennis_                                    0.00%    passed    100.00%
+  32  XP_044731348.1_heat_shock_protein_70_A1-like_isoform_X1__Chrysoperla_carnea_                     0.00%    passed     99.99%
+  33  XP_044731350.1_heat_shock_protein_70_A1-like_isoform_X1__Chrysoperla_carnea_                     0.00%    passed     99.99%
+  34  XP_044735454.1_heat_shock_protein_70_A1-like_isoform_X5__Chrysoperla_carnea_                     0.00%    passed    100.00%
+  35  XP_044737062.1_heat_shock_protein_70_A1-like_isoform_X5__Chrysoperla_carnea_                     0.00%    passed    100.00%
+  36  XP_044737060.1_heat_shock_protein_68-like_isoform_X3__Chrysoperla_carnea_                        0.00%    passed    100.00%
+  37  XP_018904152.1_PREDICTED_heat_shock_protein_68-like__Bemisia_tabaci_                             0.00%    passed    100.00%
+  38  XP_018911555.1_PREDICTED_heat_shock_protein_68-like__Bemisia_tabaci_                             0.00%    passed    100.00%
+  39  XP_018910167.1_PREDICTED_heat_shock_protein_68-like_isoform_X1__Bemisia_tabaci_                  0.00%    passed    100.00%
+  40  XP_018910168.1_PREDICTED_heat_shock_protein_68-like_isoform_X2__Bemisia_tabaci_                  0.00%    passed    100.00%
+  41  XP_018914257.1_PREDICTED_major_heat_shock_70_kDa_protein_Ab-like__Bemisia_tabaci_                0.00%    passed     99.99%
+  42  XP_046660840.1_heat_shock_protein_70_A1-like__Homalodisca_vitripennis_                           0.00%    passed    100.00%
+  43  XP_046660841.1_heat_shock_protein_70_A1-like__Homalodisca_vitripennis_                           0.00%    passed    100.00%
+  44  XP_046688090.1_heat_shock_protein_70_A1-like__Homalodisca_vitripennis_                           0.00%    passed    100.00%
+  45  XP_046676447.1_heat_shock_protein_70_A1-like__Homalodisca_vitripennis_                           0.00%    passed    100.00%
+  46  XP_046669780.1_heat_shock_protein_70_A1-like__Homalodisca_vitripennis_                           0.00%    passed    100.00%
+  47  XP_054274612.1_major_heat_shock_70_kDa_protein_Ba-like__Macrosteles_quadrilineatus_              0.00%    passed    100.00%
+  48  XP_054275336.1_heat_shock_protein_68-like__Macrosteles_quadrilineatus_                           0.00%    passed    100.00%
+  49  XP_054270897.1_heat_shock_protein_70_A1-like_isoform_X1__Macrosteles_quadrilineatus_             0.00%    passed    100.00%
+  50  XP_054270898.1_heat_shock_protein_70_A1-like_isoform_X2__Macrosteles_quadrilineatus_             0.00%    passed    100.00%
+  51  XP_054270900.1_heat_shock_protein_70_A1-like_isoform_X3__Macrosteles_quadrilineatus_             0.00%    passed    100.00%
+  52  XP_008477019.1_heat_shock_protein_70_A1-like_isoform_X1__Diaphorina_citri_                       0.00%    passed    100.00%
+  53  XP_008477021.1_heat_shock_protein_70_A1-like__Diaphorina_citri_                                  0.00%    passed    100.00%
+  54  XP_008477022.1_heat_shock_protein_70_A1-like__Diaphorina_citri_                                  0.00%    passed    100.00%
+  55  XP_008477020.1_heat_shock_protein_70_A1-like_isoform_X3__Diaphorina_citri_                       0.00%    passed    100.00%
+  56  XP_017301507.1_heat_shock_protein_70_A1-like_isoform_X2__Diaphorina_citri_                       0.00%    passed    100.00%
+  57  XP_026317056.1_heat_shock_protein_68-like__Hyposmocoma_kahamanoa_                                0.00%    passed    100.00%
+  58  XP_030032651.1_heat_shock_protein_68__Manduca_sexta_                                             0.00%    passed    100.00%
+  59  XP_037301452.1_heat_shock_protein_68-like__Manduca_sexta_                                        0.00%    passed    100.00%
+  60  XP_030038133.2_heat_shock_protein_68__Manduca_sexta_                                             0.00%    passed    100.00%
+  61  XP_037294571.1_heat_shock_protein_68-like__Manduca_sexta_                                        0.00%    passed    100.00%
+  62  XP_035456844.2_major_heat_shock_70_kDa_protein_Ba__Spodoptera_frugiperda_                        0.00%    passed    100.00%
+  63  XP_050555167.1_heat_shock_protein_68-like_isoform_X2__Spodoptera_frugiperda_                     0.00%    passed    100.00%
+  64  XP_050555168.1_heat_shock_protein_68-like_isoform_X3__Spodoptera_frugiperda_                     0.00%    passed    100.00%
+  65  XP_050555169.1_heat_shock_protein_68-like_isoform_X4__Spodoptera_frugiperda_                     0.00%    passed    100.00%
+  66  XP_050555183.1_heat_shock_protein_68-like__Spodoptera_frugiperda_                                0.00%    passed    100.00%
+  67  XP_037966318.1_uncharacterized_protein_LOC105388666__Plutella_xylostella_                        0.00%    passed     99.90%
+  68  XP_050357056.1_heat_shock_protein_68-like_isoform_X4__Nymphalis_io_                              0.00%    passed    100.00%
+  69  XP_050357057.1_heat_shock_protein_68-like_isoform_X5__Nymphalis_io_                              0.00%    passed    100.00%
+  70  XP_050357058.1_heat_shock_protein_68-like_isoform_X6__Nymphalis_io_                              0.00%    passed    100.00%
+  71  XP_050357059.1_heat_shock_protein_68-like_isoform_X7__Nymphalis_io_                              0.00%    passed    100.00%
+  72  XP_050357060.1_heat_shock_protein_68-like_isoform_X8__Nymphalis_io_                              0.00%    passed    100.00%
+  73  XP_047540751.1_heat_shock_protein_68-like__Vanessa_atalanta_                                     0.00%    passed    100.00%
+  74  XP_047540760.1_heat_shock_protein_68-like__Vanessa_atalanta_                                     0.00%    passed    100.00%
+  75  XP_047540762.1_heat_shock_protein_68-like__Vanessa_atalanta_                                     0.00%    passed    100.00%
+  76  XP_047540768.1_heat_shock_protein_68-like__Vanessa_atalanta_                                     0.00%    passed    100.00%
+  77  XP_047540880.1_heat_shock_protein_68-like__Vanessa_atalanta_                                     0.00%    passed    100.00%
+  78  XP_022130952.1_heat_shock_protein_68__Pieris_rapae_                                              0.00%    passed    100.00%
+  79  XP_026317218.1_heat_shock_protein_68-like_isoform_X1__Hyposmocoma_kahamanoa_                     0.00%    passed    100.00%
+  80  XP_026317219.1_heat_shock_protein_68-like_isoform_X2__Hyposmocoma_kahamanoa_                     0.00%    passed    100.00%
+  81  XP_037961319.2_heat_shock_protein_68__Plutella_xylostella_                                       0.00%    passed     98.71%
+  82  XP_037978500.2_heat_shock_protein_68__Plutella_xylostella_                                       0.00%    passed     98.71%
+  83  XP_037961322.2_heat_shock_protein_68__Plutella_xylostella_                                       0.00%    passed     98.62%
+  84  XP_022115496.2_heat_shock_protein_68-like__Pieris_rapae_                                         0.00%    passed    100.00%
+  85  XP_048477675.1_heat_shock_protein_68_isoform_X4__Plutella_xylostella_                            0.00%    passed    100.00%
+  86  XP_030034373.2_heat_shock_protein_68__Manduca_sexta_                                             0.00%    passed     81.14%
+  87  XP_014239635.1_major_heat_shock_70_kDa_protein_Ba-like__Cimex_lectularius_                       0.00%    passed    100.00%
+  88  XP_014281580.1_major_heat_shock_70_kDa_protein_Ba__Halyomorpha_halys_                            0.00%    passed    100.00%
+  89  XP_014289183.1_major_heat_shock_70_kDa_protein_Ba-like__Halyomorpha_halys_                       0.00%    passed    100.00%
+  90  XP_024217114.1_major_heat_shock_70_kDa_protein_Ba-like__Halyomorpha_halys_                       0.00%    passed    100.00%
+  91  XP_024214745.1_major_heat_shock_70_kDa_protein_Ba__Halyomorpha_halys_                            0.00%    passed    100.00%
+  92  XP_014256536.1_major_heat_shock_70_kDa_protein_Ab-like__Cimex_lectularius_                       0.00%    passed     99.93%
+  93  XP_014256533.1_heat_shock_protein_68-like__Cimex_lectularius_                                    0.00%    passed    100.00%
+  94  XP_014248703.1_heat_shock_protein_68-like__Cimex_lectularius_                                    0.00%    passed     98.22%
+  95  XP_023725254.1_heat_shock_protein_70_A1__Cryptotermes_secundus_                                  0.00%    passed    100.00%
+  96  XP_023725255.1_heat_shock_protein_70_A1__Cryptotermes_secundus_                                  0.00%    passed    100.00%
+  97  XP_021938753.1_heat_shock_protein_70_A1-like__Zootermopsis_nevadensis_                           0.00%    passed    100.00%
+  98  XP_022190295.2_heat_shock_protein_68__Nilaparvata_lugens_                                        0.00%    passed     99.99%
+  99  XP_022196826.2_heat_shock_protein_68-like__Nilaparvata_lugens_                                   0.00%    passed     99.99%
+ 100  XP_022203279.2_heat_shock_protein_68-like__Nilaparvata_lugens_                                   0.00%    passed     99.99%
+ 101  XP_039293584.1_heat_shock_protein_68-like__Nilaparvata_lugens_                                   0.00%    passed     99.99%
+ 102  XP_022207538.2_heat_shock_protein_68__Nilaparvata_lugens_                                        0.00%    passed    100.00%
+ 103  XP_034256974.1_heat_shock_protein_70_A1-like__Thrips_palmi_                                      0.00%    passed     94.32%
+ 104  XP_034257042.1_heat_shock_protein_68-like__Thrips_palmi_                                         0.00%    passed     96.15%
+ 105  XP_034257140.1_heat_shock_protein_70_A1-like__Thrips_palmi_                                      0.00%    passed     96.42%
+ 106  XP_004533587.1_heat_shock_protein_68__Ceratitis_capitata_                                        0.00%    passed    100.00%
+ 107  XP_005189456.1_PREDICTED_major_heat_shock_70_kDa_protein_Ba-like__Musca_domestica_               0.00%    passed    100.00%
+ 108  XP_005189459.1_PREDICTED_major_heat_shock_70_kDa_protein_Ab-like__Musca_domestica_               0.00%    passed     99.56%
+ 109  XP_036673283.1_LOW_QUALITY_PROTEIN_heat_shock_protein_68__Drosophila_suzukii_                    0.16%    passed     99.99%
+ 110  XP_055902636.1_heat_shock_protein_68__Eupeodes_corollae_                                         0.00%    passed    100.00%
+ 111  XP_004536234.1_heat_shock_protein_70__Ceratitis_capitata_                                        0.00%    passed    100.00%
+ 112  XP_004536235.1_heat_shock_protein_70-like__Ceratitis_capitata_                                   0.00%    passed    100.00%
+ 113  XP_005189457.1_PREDICTED_heat_shock_protein_70-like__Musca_domestica_                            0.00%    passed    100.00%
+ 114  XP_019894818.1_PREDICTED_heat_shock_protein_70__Musca_domestica_                                 0.00%    passed    100.00%
+ 115  XP_055902220.1_major_heat_shock_70_kDa_protein_Ba__Eupeodes_corollae_                            0.00%    passed    100.00%
+ 116  XP_055923106.1_major_heat_shock_70_kDa_protein_Ba__Eupeodes_corollae_                            0.00%    passed    100.00%
+ 117  XP_055923965.1_major_heat_shock_70_kDa_protein_Ba__Eupeodes_corollae_                            0.00%    passed    100.00%
+ 118  XP_055908466.1_major_heat_shock_70_kDa_protein_Ba-like__Eupeodes_corollae_                       0.00%    passed    100.00%
+ 119  XP_016926534.2_major_heat_shock_70_kDa_protein_Ba__Drosophila_suzukii_                           0.00%    passed    100.00%
+ 120  XP_039453664.1_heat_shock_protein_70_B2__Culex_pipiens_pallens_                                  0.00%    passed     99.95%
+ 121  XP_039453667.1_heat_shock_protein_70_B2__Culex_pipiens_pallens_                                  0.00%    passed     99.95%
+ 122  XP_039453668.1_heat_shock_protein_70_B2__Culex_pipiens_pallens_                                  0.00%    passed     99.95%
+ 123  XP_026314591.1_heat_shock_protein_68-like__Hyposmocoma_kahamanoa_                                0.00%    passed     99.96%
+ 124  XP_022129796.2_heat_shock_protein_68-like__Pieris_rapae_                                         0.00%    passed     96.07%
+ 125  XP_001949837.1_heat_shock_protein_70_B2__Acyrthosiphon_pisum_                                    0.00%    passed     99.40%
+ 126  XP_015371967.1_PREDICTED_heat_shock_protein_70_B2-like__Diuraphis_noxia_                         0.00%    passed     99.67%
+ 127  XP_018332229.1_major_heat_shock_70_kDa_protein_Ba__Agrilus_planipennis_                          0.00%    passed     99.98%
+ 128  XP_018579236.1_heat_shock_70_kDa_protein_cognate_2__Anoplophora_glabripennis_                    0.00%    passed     99.94%
+ 129  XP_973521.1_PREDICTED_heat_shock_70_kDa_protein_cognate_2__Tribolium_castaneum_                  0.00%    passed     99.81%
+ 130  XP_014239186.1_heat_shock_70_kDa_protein_cognate_2-like__Cimex_lectularius_                      0.00%    passed     97.89%
+ 131  XP_014275032.1_heat_shock_70_kDa_protein_cognate_2-like__Halyomorpha_halys_                      0.00%    passed    100.00%
+ 132  XP_023726137.1_heat_shock_70_kDa_protein_cognate_2__Cryptotermes_secundus_                       0.00%    passed     99.99%
+ 133  XP_021939718.1_heat_shock_70_kDa_protein_cognate_2-like__Zootermopsis_nevadensis_                0.00%    passed    100.00%
+ 134  XP_034249544.1_major_heat_shock_70_kDa_protein_Ab-like_isoform_X2__Thrips_palmi_                 0.00%    passed     99.97%
+ 135  XP_034249545.1_major_heat_shock_70_kDa_protein_Ab-like_isoform_X2__Thrips_palmi_                 0.00%    passed     99.97%
+ 136  XP_004536638.1_heat_shock_70_kDa_protein_cognate_2__Ceratitis_capitata_                          0.00%    passed     99.96%
+ 137  XP_005183030.1_PREDICTED_heat_shock_70_kDa_protein_cognate_2__Musca_domestica_                   0.00%    passed     99.98%
+ 138  XP_039439065.1_heat_shock_70_kDa_protein_cognate_2__Culex_pipiens_pallens_                       0.00%    passed     99.93%
+ 139  XP_016941530.2_heat_shock_70_kDa_protein_cognate_2__Drosophila_suzukii_                          0.16%    passed     99.99%
+ 140  XP_049827039.1_heat_shock_protein_68-like__Schistocerca_gregaria_                                0.00%    passed     78.74%
+ 141  XP_047097135.1_heat_shock_protein_70_B2-like__Schistocerca_piceifrons_                           0.00%    passed     71.30%
+ 142  XP_049962153.1_heat_shock_protein_70_B2-like__Schistocerca_serialis_cubense_                     0.00%    passed     78.26%
+ 143  XP_001599773.3_heat_shock_protein_68__Nasonia_vitripennis_                                       0.00%    passed    100.00%
+ 144  XP_031779567.1_heat_shock_protein_68-like__Nasonia_vitripennis_                                  0.00%    passed    100.00%
+ 145  XP_001604951.2_heat_shock_protein_68__Nasonia_vitripennis_                                       0.00%    passed    100.00%
+ 146  XP_012278936.1_major_heat_shock_70_kDa_protein_Ba_isoform_X1__Orussus_abietinus_                 0.00%    passed    100.00%
+ 147  XP_023288735.1_major_heat_shock_70_kDa_protein_Ba_isoform_X2__Orussus_abietinus_                 0.00%    passed    100.00%
+ 148  XP_015189296.1_PREDICTED_heat_shock_protein_70_A2-like__Polistes_dominula_                       0.00%    passed    100.00%
+ 149  XP_050851055.1_heat_shock_protein_68-like__Vespula_vulgaris_                                     0.00%    passed    100.00%
+ 150  XP_050850710.1_heat_shock_protein_68-like__Vespula_vulgaris_                                     0.00%    passed    100.00%
+ 151  XP_012272172.1_heat_shock_protein_68-like__Orussus_abietinus_                                    0.00%    passed     99.98%
+ 152  XP_049835207.1_heat_shock_protein_68-like__Schistocerca_gregaria_                                0.00%    passed     37.20%
+ 153  XP_047116655.1_heat_shock_protein_70_A2-like__Schistocerca_piceifrons_                           0.00%    passed     33.38%
+ 154  XP_049939435.1_heat_shock_protein_68-like__Schistocerca_serialis_cubense_                        0.00%    passed     27.34%
+ 155  XP_049862236.1_heat_shock_protein_70_A1-like__Schistocerca_gregaria_                             0.00%    passed     94.68%
+ 156  XP_047110375.1_heat_shock_protein_70_A1-like__Schistocerca_piceifrons_                           0.00%    passed     93.31%
+ 157  XP_047111516.1_heat_shock_protein_70_A1-like__Schistocerca_piceifrons_                           0.00%    passed     94.89%
+ 158  XP_049956972.1_heat_shock_protein_70_A1-like__Schistocerca_serialis_cubense_                     0.00%    passed     90.85%
+ 159  XP_049958340.1_heat_shock_protein_70_A1-like__Schistocerca_serialis_cubense_                     0.00%    passed     90.79%
+ 160  XP_049862255.1_heat_shock_protein_70_A1-like__Schistocerca_gregaria_                             0.00%    passed     93.93%
+ 161  XP_001951207.1_heat_shock_70_kDa_protein_cognate_4__Acyrthosiphon_pisum_                         0.00%    passed     68.55%
+ 162  XP_015366002.1_PREDICTED_heat_shock_70_kDa_protein_cognate_4__Diuraphis_noxia_                   0.00%    passed     62.07%
+ 163  NP_001153522.1_heat_shock_protein_cognate_4__Apis_mellifera_                                     0.00%    passed     99.46%
+ 164  XP_012275191.1_heat_shock_70_kDa_protein_cognate_4__Orussus_abietinus_                           0.00%    passed     99.57%
+ 165  NP_001166228.1_heat_shock_cognate_70__Nasonia_vitripennis_                                       0.00%    passed     99.63%
+ 166  XP_032452163.1_heat_shock_cognate_70_isoform_X1__Nasonia_vitripennis_                            0.00%    passed     99.63%
+ 167  XP_015177712.1_PREDICTED_heat_shock_70_kDa_protein_cognate_4__Polistes_dominula_                 0.00%    passed     98.94%
+ 168  XP_050847922.1_heat_shock_70_kDa_protein_cognate_4__Vespula_vulgaris_                            0.00%    passed     98.92%
+ 169  XP_026468771.1_heat_shock_70_kDa_protein_cognate_4-like__Ctenocephalides_felis_                  0.00%    passed     88.67%
+ 170  XP_026313957.1_heat_shock_70_kDa_protein_cognate_4__Hyposmocoma_kahamanoa_                       0.00%    passed     89.42%
+ 171  XP_022130638.1_heat_shock_70_kDa_protein_cognate_4__Pieris_rapae_                                0.00%    passed     96.70%
+ 172  XP_023722714.1_heat_shock_70_kDa_protein_cognate_4__Cryptotermes_secundus_                       0.00%    passed     98.22%
+ 173  XP_033607669.1_heat_shock_70_kDa_protein_cognate_4__Cryptotermes_secundus_                       0.00%    passed     97.45%
+ 174  XP_021941029.1_heat_shock_70_kDa_protein_cognate_4_isoform_X3__Zootermopsis_nevadensis_          0.00%    passed     96.57%
+ 175  XP_021941034.1_heat_shock_70_kDa_protein_cognate_4_isoform_X4__Zootermopsis_nevadensis_          0.00%    passed     96.57%
+ 176  XP_021941038.1_heat_shock_70_kDa_protein_cognate_4_isoform_X4__Zootermopsis_nevadensis_          0.00%    passed     96.57%
+ 177  XP_049842993.1_heat_shock_70_kDa_protein_cognate_4_isoform_X2__Schistocerca_gregaria_            0.00%    passed     99.07%
+ 178  XP_047100229.1_heat_shock_70_kDa_protein_cognate_4_isoform_X2__Schistocerca_piceifrons_          0.00%    passed     98.87%
+ 179  XP_049946044.1_heat_shock_70_kDa_protein_cognate_4_isoform_X2__Schistocerca_serialis_cubense_    0.00%    passed     98.51%
+ 180  XP_046390805.1_heat_shock_70_kDa_protein_cognate_4__Ischnura_elegans_                            0.00%    passed     99.50%
+ 181  XP_018330022.1_heat_shock_70_kDa_protein_cognate_4__Agrilus_planipennis_                         0.00%    passed     95.95%
+ 182  XP_004518150.1_heat_shock_70_kDa_protein_cognate_4__Ceratitis_capitata_                          0.00%    passed     99.17%
+ 183  NP_001153544.1_heat_shock_protein_Hsp70Ab-like__Apis_mellifera_                                  0.00%    passed     96.56%
+ 184  XP_015174687.1_PREDICTED_heat_shock_70_kDa_protein_cognate_4-like__Polistes_dominula_            0.00%    passed     99.21%
+ 185  XP_015174688.1_PREDICTED_heat_shock_70_kDa_protein_cognate_4-like__Polistes_dominula_            0.00%    passed     99.21%
+ 186  XP_050869913.1_heat_shock_70_kDa_protein_cognate_4-like__Vespula_vulgaris_                       0.00%    passed     99.05%
+ 187  XP_050869914.1_heat_shock_70_kDa_protein_cognate_4-like__Vespula_vulgaris_                       0.00%    passed     99.05%
+ 188  XP_052565507.1_heat_shock_70_kDa_protein_cognate_4-like__Culex_pipiens_pallens_                  0.00%    passed     98.93%
+ 189  XP_016933934.1_heat_shock_70_kDa_protein_cognate_1__Drosophila_suzukii_                          0.00%    passed     83.62%
+ 190  XP_016933935.1_heat_shock_70_kDa_protein_cognate_1__Drosophila_suzukii_                          0.00%    passed     83.62%
+ 191  XP_026462201.1_heat_shock_70_kDa_protein_cognate_4-like_isoform_X1__Ctenocephalides_felis_       0.00%    passed     99.13%
+ 192  XP_026480396.1_heat_shock_protein_70_A1-like_isoform_X1__Ctenocephalides_felis_                  0.00%    passed     99.00%
+ 193  XP_026480398.1_heat_shock_protein_70_A1-like__Ctenocephalides_felis_                             0.00%    passed     99.00%
+ 194  XP_026480397.1_heat_shock_protein_70_A1-like_isoform_X2__Ctenocephalides_felis_                  0.00%    passed     99.37%
+ 195  XP_022118662.2_heat_shock_protein_68__Pieris_rapae_                                              0.16%    passed     99.99%
+ 196  XP_018326676.1_heat_shock_70_kDa_protein_II-like__Agrilus_planipennis_                           0.98%    passed     98.21%
+ 197  NP_001153524.1_heat_shock_protein_cognate_3_precursor__Apis_mellifera_                           1.15%    passed     30.34%
+ 198  XP_012280267.1_heat_shock_70_kDa_protein_cognate_3_isoform_X1__Orussus_abietinus_                1.15%    passed     29.62%
+ 199  XP_015179268.1_PREDICTED_heat_shock_70_kDa_protein_cognate_3_isoform_X1__Polistes_dominula_      1.15%    passed     22.02%
+ 200  XP_046404468.1_endoplasmic_reticulum_chaperone_BiP__Ischnura_elegans_                            1.15%    passed     56.59%
+ 201  NP_001153520.1_heat_shock_protein_cognate_5__Apis_mellifera_                                     2.13%    passed     33.34%
+ 202  XP_046386644.1_heat_shock_70_kDa_protein_cognate_5__Ischnura_elegans_                            2.13%    passed      7.88%
+ 203  XP_006561225.1_97_kDa_heat_shock_protein_isoform_X2__Apis_mellifera_                             1.47%    failed      3.05%
+ 204  XP_046395458.1_heat_shock_70_kDa_protein_4_isoform_X1__Ischnura_elegans_                         1.64%    failed      0.08%
+ 205  XP_046395459.1_heat_shock_70_kDa_protein_4_isoform_X2__Ischnura_elegans_                         3.60%    failed      0.05%
+****  TOTAL                                                                                            0.09%  3 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: NP_001164200.1_heat_shock_protein_68b__Tribolium_castaneum_ is identical to NP_001164199.1_heat_shock_protein_68a__Tribolium_castaneum_ but kept for subsequent analysis
+NOTE: XP_023310850.1_heat_shock_protein_68__Anoplophora_glabripennis_ is identical to XP_023310849.1_heat_shock_protein_68__Anoplophora_glabripennis_ but kept for subsequent analysis
+NOTE: XP_044731350.1_heat_shock_protein_70_A1-like_isoform_X1__Chrysoperla_carnea_ is identical to XP_044731348.1_heat_shock_protein_70_A1-like_isoform_X1__Chrysoperla_carnea_ but kept for subsequent analysis
+NOTE: XP_044737060.1_heat_shock_protein_68-like_isoform_X3__Chrysoperla_carnea_ is identical to XP_044737062.1_heat_shock_protein_70_A1-like_isoform_X5__Chrysoperla_carnea_ but kept for subsequent analysis
+NOTE: XP_018910168.1_PREDICTED_heat_shock_protein_68-like_isoform_X2__Bemisia_tabaci_ is identical to XP_018910167.1_PREDICTED_heat_shock_protein_68-like_isoform_X1__Bemisia_tabaci_ but kept for subsequent analysis
+NOTE: XP_046660841.1_heat_shock_protein_70_A1-like__Homalodisca_vitripennis_ is identical to XP_046660840.1_heat_shock_protein_70_A1-like__Homalodisca_vitripennis_ but kept for subsequent analysis
+NOTE: XP_054270898.1_heat_shock_protein_70_A1-like_isoform_X2__Macrosteles_quadrilineatus_ is identical to XP_054270897.1_heat_shock_protein_70_A1-like_isoform_X1__Macrosteles_quadrilineatus_ but kept for subsequent analysis
+NOTE: XP_008477021.1_heat_shock_protein_70_A1-like__Diaphorina_citri_ is identical to XP_008477019.1_heat_shock_protein_70_A1-like_isoform_X1__Diaphorina_citri_ but kept for subsequent analysis
+NOTE: XP_037301452.1_heat_shock_protein_68-like__Manduca_sexta_ is identical to XP_030032651.1_heat_shock_protein_68__Manduca_sexta_ but kept for subsequent analysis
+NOTE: XP_050555169.1_heat_shock_protein_68-like_isoform_X4__Spodoptera_frugiperda_ is identical to XP_035456844.2_major_heat_shock_70_kDa_protein_Ba__Spodoptera_frugiperda_ but kept for subsequent analysis
+NOTE: XP_050555168.1_heat_shock_protein_68-like_isoform_X3__Spodoptera_frugiperda_ is identical to XP_050555167.1_heat_shock_protein_68-like_isoform_X2__Spodoptera_frugiperda_ but kept for subsequent analysis
+NOTE: XP_050357058.1_heat_shock_protein_68-like_isoform_X6__Nymphalis_io_ is identical to XP_050357057.1_heat_shock_protein_68-like_isoform_X5__Nymphalis_io_ but kept for subsequent analysis
+NOTE: XP_026317219.1_heat_shock_protein_68-like_isoform_X2__Hyposmocoma_kahamanoa_ is identical to XP_026317218.1_heat_shock_protein_68-like_isoform_X1__Hyposmocoma_kahamanoa_ but kept for subsequent analysis
+NOTE: XP_037978500.2_heat_shock_protein_68__Plutella_xylostella_ is identical to XP_037961319.2_heat_shock_protein_68__Plutella_xylostella_ but kept for subsequent analysis
+NOTE: XP_055923106.1_major_heat_shock_70_kDa_protein_Ba__Eupeodes_corollae_ is identical to XP_055902220.1_major_heat_shock_70_kDa_protein_Ba__Eupeodes_corollae_ but kept for subsequent analysis
+NOTE: XP_039453667.1_heat_shock_protein_70_B2__Culex_pipiens_pallens_ is identical to XP_039453664.1_heat_shock_protein_70_B2__Culex_pipiens_pallens_ but kept for subsequent analysis
+NOTE: XP_034249545.1_major_heat_shock_70_kDa_protein_Ab-like_isoform_X2__Thrips_palmi_ is identical to XP_034249544.1_major_heat_shock_70_kDa_protein_Ab-like_isoform_X2__Thrips_palmi_ but kept for subsequent analysis
+NOTE: XP_032452163.1_heat_shock_cognate_70_isoform_X1__Nasonia_vitripennis_ is identical to NP_001166228.1_heat_shock_cognate_70__Nasonia_vitripennis_ but kept for subsequent analysis
+NOTE: XP_021941034.1_heat_shock_70_kDa_protein_cognate_4_isoform_X4__Zootermopsis_nevadensis_ is identical to XP_021941029.1_heat_shock_70_kDa_protein_cognate_4_isoform_X3__Zootermopsis_nevadensis_ but kept for subsequent analysis
+NOTE: XP_015174688.1_PREDICTED_heat_shock_70_kDa_protein_cognate_4-like__Polistes_dominula_ is identical to XP_015174687.1_PREDICTED_heat_shock_70_kDa_protein_cognate_4-like__Polistes_dominula_ but kept for subsequent analysis
+NOTE: XP_050869914.1_heat_shock_70_kDa_protein_cognate_4-like__Vespula_vulgaris_ is identical to XP_050869913.1_heat_shock_70_kDa_protein_cognate_4-like__Vespula_vulgaris_ but kept for subsequent analysis
+NOTE: XP_016933935.1_heat_shock_70_kDa_protein_cognate_1__Drosophila_suzukii_ is identical to XP_016933934.1_heat_shock_70_kDa_protein_cognate_1__Drosophila_suzukii_ but kept for subsequent analysis
+NOTE: XP_026480398.1_heat_shock_protein_70_A1-like__Ctenocephalides_felis_ is identical to XP_026480396.1_heat_shock_protein_70_A1-like_isoform_X1__Ctenocephalides_felis_ but kept for subsequent analysis
+NOTE: 8 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: XP_054270900.1_heat_shock_protein_70_A1-like_isoform_X3__Macrosteles_quadrilineatus_ (identical to XP_054270897.1_heat_shock_protein_70_A1-like_isoform_X1__Macrosteles_quadrilineatus_) is ignored but added at the end
+NOTE: XP_008477020.1_heat_shock_protein_70_A1-like_isoform_X3__Diaphorina_citri_ (identical to XP_008477019.1_heat_shock_protein_70_A1-like_isoform_X1__Diaphorina_citri_) is ignored but added at the end
+NOTE: XP_017301507.1_heat_shock_protein_70_A1-like_isoform_X2__Diaphorina_citri_ (identical to XP_008477019.1_heat_shock_protein_70_A1-like_isoform_X1__Diaphorina_citri_) is ignored but added at the end
+NOTE: XP_050357059.1_heat_shock_protein_68-like_isoform_X7__Nymphalis_io_ (identical to XP_050357057.1_heat_shock_protein_68-like_isoform_X5__Nymphalis_io_) is ignored but added at the end
+NOTE: XP_050357060.1_heat_shock_protein_68-like_isoform_X8__Nymphalis_io_ (identical to XP_050357057.1_heat_shock_protein_68-like_isoform_X5__Nymphalis_io_) is ignored but added at the end
+NOTE: XP_055923965.1_major_heat_shock_70_kDa_protein_Ba__Eupeodes_corollae_ (identical to XP_055902220.1_major_heat_shock_70_kDa_protein_Ba__Eupeodes_corollae_) is ignored but added at the end
+NOTE: XP_039453668.1_heat_shock_protein_70_B2__Culex_pipiens_pallens_ (identical to XP_039453664.1_heat_shock_protein_70_B2__Culex_pipiens_pallens_) is ignored but added at the end
+NOTE: XP_021941038.1_heat_shock_70_kDa_protein_cognate_4_isoform_X4__Zootermopsis_nevadensis_ (identical to XP_021941029.1_heat_shock_70_kDa_protein_cognate_4_isoform_X3__Zootermopsis_nevadensis_) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to HSP70_algn.maf.trim.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.090 seconds
+NOTE: ModelFinder requires 170 MB RAM!
+ModelFinder will test 546 protein models (sample size: 611) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  Dayhoff       35680.514    391 72143.029    73542.773    73869.332
+  2  Dayhoff+I     35010.683    392 70805.366    72218.724    72536.084
+  3  Dayhoff+G4    32211.884    392 65207.767    66621.125    66938.485
+  4  Dayhoff+I+G4  32169.554    393 65125.108    66552.223    66860.241
+  5  Dayhoff+R2    32739.997    393 66265.994    67693.110    68001.127
+  6  Dayhoff+R3    32390.829    395 65571.659    67026.729    67315.622
+  7  Dayhoff+R4    32208.739    397 65211.479    66695.103    66964.272
+  8  Dayhoff+R5    32133.996    399 65065.993    66578.789    66827.616
+  9  Dayhoff+R6    32098.761    401 64999.521    66542.124    66769.975
+ 10  Dayhoff+R7    32079.888    403 64965.777    66538.840    66745.061
+ 11  Dayhoff+R8    32068.088    405 64946.176    66550.371    66734.290
+ 12  Dayhoff+R9    32059.607    407 64933.215    66569.234    66730.159
+ 13  Dayhoff+R10   32053.477    409 64924.953    66593.510    66730.728
+ 14  Dayhoff+F     35749.249    410 72318.498    74003.598    74128.688
+ 15  Dayhoff+F+I   35076.221    411 70974.443    72676.272    72789.048
+ 16  Dayhoff+F+G4  32217.549    411 65257.099    66958.928    67071.704
+ 17  Dayhoff+F+I+G4 32167.218    412 65158.436    66877.183    66977.456
+ 18  Dayhoff+F+R2  32772.727    412 66369.453    68088.201    68188.473
+ 19  Dayhoff+F+R3  32420.178    414 65668.357    67421.520    67496.207
+ 20  Dayhoff+F+R4  32228.552    416 65289.104    67077.475    67125.784
+ 21  Dayhoff+F+R5  32145.906    418 65127.813    66952.208    66973.323
+ 22  Dayhoff+F+R6  32105.170    420 65050.339    66911.602    66904.680
+ 23  Dayhoff+F+R7  32084.636    422 65013.272    66912.272    66876.443
+ 24  Dayhoff+F+R8  32071.169    424 64990.337    66927.972    66862.338
+ 25  Dayhoff+F+R9  32062.068    426 64976.136    66953.332    66856.967
+ 26  Dayhoff+F+R10 32055.495    428 64966.989    66984.703    66856.650
+ 27  mtMAM         39894.530    391 80571.059    81970.804    82297.362
+ 28  mtMAM+I       39287.120    392 79358.239    80771.597    81088.957
+ 29  mtMAM+G4      34702.335    392 70188.670    71602.028    71919.388
+ 30  mtMAM+I+G4    34668.177    393 70122.354    71549.469    71857.487
+ 31  mtMAM+R2      36006.891    393 72799.783    74226.898    74534.916
+ 32  mtMAM+R3      35426.525    395 71643.051    73098.120    73387.014
+ 33  mtMAM+R4      35066.588    397 70927.177    72410.801    72679.970
+ 34  mtMAM+R5      34871.484    399 70540.967    72053.764    72302.591
+ 35  mtMAM+R6      34754.216    401 70310.432    71853.035    72080.886
+ 36  mtMAM+R7      34680.283    403 70166.566    71739.629    71945.850
+ 37  mtMAM+R8      34633.135    405 70076.270    71680.465    71864.384
+ 38  mtMAM+R9      34597.964    407 70009.927    71645.947    71806.872
+ 39  mtMAM+R10     34572.630    409 69963.260    71631.817    71769.035
+ 40  mtMAM+F       38040.528    410 76901.055    78586.155    78711.245
+ 41  mtMAM+F+I     37422.829    411 75667.658    77369.487    77482.263
+ 42  mtMAM+F+G4    33493.830    411 67809.661    69511.490    69624.266
+ 43  mtMAM+F+I+G4  33460.132    412 67744.264    69463.011    69563.284
+ 44  mtMAM+F+R2    34475.748    412 69775.496    71494.243    71594.516
+ 45  mtMAM+F+R3    33969.171    414 68766.342    70519.506    70594.192
+ 46  mtMAM+F+R4    33683.193    416 68198.387    69986.758    70035.067
+ 47  mtMAM+F+R5    33541.527    418 67919.054    69743.450    69764.565
+ 48  mtMAM+F+R6    33460.041    420 67760.083    69621.346    69614.424
+ 49  mtMAM+F+R7    33403.081    422 67650.162    69549.162    69513.333
+ 50  mtMAM+F+R8    33362.188    424 67572.377    69510.011    69444.378
+ 51  mtMAM+F+R9    33336.754    426 67525.507    69502.703    69406.339
+ 52  mtMAM+F+R10   33319.077    428 67494.154    69511.868    69383.816
+ 53  JTT           35342.953    391 71467.905    72867.649    73194.208
+ 54  JTT+I         34690.984    392 70165.968    71579.326    71896.686
+ 55  JTT+G4        31950.162    392 64684.324    66097.682    66415.042
+ 56  JTT+I+G4      31928.535    393 64643.071    66070.186    66378.204
+ 57  JTT+R2        32485.234    393 65756.468    67183.583    67491.601
+ 58  JTT+R3        32124.435    395 65038.870    66493.940    66782.833
+ 59  JTT+R4        31955.110    397 64704.220    66187.844    66457.013
+ 60  JTT+R5        31886.822    399 64571.644    66084.441    66333.268
+ 61  JTT+R6        31857.318    401 64516.636    66059.239    66287.090
+ 62  JTT+R7        31840.314    403 64486.628    66059.691    66265.912
+ 63  JTT+R8        31828.651    405 64467.302    66071.497    66255.416
+ 64  JTT+R9        31823.187    407 64460.375    66096.394    66257.319
+ 66  JTT+F         35377.297    410 71574.594    73259.694    73384.784
+ 67  JTT+F+I       34715.312    411 70252.623    71954.452    72067.228
+ 68  JTT+F+G4      31965.549    411 64753.099    66454.928    66567.704
+ 69  JTT+F+I+G4    31932.189    412 64688.378    66407.126    66507.398
+ 70  JTT+F+R2      32502.548    412 65829.097    67547.844    67648.117
+ 71  JTT+F+R3      32144.093    414 65116.186    66869.349    66944.036
+ 72  JTT+F+R4      31968.878    416 64769.756    66558.127    66606.436
+ 73  JTT+F+R5      31896.501    418 64629.002    66453.398    66474.513
+ 74  JTT+F+R6      31864.925    420 64569.851    66431.114    66424.191
+ 75  JTT+F+R7      31847.992    422 64539.984    66438.984    66403.155
+ 76  JTT+F+R8      31837.920    424 64523.840    66461.474    66395.841
+ 77  JTT+F+R9      31832.458    426 64516.916    66494.112    66397.747
+ 79  WAG           35233.238    391 71248.476    72648.221    72974.779
+ 80  WAG+I         34635.350    392 70054.701    71468.059    71785.419
+ 81  WAG+G4        32072.015    392 64928.030    66341.388    66658.748
+ 82  WAG+I+G4      32049.537    393 64885.075    66312.190    66620.208
+ 83  WAG+R2        32527.844    393 65841.687    67268.803    67576.821
+ 84  WAG+R3        32193.496    395 65176.992    66632.061    66920.955
+ 85  WAG+R4        32042.136    397 64878.272    66361.896    66631.066
+ 86  WAG+R5        31986.024    399 64770.047    66282.843    66531.671
+ 87  WAG+R6        31962.129    401 64726.259    66268.862    66496.713
+ 88  WAG+R7        31947.610    403 64701.221    66274.284    66480.505
+ 89  WAG+R8        31939.840    405 64689.681    66293.876    66477.795
+ 90  WAG+R9        31935.730    407 64685.459    66321.479    66482.404
+ 92  WAG+F         35277.556    410 71375.113    73060.213    73185.302
+ 93  WAG+F+I       34675.484    411 70172.968    71874.797    71987.573
+ 94  WAG+F+G4      32097.799    411 65017.599    66719.428    66832.203
+ 95  WAG+F+I+G4    32071.516    412 64967.033    66685.780    66786.053
+ 96  WAG+F+R2      32563.753    412 65951.507    67670.254    67770.527
+ 97  WAG+F+R3      32228.196    414 65284.392    67037.555    67112.242
+ 98  WAG+F+R4      32072.797    416 64977.594    66765.965    66814.274
+ 99  WAG+F+R5      32014.512    418 64865.024    66689.420    66710.535
+100  WAG+F+R6      31989.029    420 64818.059    66679.322    66672.400
+101  WAG+F+R7      31973.353    422 64790.707    66689.707    66653.878
+102  WAG+F+R8      31965.027    424 64778.054    66715.689    66650.056
+103  WAG+F+R9      31960.776    426 64773.551    66750.747    66654.382
+105  cpREV         35454.550    391 71691.101    73090.845    73417.404
+106  cpREV+I       34883.942    392 70551.884    71965.242    72282.602
+107  cpREV+G4      32286.981    392 65357.963    66771.321    67088.681
+108  cpREV+I+G4    32276.974    393 65339.948    66767.064    67075.081
+109  cpREV+R2      32767.655    393 66321.311    67748.426    68056.444
+110  cpREV+R3      32419.016    395 65628.033    67083.103    67371.996
+111  cpREV+R4      32275.691    397 65345.383    66829.007    67098.176
+112  cpREV+R5      32218.604    399 65235.208    66748.005    66996.832
+113  cpREV+R6      32193.979    401 65189.957    66732.560    66960.411
+114  cpREV+R7      32177.930    403 65161.859    66734.922    66941.144
+115  cpREV+R8      32169.059    405 65148.118    66752.313    66936.232
+116  cpREV+R9      32164.782    407 65143.564    66779.583    66940.508
+118  cpREV+F       35586.111    410 71992.223    73677.323    73802.412
+119  cpREV+F+I     34988.317    411 70798.634    72500.463    72613.239
+120  cpREV+F+G4    32355.613    411 65533.225    67235.054    67347.830
+121  cpREV+F+I+G4  32341.119    412 65506.237    67224.985    67325.257
+122  cpREV+F+R2    32861.424    412 66546.848    68265.596    68365.868
+123  cpREV+F+R3    32513.367    414 65854.733    67607.896    67682.583
+124  cpREV+F+R4    32360.157    416 65552.313    67340.684    67388.993
+125  cpREV+F+R5    32297.304    418 65430.608    67255.003    67276.118
+126  cpREV+F+R6    32268.644    420 65377.288    67238.551    67231.629
+127  cpREV+F+R7    32250.642    422 65345.284    67244.284    67208.455
+128  cpREV+F+R8    32240.061    424 65328.122    67265.756    67200.123
+129  cpREV+F+R9    32235.091    426 65322.182    67299.377    67203.013
+131  mtREV         37847.309    391 76476.619    77876.363    78202.922
+132  mtREV+I       37336.861    392 75457.722    76871.080    77188.440
+133  mtREV+G4      33954.057    392 68692.114    70105.471    70422.832
+134  mtREV+I+G4    33932.697    393 68651.394    70078.509    70386.527
+135  mtREV+R2      34734.969    393 70255.938    71683.054    71991.072
+136  mtREV+R3      34293.326    395 69376.651    70831.721    71120.614
+137  mtREV+R4      34058.157    397 68910.313    70393.938    70663.107
+138  mtREV+R5      33951.303    399 68700.607    70213.403    70462.231
+139  mtREV+R6      33891.191    401 68584.382    70126.984    70354.836
+140  mtREV+R7      33854.753    403 68515.506    70088.568    70294.790
+141  mtREV+R8      33836.908    405 68483.816    70088.011    70271.930
+142  mtREV+R9      33829.526    407 68473.053    70109.072    70269.997
+143  mtREV+R10     33813.165    409 68444.330    70112.887    70250.105
+144  mtREV+F       36264.592    410 73349.184    75034.284    75159.374
+145  mtREV+F+I     35725.405    411 72272.809    73974.639    74087.414
+146  mtREV+F+G4    32711.579    411 66245.157    67946.987    68059.762
+147  mtREV+F+I+G4  32679.678    412 66183.355    67902.103    68002.375
+148  mtREV+F+R2    33336.287    412 67496.573    69215.321    69315.593
+149  mtREV+F+R3    32953.380    414 66734.760    68487.923    68562.610
+150  mtREV+F+R4    32755.822    416 66343.644    68132.015    68180.324
+151  mtREV+F+R5    32667.523    418 66171.046    67995.441    68016.556
+152  mtREV+F+R6    32621.755    420 66083.510    67944.773    67937.851
+153  mtREV+F+R7    32596.767    422 66037.533    67936.533    67900.704
+154  mtREV+F+R8    32583.559    424 66015.119    67952.753    67887.120
+155  mtREV+F+R9    32577.021    426 66006.043    67983.238    67886.874
+156  mtREV+F+R10   32568.365    428 65992.730    68010.445    67882.392
+157  rtREV         35189.708    391 71161.416    72561.161    72887.719
+158  rtREV+I       34613.785    392 70011.570    71424.928    71742.288
+159  rtREV+G4      31928.796    392 64641.592    66054.950    66372.310
+160  rtREV+I+G4    31907.912    393 64601.824    66028.939    66336.957
+161  rtREV+R2      32413.936    393 65613.872    67040.988    67349.005
+162  rtREV+R3      32069.034    395 64928.068    66383.138    66672.031
+163  rtREV+R4      31913.543    397 64621.085    66104.710    66373.879
+164  rtREV+R5      31849.896    399 64497.791    66010.588    66259.415
+165  rtREV+R6      31821.731    401 64445.463    65988.066    66215.917
+166  rtREV+R7      31805.581    403 64417.162    65990.225    66196.446
+167  rtREV+R8      31798.068    405 64406.135    66010.330    66194.250
+168  rtREV+R9      31793.392    407 64400.784    66036.804    66197.728
+170  rtREV+F       34930.335    410 70680.670    72365.770    72490.860
+171  rtREV+F+I     34348.769    411 69519.539    71221.368    71334.144
+172  rtREV+F+G4    31680.196    411 64182.392    65884.221    65996.997
+173  rtREV+F+I+G4  31654.095    412 64132.190    65850.938    65951.210
+174  rtREV+F+R2    32156.095    412 65136.189    66854.937    66955.209
+175  rtREV+F+R3    31821.241    414 64470.482    66223.645    66298.332
+176  rtREV+F+R4    31661.817    416 64155.635    65944.006    65992.315
+177  rtREV+F+R5    31596.355    418 64028.711    65853.106    65874.221
+178  rtREV+F+R6    31567.821    420 63975.642    65836.905    65829.982
+179  rtREV+F+R7    31553.226    422 63950.453    65849.453    65813.623
+180  rtREV+F+R8    31546.903    424 63941.806    65879.440    65813.807
+183  mtART         38469.717    391 77721.435    79121.179    79447.738
+184  mtART+I       37892.799    392 76569.598    77982.956    78300.316
+185  mtART+G4      33572.193    392 67928.386    69341.743    69659.104
+186  mtART+I+G4    33541.524    393 67869.048    69296.163    69604.181
+187  mtART+R2      34731.760    393 70249.520    71676.635    71984.653
+188  mtART+R3      34177.542    395 69145.084    70600.154    70889.047
+189  mtART+R4      33847.516    397 68489.032    69972.656    70241.825
+190  mtART+R5      33675.732    399 68149.463    69662.260    69911.087
+191  mtART+R6      33573.461    401 67948.922    69491.525    69719.376
+192  mtART+R7      33512.155    403 67830.309    69403.372    69609.593
+193  mtART+R8      33477.059    405 67764.119    69368.314    69552.233
+194  mtART+R9      33459.677    407 67733.355    69369.374    69530.299
+195  mtART+R10     33430.124    409 67678.247    69346.804    69484.022
+196  mtART+F       36604.185    410 74028.369    75713.469    75838.559
+197  mtART+F+I     35998.324    411 72818.649    74520.478    74633.254
+198  mtART+F+G4    32432.327    411 65686.654    67388.483    67501.258
+199  mtART+F+I+G4  32400.287    412 65624.575    67343.322    67443.595
+200  mtART+F+R2    33287.558    412 67399.116    69117.864    69218.136
+201  mtART+F+R3    32832.293    414 66492.587    68245.750    68320.437
+202  mtART+F+R4    32571.830    416 65975.660    67764.031    67812.340
+203  mtART+F+R5    32451.022    418 65738.044    67562.440    67583.555
+204  mtART+F+R6    32381.797    420 65603.595    67464.858    67457.936
+205  mtART+F+R7    32337.665    422 65519.331    67418.331    67382.502
+206  mtART+F+R8    32310.364    424 65468.727    67406.362    67340.728
+207  mtART+F+R9    32294.647    426 65441.293    67418.489    67322.124
+208  mtART+F+R10   32269.673    428 65395.345    67413.059    67285.007
+209  mtZOA         37203.598    391 75189.196    76588.940    76915.499
+210  mtZOA+I       36634.669    392 74053.339    75466.697    75784.057
+211  mtZOA+G4      32827.638    392 66439.277    67852.634    68169.995
+212  mtZOA+I+G4    32801.183    393 66388.365    67815.480    68123.498
+213  mtZOA+R2      33765.770    393 68317.539    69744.654    70052.672
+214  mtZOA+R3      33274.439    395 67338.877    68793.947    69082.841
+215  mtZOA+R4      33005.576    397 66805.153    68288.777    68557.946
+216  mtZOA+R5      32867.518    399 66533.036    68045.832    68294.660
+217  mtZOA+R6      32790.406    401 66382.813    67925.416    68153.267
+218  mtZOA+R7      32744.910    403 66295.821    67868.884    68075.105
+219  mtZOA+R8      32718.711    405 66247.423    67851.618    68035.537
+220  mtZOA+R9      32704.964    407 66223.927    67859.947    68020.872
+221  mtZOA+R10     32684.861    409 66187.722    67856.279    67993.497
+222  mtZOA+F       35815.339    410 72450.677    74135.777    74260.867
+223  mtZOA+F+I     35207.426    411 71236.851    72938.680    73051.456
+224  mtZOA+F+G4    32019.010    411 64860.021    66561.850    66674.626
+225  mtZOA+F+I+G4  31982.093    412 64788.186    66506.934    66607.206
+226  mtZOA+F+R2    32713.789    412 66251.578    67970.325    68070.597
+227  mtZOA+F+R3    32319.475    414 65466.949    67220.113    67294.800
+228  mtZOA+F+R4    32098.974    416 65029.947    66818.318    66866.628
+229  mtZOA+F+R5    31998.137    418 64832.275    66656.670    66677.785
+230  mtZOA+F+R6    31943.340    420 64726.681    66587.944    66581.022
+231  mtZOA+F+R7    31911.542    422 64667.085    66566.085    66530.256
+232  mtZOA+F+R8    31894.821    424 64637.641    66575.276    66509.643
+233  mtZOA+F+R9    31886.607    426 64625.215    66602.410    66506.046
+234  mtZOA+F+R10   31868.793    428 64593.586    66611.300    66483.247
+235  VT            35453.163    391 71688.326    73088.070    73414.629
+236  VT+I          34846.642    392 70477.284    71890.642    72208.002
+237  VT+G4         32262.660    392 65309.320    66722.678    67040.038
+238  VT+I+G4       32248.363    393 65282.725    66709.841    67017.858
+239  VT+R2         32736.377    393 66258.753    67685.868    67993.886
+240  VT+R3         32391.552    395 65573.104    67028.174    67317.067
+241  VT+R4         32243.239    397 65280.478    66764.102    67033.271
+242  VT+R5         32188.886    399 65175.772    66688.568    66937.396
+243  VT+R6         32166.918    401 65135.835    66678.438    66906.289
+244  VT+R7         32155.753    403 65117.506    66690.568    66896.790
+245  VT+R8         32149.146    405 65108.292    66712.487    66896.407
+246  VT+R9         32145.452    407 65104.904    66740.924    66901.849
+248  VT+F          35457.829    410 71735.659    73420.759    73545.849
+249  VT+F+I        34843.529    411 70509.058    72210.887    72323.663
+250  VT+F+G4       32272.506    411 65367.011    67068.840    67181.616
+251  VT+F+I+G4     32254.545    412 65333.090    67051.838    67152.110
+252  VT+F+R2       32742.140    412 66308.280    68027.027    68127.300
+253  VT+F+R3       32400.616    414 65629.232    67382.395    67457.082
+254  VT+F+R4       32250.063    416 65332.125    67120.497    67168.806
+255  VT+F+R5       32195.290    418 65226.580    67050.976    67072.091
+256  VT+F+R6       32173.352    420 65186.704    67047.967    67041.044
+257  VT+F+R7       32162.673    422 65169.345    67068.345    67032.516
+258  VT+F+R8       32156.995    424 65161.990    67099.624    67033.991
+261  LG            34920.326    391 70622.652    72022.396    72348.955
+262  LG+I          34327.850    392 69439.701    70853.059    71170.419
+263  LG+G4         31580.103    392 63944.207    65357.564    65674.925
+264  LG+I+G4       31560.798    393 63907.595    65334.711    65642.729
+265  LG+R2         32105.334    393 64996.669    66423.784    66731.802
+266  LG+R3         31745.318    395 64280.637    65735.707    66024.600
+267  LG+R4         31582.074    397 63958.148    65441.772    65710.941
+268  LG+R5         31514.477    399 63826.954    65339.750    65588.578
+269  LG+R6         31483.556    401 63769.113    65311.716    65539.567
+270  LG+R7         31468.297    403 63742.594    65315.657    65521.878
+271  LG+R8         31460.497    405 63730.994    65335.189    65519.108
+272  LG+R9         31455.692    407 63725.385    65361.405    65522.329
+274  LG+F          34896.562    410 70613.124    72298.224    72423.314
+275  LG+F+I        34292.456    411 69406.912    71108.741    71221.517
+276  LG+F+G4       31594.438    411 64010.876    65712.705    65825.481
+277  LG+F+I+G4     31566.637    412 63957.275    65676.022    65776.295
+278  LG+F+R2       32098.148    412 65020.296    66739.044    66839.316
+279  LG+F+R3       31752.837    414 64333.674    66086.837    66161.524
+280  LG+F+R4       31586.408    416 64004.816    65793.187    65841.497
+281  LG+F+R5       31519.897    418 63875.794    65700.189    65721.304
+282  LG+F+R6       31490.760    420 63821.521    65682.784    65675.862
+283  LG+F+R7       31477.756    422 63799.512    65698.512    65662.683
+284  LG+F+R8       31472.040    424 63792.081    65729.715    65664.082
+287  DCMut         35685.445    391 72152.891    73552.635    73879.194
+288  DCMut+I       35015.582    392 70815.164    72228.522    72545.882
+289  DCMut+G4      32220.167    392 65224.334    66637.692    66955.052
+290  DCMut+I+G4    32178.514    393 65143.028    66570.144    66878.161
+291  DCMut+R2      32747.201    393 66280.401    67707.517    68015.535
+292  DCMut+R3      32398.506    395 65587.012    67042.082    67330.975
+293  DCMut+R4      32217.417    397 65228.834    66712.458    66981.627
+294  DCMut+R5      32142.828    399 65083.655    66596.451    66845.279
+295  DCMut+R6      32109.564    401 65021.127    66563.730    66791.581
+296  DCMut+R7      32095.319    403 64996.639    66569.702    66775.923
+297  DCMut+R8      32089.231    405 64988.462    66592.657    66776.576
+300  DCMut+F       35752.086    410 72324.172    74009.272    74134.362
+301  DCMut+F+I     35079.180    411 70980.360    72682.189    72794.964
+302  DCMut+F+G4    32224.430    411 65270.860    66972.689    67085.465
+303  DCMut+F+I+G4  32174.907    412 65173.814    66892.562    66992.834
+304  DCMut+F+R2    32778.257    412 66380.514    68099.261    68199.534
+305  DCMut+F+R3    32426.225    414 65680.450    67433.614    67508.300
+306  DCMut+F+R4    32235.249    416 65302.498    67090.869    67139.179
+307  DCMut+F+R5    32153.524    418 65143.047    66967.443    66988.558
+308  DCMut+F+R6    32114.298    420 65068.596    66929.860    66922.937
+309  DCMut+F+R7    32097.399    422 65038.799    66937.799    66901.970
+310  DCMut+F+R8    32090.458    424 65028.917    66966.551    66900.918
+311  DCMut+F+R9    32085.846    426 65023.692    67000.888    66904.523
+313  PMB           35879.904    391 72541.808    73941.553    74268.111
+314  PMB+I         35292.841    392 71369.683    72783.041    73100.401
+315  PMB+G4        32680.850    392 66145.699    67559.057    67876.417
+316  PMB+I+G4      32669.721    393 66125.441    67552.557    67860.575
+317  PMB+R2        33163.550    393 67113.101    68540.216    68848.234
+318  PMB+R3        32809.374    395 66408.748    67863.818    68152.711
+319  PMB+R4        32664.661    397 66123.323    67606.947    67876.116
+320  PMB+R5        32609.011    399 66016.023    67528.819    67777.647
+321  PMB+R6        32586.146    401 65974.291    67516.894    67744.745
+322  PMB+R7        32572.715    403 65951.430    67524.493    67730.714
+323  PMB+R8        32564.987    405 65939.973    67544.168    67728.088
+324  PMB+R9        32561.055    407 65936.111    67572.130    67733.055
+326  PMB+F         35812.621    410 72445.242    74130.342    74255.432
+327  PMB+F+I       35210.824    411 71243.648    72945.477    73058.253
+328  PMB+F+G4      32632.555    411 66087.109    67788.938    67901.714
+329  PMB+F+I+G4    32618.666    412 66061.332    67780.079    67880.352
+330  PMB+F+R2      33106.500    412 67037.000    68755.747    68856.020
+331  PMB+F+R3      32760.470    414 66348.940    68102.104    68176.791
+332  PMB+F+R4      32614.835    416 66061.670    67850.041    67898.350
+333  PMB+F+R5      32557.902    418 65951.804    67776.200    67797.315
+334  PMB+F+R6      32533.676    420 65907.352    67768.615    67761.692
+335  PMB+F+R7      32521.305    422 65886.610    67785.610    67749.781
+336  PMB+F+R8      32514.985    424 65877.970    67815.604    67749.971
+339  HIVb          36743.457    391 74268.914    75668.658    75995.217
+340  HIVb+I        36046.405    392 72876.809    74290.167    74607.527
+341  HIVb+G4       32949.556    392 66683.113    68096.470    68413.831
+342  HIVb+I+G4     32918.601    393 66623.202    68050.317    68358.335
+343  HIVb+R2       33664.155    393 68114.310    69541.425    69849.443
+344  HIVb+R3       33231.863    395 67253.726    68708.796    68997.689
+345  HIVb+R4       33019.620    397 66833.240    68316.865    68586.034
+346  HIVb+R5       32925.039    399 66648.079    68160.875    68409.702
+347  HIVb+R6       32875.415    401 66552.829    68095.432    68323.283
+348  HIVb+R7       32848.743    403 66503.486    68076.549    68282.770
+349  HIVb+R8       32835.833    405 66481.666    68085.862    68269.781
+350  HIVb+R9       32828.361    407 66470.722    68106.741    68267.666
+351  HIVb+R10      32805.749    409 66429.498    68098.055    68235.273
+352  HIVb+F        36746.432    410 74312.863    75997.963    76123.053
+353  HIVb+F+I      36035.403    411 72892.807    74594.636    74707.411
+354  HIVb+F+G4     32875.986    411 66573.971    68275.800    68388.576
+355  HIVb+F+I+G4   32845.378    412 66514.756    68233.503    68333.776
+356  HIVb+F+R2     33599.318    412 68022.636    69741.383    69841.656
+357  HIVb+F+R3     33180.375    414 67188.750    68941.913    69016.600
+358  HIVb+F+R4     32961.259    416 66754.517    68542.889    68591.198
+359  HIVb+F+R5     32863.367    418 66562.734    68387.130    68408.245
+360  HIVb+F+R6     32810.280    420 66460.560    68321.823    68314.901
+361  HIVb+F+R7     32781.259    422 66406.519    68305.519    68269.690
+362  HIVb+F+R8     32767.006    424 66382.012    68319.646    68254.013
+363  HIVb+F+R9     32758.982    426 66369.964    68347.160    68250.795
+364  HIVb+F+R10    32733.838    428 66323.676    68341.390    68213.337
+365  HIVw          38548.486    391 77878.972    79278.716    79605.275
+366  HIVw+I        37768.914    392 76321.828    77735.186    78052.546
+367  HIVw+G4       34625.174    392 70034.349    71447.706    71765.067
+368  HIVw+I+G4     34578.610    393 69943.220    71370.335    71678.353
+369  HIVw+R2       35354.265    393 71494.531    72921.646    73229.664
+370  HIVw+R3       34915.437    395 70620.873    72075.943    72364.837
+371  HIVw+R4       34695.907    397 70185.813    71669.438    71938.607
+372  HIVw+R5       34600.671    399 69999.342    71512.138    71760.966
+373  HIVw+R6       34553.987    401 69909.974    71452.577    71680.428
+374  HIVw+R7       34529.895    403 69865.790    71438.853    71645.074
+375  HIVw+R8       34517.852    405 69845.704    71449.899    71633.818
+376  HIVw+R9       34510.185    407 69834.371    71470.391    71631.315
+377  HIVw+R10      34484.999    409 69787.997    71456.554    71593.772
+378  HIVw+F        38290.215    410 77400.431    79085.531    79210.620
+379  HIVw+F+I      37485.181    411 75792.362    77494.191    77606.967
+380  HIVw+F+G4     34264.707    411 69351.414    71053.243    71166.019
+381  HIVw+F+I+G4   34215.989    412 69255.978    70974.726    71074.998
+382  HIVw+F+R2     35040.732    412 70905.465    72624.212    72724.485
+383  HIVw+F+R3     34586.169    414 70000.338    71753.501    71828.188
+384  HIVw+F+R4     34356.242    416 69544.484    71332.855    71381.164
+385  HIVw+F+R5     34249.363    418 69334.726    71159.122    71180.237
+386  HIVw+F+R6     34195.055    420 69230.109    71091.372    71084.450
+387  HIVw+F+R7     34168.960    422 69181.920    71080.920    71045.091
+388  HIVw+F+R8     34155.096    424 69158.193    71095.827    71030.194
+389  HIVw+F+R9     34146.629    426 69145.258    71122.454    71026.090
+390  HIVw+F+R10    34118.022    428 69092.045    71109.759    70981.706
+391  JTTDCMut      35326.040    391 71434.080    72833.824    73160.382
+392  JTTDCMut+I    34677.183    392 70138.366    71551.724    71869.084
+393  JTTDCMut+G4   31940.104    392 64664.208    66077.566    66394.926
+394  JTTDCMut+I+G4 31918.173    393 64622.346    66049.462    66357.480
+395  JTTDCMut+R2   32472.499    393 65730.999    67158.114    67466.132
+396  JTTDCMut+R3   32112.143    395 65014.286    66469.356    66758.249
+397  JTTDCMut+R4   31943.497    397 64680.995    66164.619    66433.788
+398  JTTDCMut+R5   31875.134    399 64548.267    66061.064    66309.891
+399  JTTDCMut+R6   31845.885    401 64493.769    66036.372    66264.223
+400  JTTDCMut+R7   31832.502    403 64471.003    66044.066    66250.288
+401  JTTDCMut+R8   31824.822    405 64459.644    66063.839    66247.759
+402  JTTDCMut+R9   31821.278    407 64456.557    66092.577    66253.501
+404  JTTDCMut+F    35365.292    410 71550.583    73235.683    73360.773
+405  JTTDCMut+F+I  34706.136    411 70234.272    71936.101    72048.876
+406  JTTDCMut+F+G4 31956.886    411 64735.773    66437.602    66550.378
+407  JTTDCMut+F+I+G4 31922.891    412 64669.781    66388.529    66488.801
+408  JTTDCMut+F+R2 32492.112    412 65808.224    67526.971    67627.244
+409  JTTDCMut+F+R3 32134.476    414 65096.952    66850.115    66924.802
+410  JTTDCMut+F+R4 31959.399    416 64750.799    66539.170    66587.479
+411  JTTDCMut+F+R5 31886.597    418 64609.194    66433.589    66454.704
+412  JTTDCMut+F+R6 31855.110    420 64550.221    66411.484    66404.561
+413  JTTDCMut+F+R7 31841.818    422 64527.636    66426.636    66390.807
+414  JTTDCMut+F+R8 31835.556    424 64519.112    66456.747    66391.113
+417  FLU           36225.384    391 73232.769    74632.513    74959.072
+418  FLU+I         35566.265    392 71916.530    73329.888    73647.248
+419  FLU+G4        32531.934    392 65847.868    67261.226    67578.586
+420  FLU+I+G4      32510.533    393 65807.066    67234.181    67542.199
+421  FLU+R2        33207.350    393 67200.699    68627.814    68935.832
+422  FLU+R3        32790.822    395 66371.643    67826.713    68115.606
+423  FLU+R4        32599.019    397 65992.039    67475.663    67744.832
+424  FLU+R5        32510.001    399 65818.002    67330.799    67579.626
+425  FLU+R6        32467.066    401 65736.132    67278.734    67506.585
+426  FLU+R7        32442.141    403 65690.282    67263.345    67469.566
+427  FLU+R8        32430.426    405 65670.852    67275.047    67458.967
+428  FLU+R9        32423.326    407 65660.652    67296.672    67457.596
+429  FLU+R10       32400.981    409 65619.963    67288.520    67425.737
+430  FLU+F         36296.971    410 73413.942    75099.042    75224.132
+431  FLU+F+I       35628.861    411 72079.721    73781.550    73894.326
+432  FLU+F+G4      32565.395    411 65952.790    67654.619    67767.394
+433  FLU+F+I+G4    32539.926    412 65903.853    67622.600    67722.872
+434  FLU+F+R2      33258.584    412 67341.167    69059.915    69160.187
+435  FLU+F+R3      32840.625    414 66509.251    68262.414    68337.101
+436  FLU+F+R4      32640.829    416 66113.657    67902.028    67950.338
+437  FLU+F+R5      32547.052    418 65930.105    67754.501    67775.615
+438  FLU+F+R6      32502.074    420 65844.148    67705.411    67698.489
+439  FLU+F+R7      32477.059    422 65798.117    67697.117    67661.288
+440  FLU+F+R8      32465.529    424 65779.058    67716.693    67651.059
+441  FLU+F+R9      32458.230    426 65768.459    67745.655    67649.291
+442  FLU+F+R10     32433.601    428 65723.203    67740.917    67612.864
+443  Blosum62      35770.720    391 72323.440    73723.184    74049.743
+444  Blosum62+I    35196.438    392 71176.876    72590.234    72907.594
+445  Blosum62+G4   32633.918    392 66051.835    67465.193    67782.553
+446  Blosum62+I+G4 32621.228    393 66028.456    67455.571    67763.589
+447  Blosum62+R2   33088.561    393 66963.121    68390.236    68698.254
+448  Blosum62+R3   32749.888    395 66289.776    67744.845    68033.739
+449  Blosum62+R4   32608.922    397 66011.845    67495.469    67764.638
+450  Blosum62+R5   32553.962    399 65905.923    67418.720    67667.547
+451  Blosum62+R6   32532.468    401 65866.936    67409.539    67637.390
+452  Blosum62+R7   32519.836    403 65845.673    67418.736    67624.957
+453  Blosum62+R8   32512.859    405 65835.718    67439.913    67623.833
+454  Blosum62+R9   32509.457    407 65832.915    67468.935    67629.859
+456  Blosum62+F    35688.549    410 72197.099    73882.199    74007.289
+457  Blosum62+F+I  35097.803    411 71017.606    72719.435    72832.211
+458  Blosum62+F+G4 32578.274    411 65978.548    67680.377    67793.153
+459  Blosum62+F+I+G4 32563.402    412 65950.804    67669.551    67769.824
+460  Blosum62+F+R2 33026.955    412 66877.910    68596.658    68696.930
+461  Blosum62+F+R3 32693.036    414 66214.072    67967.235    68041.922
+462  Blosum62+F+R4 32550.956    416 65933.912    67722.284    67770.593
+463  Blosum62+F+R5 32495.886    418 65827.771    67652.167    67673.282
+464  Blosum62+F+R6 32473.947    420 65787.895    67649.158    67642.235
+465  Blosum62+F+R7 32463.109    422 65770.219    67669.219    67633.389
+466  Blosum62+F+R8 32457.590    424 65763.181    67700.815    67635.182
+469  mtMet         37863.125    391 76508.249    77907.993    78234.552
+470  mtMet+I       37277.497    392 75338.993    76752.351    77069.711
+471  mtMet+G4      33697.670    392 68179.340    69592.698    69910.058
+472  mtMet+I+G4    33674.386    393 68134.772    69561.887    69869.905
+473  mtMet+R2      34542.379    393 69870.758    71297.873    71605.891
+474  mtMet+R3      34081.461    395 68952.921    70407.991    70696.884
+475  mtMet+R4      33833.438    397 68460.877    69944.501    70213.670
+476  mtMet+R5      33714.296    399 68226.593    69739.389    69988.216
+477  mtMet+R6      33650.791    401 68103.582    69646.184    69874.035
+478  mtMet+R7      33613.730    403 68033.461    69606.524    69812.745
+479  mtMet+R8      33594.379    405 67998.759    69602.954    69786.873
+480  mtMet+R9      33583.203    407 67980.405    69616.425    69777.350
+481  mtMet+R10     33548.683    409 67915.366    69583.923    69721.140
+482  mtMet+F       36354.335    410 73528.670    75213.770    75338.860
+483  mtMet+F+I     35732.417    411 72286.833    73988.662    74101.438
+484  mtMet+F+G4    32542.090    411 65906.180    67608.009    67720.785
+485  mtMet+F+I+G4  32502.662    412 65829.325    67548.072    67648.345
+486  mtMet+F+R2    33226.472    412 67276.944    68995.691    69095.964
+487  mtMet+F+R3    32833.532    414 66495.064    68248.227    68322.914
+488  mtMet+F+R4    32619.535    416 66071.070    67859.441    67907.750
+489  mtMet+F+R5    32513.446    418 65862.891    67687.287    67708.402
+490  mtMet+F+R6    32460.743    420 65761.486    67622.749    67615.827
+491  mtMet+F+R7    32435.438    422 65714.875    67613.875    67578.046
+492  mtMet+F+R8    32423.967    424 65695.935    67633.569    67567.936
+493  mtMet+F+R9    32417.269    426 65686.538    67663.734    67567.370
+494  mtMet+F+R10   32393.956    428 65643.912    67661.627    67533.574
+495  mtVer         38723.782    391 78229.564    79629.308    79955.867
+496  mtVer+I       38100.689    392 76985.378    78398.735    78716.096
+497  mtVer+G4      34292.058    392 69368.116    70781.474    71098.834
+498  mtVer+I+G4    34262.984    393 69311.968    70739.083    71047.101
+499  mtVer+R2      35265.376    393 71316.751    72743.866    73051.884
+500  mtVer+R3      34765.273    395 70320.547    71775.617    72064.510
+501  mtVer+R4      34484.547    397 69763.095    71246.719    71515.888
+502  mtVer+R5      34344.078    399 69486.156    70998.952    71247.779
+503  mtVer+R6      34267.282    401 69336.564    70879.166    71107.017
+504  mtVer+R7      34227.375    403 69260.750    70833.813    71040.034
+505  mtVer+R8      34205.198    405 69220.396    70824.592    71008.511
+506  mtVer+R9      34192.146    407 69198.292    70834.311    70995.236
+507  mtVer+R10     34144.858    409 69107.715    70776.272    70913.490
+508  mtVer+F       37249.575    410 75319.150    77004.250    77129.340
+509  mtVer+F+I     36588.478    411 73998.956    75700.785    75813.561
+510  mtVer+F+G4    33210.606    411 67243.212    68945.042    69057.817
+511  mtVer+F+I+G4  33171.663    412 67167.326    68886.074    68986.346
+512  mtVer+F+R2    33985.726    412 68795.452    70514.200    70614.472
+513  mtVer+F+R3    33566.260    414 67960.520    69713.683    69788.370
+514  mtVer+F+R4    33325.572    416 67483.145    69271.516    69319.825
+515  mtVer+F+R5    33210.119    418 67256.239    69080.634    69101.749
+516  mtVer+F+R6    33148.452    420 67136.905    68998.168    68991.245
+517  mtVer+F+R7    33117.217    422 67078.434    68977.434    68941.605
+518  mtVer+F+R8    33099.521    424 67047.042    68984.676    68919.043
+519  mtVer+F+R9    33089.262    426 67030.524    69007.720    68911.355
+520  mtVer+F+R10   33052.391    428 66960.781    68978.496    68850.443
+521  mtInv         37618.383    391 76018.765    77418.510    77745.068
+522  mtInv+I       37035.576    392 74855.153    76268.510    76585.871
+523  mtInv+G4      33674.521    392 68133.041    69546.399    69863.759
+524  mtInv+I+G4    33653.960    393 68093.919    69521.034    69829.052
+525  mtInv+R2      34419.121    393 69624.241    71051.357    71359.374
+526  mtInv+R3      33982.659    395 68755.318    70210.388    70499.281
+527  mtInv+R4      33760.437    397 68314.874    69798.499    70067.668
+528  mtInv+R5      33656.908    399 68111.817    69624.613    69873.441
+529  mtInv+R6      33603.641    401 68009.281    69551.884    69779.735
+530  mtInv+R7      33571.966    403 67949.933    69522.996    69729.217
+531  mtInv+R8      33556.588    405 67923.176    69527.371    69711.290
+532  mtInv+R9      33548.081    407 67910.163    69546.183    69707.107
+533  mtInv+R10     33523.592    409 67865.185    69533.742    69670.959
+534  mtInv+F       35793.422    410 72406.844    74091.944    74217.034
+535  mtInv+F+I     35161.660    411 71145.320    72847.149    72959.924
+536  mtInv+F+G4    32216.035    411 65254.069    66955.898    67068.674
+537  mtInv+F+I+G4  32168.742    412 65161.485    66880.232    66980.505
+538  mtInv+F+R2    32803.684    412 66431.369    68150.116    68250.389
+539  mtInv+F+R3    32435.826    414 65699.651    67452.815    67527.502
+540  mtInv+F+R4    32242.771    416 65317.541    67105.912    67154.222
+541  mtInv+F+R5    32152.351    418 65140.702    66965.098    66986.213
+542  mtInv+F+R6    32110.033    420 65060.066    66921.329    66914.407
+543  mtInv+F+R7    32091.092    422 65026.184    66925.184    66889.355
+544  mtInv+F+R8    32082.102    424 65012.203    66949.838    66884.204
+545  mtInv+F+R9    32077.196    426 65006.392    66983.587    66887.223
+Akaike Information Criterion:           LG+R9
+Corrected Akaike Information Criterion: LG+R6
+Bayesian Information Criterion:         LG+R8
+Best-fit model: LG+R8 chosen according to BIC
+
+All model information printed to HSP70_algn.maf.trim.model.gz
+CPU time for ModelFinder: 6392.807 seconds (1h:46m:32s)
+Wall-clock time for ModelFinder: 6401.435 seconds (1h:46m:41s)
+
+NOTE: 136 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -31670.700
+2. Current log-likelihood: -31502.717
+3. Current log-likelihood: -31461.116
+4. Current log-likelihood: -31453.589
+5. Current log-likelihood: -31451.281
+6. Current log-likelihood: -31450.309
+7. Current log-likelihood: -31449.951
+8. Current log-likelihood: -31449.811
+Optimal log-likelihood: -31449.673
+Site proportion and rates:  (0.477,0.121) (0.148,0.419) (0.084,0.904) (0.063,1.196) (0.046,1.777) (0.045,1.973) (0.088,3.141) (0.049,5.714)
+Parameters optimization took 8 rounds (83.563 sec)
+Computing ML distances based on estimated model parameters... 10.875 sec
+Computing BIONJ tree...
+0.014 seconds
+Log-likelihood of BIONJ tree: -31524.909
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 7.983 second
+Computing log-likelihood of 98 initial trees ... 113.549 seconds
+Current best score: -31424.968
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -31386.907
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -31374.581
+Iteration 10 / LogL: -31390.017 / Time: 0h:6m:1s
+Iteration 20 / LogL: -31387.162 / Time: 0h:7m:47s
+Finish initializing candidate tree set (20)
+Current best tree score: -31374.581 / CPU time: 368.024
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -31367.971
+Iteration 30 / LogL: -31384.257 / Time: 0h:11m:17s (0h:36m:13s left)
+Iteration 40 / LogL: -31377.512 / Time: 0h:14m:32s (0h:30m:57s left)
+Iteration 50 / LogL: -31376.216 / Time: 0h:17m:38s (0h:26m:16s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 52: -31357.429
+Iteration 60 / LogL: -31364.296 / Time: 0h:21m:31s (0h:33m:33s left)
+Iteration 70 / LogL: -31375.940 / Time: 0h:25m:0s (0h:29m:43s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 73: -31357.167
+Iteration 80 / LogL: -31364.351 / Time: 0h:28m:28s (0h:33m:30s left)
+Iteration 90 / LogL: -31367.324 / Time: 0h:31m:48s (0h:29m:39s left)
+Iteration 100 / LogL: -31365.823 / Time: 0h:35m:9s (0h:25m:55s left)
+Iteration 110 / LogL: -31369.086 / Time: 0h:38m:34s (0h:22m:17s left)
+Iteration 120 / LogL: -31361.802 / Time: 0h:42m:1s (0h:18m:42s left)
+Iteration 130 / LogL: -31401.938 / Time: 0h:45m:10s (0h:15m:3s left)
+Iteration 140 / LogL: -31558.906 / Time: 0h:48m:8s (0h:11m:25s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 147: -31355.556
+Iteration 150 / LogL: -31360.995 / Time: 0h:51m:46s (0h:33m:42s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 153: -31354.092
+Iteration 160 / LogL: -31426.953 / Time: 0h:55m:9s (0h:32m:15s left)
+Iteration 170 / LogL: -31364.797 / Time: 0h:58m:28s (0h:28m:43s left)
+Iteration 180 / LogL: -31389.418 / Time: 1h:1m:48s (0h:25m:12s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 185: -31353.744
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 189: -31353.489
+Iteration 190 / LogL: -31358.319 / Time: 1h:5m:18s (0h:34m:12s left)
+Iteration 200 / LogL: -31356.336 / Time: 1h:8m:33s (0h:30m:39s left)
+Iteration 210 / LogL: -31354.001 / Time: 1h:11m:47s (0h:27m:8s left)
+Iteration 220 / LogL: -31375.047 / Time: 1h:15m:6s (0h:23m:39s left)
+Iteration 230 / LogL: -31359.585 / Time: 1h:18m:39s (0h:20m:15s left)
+Iteration 240 / LogL: -31363.514 / Time: 1h:21m:54s (0h:16m:47s left)
+Iteration 250 / LogL: -31364.542 / Time: 1h:25m:49s (0h:13m:26s left)
+Iteration 260 / LogL: -31373.965 / Time: 1h:29m:32s (0h:10m:1s left)
+Iteration 270 / LogL: -31356.752 / Time: 1h:33m:21s (0h:6m:35s left)
+Iteration 280 / LogL: -31355.438 / Time: 1h:37m:8s (0h:3m:8s left)
+Iteration 290 / LogL: -31357.287 / Time: 1h:40m:56s (0h:0m:-21s left)
+TREE SEARCH COMPLETED AFTER 290 ITERATIONS / Time: 1h:40m:56s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -31353.489
+Optimal log-likelihood: -31353.486
+Site proportion and rates:  (0.481,0.123) (0.142,0.435) (0.091,0.861) (0.044,1.073) (0.052,1.703) (0.050,1.902) (0.093,3.183) (0.048,5.789)
+Parameters optimization took 1 rounds (10.780 sec)
+BEST SCORE FOUND : -31353.486
+Total tree length: 15.869
+
+Total number of iterations: 290
+CPU time used for tree search: 5952.423 sec (1h:39m:12s)
+Wall-clock time used for tree search: 5956.706 sec (1h:39m:16s)
+Total CPU time used: 6063.189 sec (1h:41m:3s)
+Total wall-clock time used: 6067.528 sec (1h:41m:7s)
+
+Analysis results written to: 
+  IQ-TREE report:                HSP70_algn.maf.trim.iqtree
+  Maximum-likelihood tree:       HSP70_algn.maf.trim.treefile
+  Likelihood distances:          HSP70_algn.maf.trim.mldist
+  Screen log file:               HSP70_algn.maf.trim.log
+
+Date and Time: Fri Aug 18 05:53:54 2023

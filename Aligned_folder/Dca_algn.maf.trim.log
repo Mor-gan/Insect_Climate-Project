@@ -1,0 +1,1041 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Mar 23 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    IT081968 (AVX512, FMA3, 12 GB RAM)
+Command: iqtree -s Dca_algn.maf.trim
+Seed:    239874 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Aug 18 01:20:28 2023
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file Dca_algn.maf.trim ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 205 sequences with 167 columns, 167 distinct patterns
+152 parsimony-informative, 4 singleton sites, 11 constant sites
+WARNING: Some sequence names are changed as follows:
+NP_001139376.1_aquaporin_isoform_1_[Acyrthosiphon_pisum] -> NP_001139376.1_aquaporin_isoform_1__Acyrthosiphon_pisum_
+XP_029346917.1_aquaporin_AQPAe.a-like_isoform_X3_[Acyrthosiphon_pisum] -> XP_029346917.1_aquaporin_AQPAe.a-like_isoform_X3__Acyrthosiphon_pisum_
+XP_029346918.1_aquaporin_AQPAe.a-like_isoform_X3_[Acyrthosiphon_pisum] -> XP_029346918.1_aquaporin_AQPAe.a-like_isoform_X3__Acyrthosiphon_pisum_
+NP_001139377.1_aquaporin_isoform_2_[Acyrthosiphon_pisum] -> NP_001139377.1_aquaporin_isoform_2__Acyrthosiphon_pisum_
+XP_029346916.1_aquaporin_AQPAe.a-like_isoform_X2_[Acyrthosiphon_pisum] -> XP_029346916.1_aquaporin_AQPAe.a-like_isoform_X2__Acyrthosiphon_pisum_
+XP_019872963.2_aquaporin_AQPAe.a_isoform_X1_[Aethina_tumida] -> XP_019872963.2_aquaporin_AQPAe.a_isoform_X1__Aethina_tumida_
+XP_049821553.1_aquaporin_AQPAe.a_isoform_X2_[Aethina_tumida] -> XP_049821553.1_aquaporin_AQPAe.a_isoform_X2__Aethina_tumida_
+XP_018566280.1_aquaporin_AQPAe.a_[Anoplophora_glabripennis] -> XP_018566280.1_aquaporin_AQPAe.a__Anoplophora_glabripennis_
+XP_015839381.1_PREDICTED_aquaporin_AQPAe.a_isoform_X2_[Tribolium_castaneum] -> XP_015839381.1_PREDICTED_aquaporin_AQPAe.a_isoform_X2__Tribolium_castaneum_
+XP_972862.1_PREDICTED_aquaporin_AQPcic_isoform_X1_[Tribolium_castaneum] -> XP_972862.1_PREDICTED_aquaporin_AQPcic_isoform_X1__Tribolium_castaneum_
+XP_044761979.1_aquaporin_AQPAn.G-like_isoform_X1_[Coccinella_septempunctata] -> XP_044761979.1_aquaporin_AQPAn.G-like_isoform_X1__Coccinella_septempunctata_
+XP_044761980.1_aquaporin_AQPAn.G-like_isoform_X2_[Coccinella_septempunctata] -> XP_044761980.1_aquaporin_AQPAn.G-like_isoform_X2__Coccinella_septempunctata_
+XP_045475581.1_aquaporin_AQPAe.a-like_isoform_X1_[Harmonia_axyridis] -> XP_045475581.1_aquaporin_AQPAe.a-like_isoform_X1__Harmonia_axyridis_
+XP_045475663.1_aquaporin_AQPAe.a-like_isoform_X2_[Harmonia_axyridis] -> XP_045475663.1_aquaporin_AQPAe.a-like_isoform_X2__Harmonia_axyridis_
+XP_004535901.1_aquaporin_isoform_X1_[Ceratitis_capitata] -> XP_004535901.1_aquaporin_isoform_X1__Ceratitis_capitata_
+XP_020717055.1_aquaporin_isoform_X2_[Ceratitis_capitata] -> XP_020717055.1_aquaporin_isoform_X2__Ceratitis_capitata_
+XP_004535902.1_aquaporin_isoform_X3_[Ceratitis_capitata] -> XP_004535902.1_aquaporin_isoform_X3__Ceratitis_capitata_
+NP_001295945.1_aquaporin_[Musca_domestica] -> NP_001295945.1_aquaporin__Musca_domestica_
+XP_016930412.1_aquaporin_isoform_X1_[Drosophila_suzukii] -> XP_016930412.1_aquaporin_isoform_X1__Drosophila_suzukii_
+XP_036669236.1_aquaporin_isoform_X2_[Drosophila_suzukii] -> XP_036669236.1_aquaporin_isoform_X2__Drosophila_suzukii_
+XP_019893216.1_PREDICTED_aquaporin_isoform_X1_[Musca_domestica] -> XP_019893216.1_PREDICTED_aquaporin_isoform_X1__Musca_domestica_
+XP_055916611.1_aquaporin_AQPAn.G_isoform_X1_[Eupeodes_corollae] -> XP_055916611.1_aquaporin_AQPAn.G_isoform_X1__Eupeodes_corollae_
+XP_055916612.1_aquaporin_AQPAn.G_isoform_X2_[Eupeodes_corollae] -> XP_055916612.1_aquaporin_AQPAn.G_isoform_X2__Eupeodes_corollae_
+XP_055916613.1_aquaporin_AQPAn.G_isoform_X3_[Eupeodes_corollae] -> XP_055916613.1_aquaporin_AQPAn.G_isoform_X3__Eupeodes_corollae_
+XP_052562816.1_aquaporin_AQPAe.a_isoform_X2_[Culex_pipiens_pallens] -> XP_052562816.1_aquaporin_AQPAe.a_isoform_X2__Culex_pipiens_pallens_
+XP_052562817.1_aquaporin_AQPAe.a_isoform_X2_[Culex_pipiens_pallens] -> XP_052562817.1_aquaporin_AQPAe.a_isoform_X2__Culex_pipiens_pallens_
+XP_052562819.1_aquaporin_AQPAe.a_isoform_X4_[Culex_pipiens_pallens] -> XP_052562819.1_aquaporin_AQPAe.a_isoform_X4__Culex_pipiens_pallens_
+XP_023708710.1_aquaporin_AQPAn.G_[Cryptotermes_secundus] -> XP_023708710.1_aquaporin_AQPAn.G__Cryptotermes_secundus_
+XP_021934042.1_aquaporin_AQPAe.a-like_[Zootermopsis_nevadensis] -> XP_021934042.1_aquaporin_AQPAe.a-like__Zootermopsis_nevadensis_
+XP_049845799.1_aquaporin_AQPAn.G_[Schistocerca_gregaria] -> XP_049845799.1_aquaporin_AQPAn.G__Schistocerca_gregaria_
+XP_047103101.1_aquaporin_AQPAn.G_[Schistocerca_piceifrons] -> XP_047103101.1_aquaporin_AQPAn.G__Schistocerca_piceifrons_
+XP_049954589.1_aquaporin_AQPAn.G_[Schistocerca_serialis_cubense] -> XP_049954589.1_aquaporin_AQPAn.G__Schistocerca_serialis_cubense_
+XP_046669585.1_aquaporin_AQPcic_isoform_X3_[Homalodisca_vitripennis] -> XP_046669585.1_aquaporin_AQPcic_isoform_X3__Homalodisca_vitripennis_
+XP_026323707.1_aquaporin_AQPAe.a_isoform_X1_[Hyposmocoma_kahamanoa] -> XP_026323707.1_aquaporin_AQPAe.a_isoform_X1__Hyposmocoma_kahamanoa_
+XP_026323709.1_aquaporin_AQPAe.a_isoform_X3_[Hyposmocoma_kahamanoa] -> XP_026323709.1_aquaporin_AQPAe.a_isoform_X3__Hyposmocoma_kahamanoa_
+XP_026323708.1_aquaporin_AQPAe.a_isoform_X2_[Hyposmocoma_kahamanoa] -> XP_026323708.1_aquaporin_AQPAe.a_isoform_X2__Hyposmocoma_kahamanoa_
+XP_037300776.1_aquaporin_AQPAe.a_isoform_X1_[Manduca_sexta] -> XP_037300776.1_aquaporin_AQPAe.a_isoform_X1__Manduca_sexta_
+XP_037300778.1_aquaporin_AQPAe.a_isoform_X3_[Manduca_sexta] -> XP_037300778.1_aquaporin_AQPAe.a_isoform_X3__Manduca_sexta_
+XP_050356661.1_aquaporin_AQPAe.a-like_isoform_X1_[Nymphalis_io] -> XP_050356661.1_aquaporin_AQPAe.a-like_isoform_X1__Nymphalis_io_
+XP_050356682.1_aquaporin_AQPAe.a-like_isoform_X3_[Nymphalis_io] -> XP_050356682.1_aquaporin_AQPAe.a-like_isoform_X3__Nymphalis_io_
+XP_047536809.1_aquaporin_AQPAe.a-like_isoform_X3_[Vanessa_atalanta] -> XP_047536809.1_aquaporin_AQPAe.a-like_isoform_X3__Vanessa_atalanta_
+XP_050356672.1_aquaporin_AQPAe.a-like_isoform_X2_[Nymphalis_io] -> XP_050356672.1_aquaporin_AQPAe.a-like_isoform_X2__Nymphalis_io_
+XP_047536801.1_aquaporin_AQPAe.a-like_isoform_X2_[Vanessa_atalanta] -> XP_047536801.1_aquaporin_AQPAe.a-like_isoform_X2__Vanessa_atalanta_
+XP_022123791.2_aquaporin_AQPAe.a_isoform_X1_[Pieris_rapae] -> XP_022123791.2_aquaporin_AQPAe.a_isoform_X1__Pieris_rapae_
+XP_022123792.2_aquaporin_AQPAe.a_isoform_X2_[Pieris_rapae] -> XP_022123792.2_aquaporin_AQPAe.a_isoform_X2__Pieris_rapae_
+XP_045490331.1_aquaporin_AQPAe.a_isoform_X3_[Pieris_rapae] -> XP_045490331.1_aquaporin_AQPAe.a_isoform_X3__Pieris_rapae_
+XP_022123793.2_aquaporin_AQPAe.a_isoform_X4_[Pieris_rapae] -> XP_022123793.2_aquaporin_AQPAe.a_isoform_X4__Pieris_rapae_
+XP_037963997.1_aquaporin_AQPAn.G_isoform_X1_[Plutella_xylostella] -> XP_037963997.1_aquaporin_AQPAn.G_isoform_X1__Plutella_xylostella_
+XP_037963999.1_aquaporin_AQPAn.G_isoform_X3_[Plutella_xylostella] -> XP_037963999.1_aquaporin_AQPAn.G_isoform_X3__Plutella_xylostella_
+XP_037963998.1_aquaporin_AQPAn.G_isoform_X2_[Plutella_xylostella] -> XP_037963998.1_aquaporin_AQPAn.G_isoform_X2__Plutella_xylostella_
+XP_035430709.1_aquaporin_AQPAe.a_isoform_X5_[Spodoptera_frugiperda] -> XP_035430709.1_aquaporin_AQPAe.a_isoform_X5__Spodoptera_frugiperda_
+XP_035430710.1_aquaporin_AQPAe.a_isoform_X4_[Spodoptera_frugiperda] -> XP_035430710.1_aquaporin_AQPAe.a_isoform_X4__Spodoptera_frugiperda_
+XP_046403477.1_aquaporin_AQPAn.G_[Ischnura_elegans] -> XP_046403477.1_aquaporin_AQPAn.G__Ischnura_elegans_
+XP_046405745.1_aquaporin_AQPAe.a-like_[Ischnura_elegans] -> XP_046405745.1_aquaporin_AQPAe.a-like__Ischnura_elegans_
+XP_046406867.1_aquaporin_AQPAe.a-like_[Ischnura_elegans] -> XP_046406867.1_aquaporin_AQPAe.a-like__Ischnura_elegans_
+XP_018903312.1_PREDICTED_aquaporin_AQPcic-like_isoform_X3_[Bemisia_tabaci] -> XP_018903312.1_PREDICTED_aquaporin_AQPcic-like_isoform_X3__Bemisia_tabaci_
+XP_018903313.1_PREDICTED_aquaporin_AQPcic-like_isoform_X4_[Bemisia_tabaci] -> XP_018903313.1_PREDICTED_aquaporin_AQPcic-like_isoform_X4__Bemisia_tabaci_
+XP_018906592.1_PREDICTED_aquaporin_AQPcic-like_[Bemisia_tabaci] -> XP_018906592.1_PREDICTED_aquaporin_AQPcic-like__Bemisia_tabaci_
+XP_008484232.1_aquaporin_AQPAe.a_[Diaphorina_citri] -> XP_008484232.1_aquaporin_AQPAe.a__Diaphorina_citri_
+XP_024081986.1_aquaporin_AQPcic_[Cimex_lectularius] -> XP_024081986.1_aquaporin_AQPcic__Cimex_lectularius_
+XP_024214948.1_aquaporin_AQPAe.a-like_isoform_X1_[Halyomorpha_halys] -> XP_024214948.1_aquaporin_AQPAe.a-like_isoform_X1__Halyomorpha_halys_
+XP_024214953.1_aquaporin_AQPAe.a-like_isoform_X5_[Halyomorpha_halys] -> XP_024214953.1_aquaporin_AQPAe.a-like_isoform_X5__Halyomorpha_halys_
+XP_024214951.1_aquaporin_AQPAe.a-like_isoform_X4_[Halyomorpha_halys] -> XP_024214951.1_aquaporin_AQPAe.a-like_isoform_X4__Halyomorpha_halys_
+XP_024214949.1_aquaporin_AQPAe.a-like_isoform_X2_[Halyomorpha_halys] -> XP_024214949.1_aquaporin_AQPAe.a-like_isoform_X2__Halyomorpha_halys_
+XP_049847551.1_aquaporin_AQPAe.a-like_[Schistocerca_gregaria] -> XP_049847551.1_aquaporin_AQPAe.a-like__Schistocerca_gregaria_
+XP_049847552.1_aquaporin_AQPcic-like_[Schistocerca_gregaria] -> XP_049847552.1_aquaporin_AQPcic-like__Schistocerca_gregaria_
+XP_047103559.1_aquaporin_AQPAe.a-like_[Schistocerca_piceifrons] -> XP_047103559.1_aquaporin_AQPAe.a-like__Schistocerca_piceifrons_
+XP_049954958.1_aquaporin_AQPAe.a-like_[Schistocerca_serialis_cubense] -> XP_049954958.1_aquaporin_AQPAe.a-like__Schistocerca_serialis_cubense_
+XP_047103566.1_aquaporin_AQPAe.a-like_[Schistocerca_piceifrons] -> XP_047103566.1_aquaporin_AQPAe.a-like__Schistocerca_piceifrons_
+XP_049954962.1_aquaporin_AQPAe.a-like_[Schistocerca_serialis_cubense] -> XP_049954962.1_aquaporin_AQPAe.a-like__Schistocerca_serialis_cubense_
+XP_012282084.1_aquaporin_AQPAn.G_[Orussus_abietinus] -> XP_012282084.1_aquaporin_AQPAn.G__Orussus_abietinus_
+XP_015187295.1_PREDICTED_aquaporin_AQPAn.G_isoform_X1_[Polistes_dominula] -> XP_015187295.1_PREDICTED_aquaporin_AQPAn.G_isoform_X1__Polistes_dominula_
+XP_015187296.1_PREDICTED_aquaporin_AQPAn.G_isoform_X2_[Polistes_dominula] -> XP_015187296.1_PREDICTED_aquaporin_AQPAn.G_isoform_X2__Polistes_dominula_
+XP_015187298.1_PREDICTED_aquaporin_AQPAn.G_isoform_X3_[Polistes_dominula] -> XP_015187298.1_PREDICTED_aquaporin_AQPAn.G_isoform_X3__Polistes_dominula_
+XP_050866472.1_aquaporin_AQPAn.G_[Vespula_vulgaris] -> XP_050866472.1_aquaporin_AQPAn.G__Vespula_vulgaris_
+XP_044727682.1_aquaporin_AQPAn.G_[Chrysoperla_carnea] -> XP_044727682.1_aquaporin_AQPAn.G__Chrysoperla_carnea_
+XP_034233671.1_aquaporin_AQPAn.G_[Thrips_palmi] -> XP_034233671.1_aquaporin_AQPAn.G__Thrips_palmi_
+XP_025830424.1_aquaporin_AQPAn.G-like_[Agrilus_planipennis] -> XP_025830424.1_aquaporin_AQPAn.G-like__Agrilus_planipennis_
+XP_019872967.1_aquaporin_[Aethina_tumida] -> XP_019872967.1_aquaporin__Aethina_tumida_
+XP_018569425.1_aquaporin_AQPAn.G_isoform_X1_[Anoplophora_glabripennis] -> XP_018569425.1_aquaporin_AQPAn.G_isoform_X1__Anoplophora_glabripennis_
+XP_018569426.1_aquaporin_AQPAn.G_isoform_X2_[Anoplophora_glabripennis] -> XP_018569426.1_aquaporin_AQPAn.G_isoform_X2__Anoplophora_glabripennis_
+XP_044761138.1_aquaporin_AQPAn.G_[Coccinella_septempunctata] -> XP_044761138.1_aquaporin_AQPAn.G__Coccinella_septempunctata_
+XP_045483355.1_aquaporin_AQPAn.G_[Harmonia_axyridis] -> XP_045483355.1_aquaporin_AQPAn.G__Harmonia_axyridis_
+XP_045483356.1_aquaporin_AQPAn.G_[Harmonia_axyridis] -> XP_045483356.1_aquaporin_AQPAn.G__Harmonia_axyridis_
+XP_008190403.1_PREDICTED_aquaporin_AQPAn.G_[Tribolium_castaneum] -> XP_008190403.1_PREDICTED_aquaporin_AQPAn.G__Tribolium_castaneum_
+XP_008190404.1_PREDICTED_aquaporin_AQPAn.G_[Tribolium_castaneum] -> XP_008190404.1_PREDICTED_aquaporin_AQPAn.G__Tribolium_castaneum_
+XP_018330034.1_aquaporin_AQPAn.G_isoform_X1_[Agrilus_planipennis] -> XP_018330034.1_aquaporin_AQPAn.G_isoform_X1__Agrilus_planipennis_
+XP_018330035.1_aquaporin_AQPAn.G_isoform_X2_[Agrilus_planipennis] -> XP_018330035.1_aquaporin_AQPAn.G_isoform_X2__Agrilus_planipennis_
+XP_018330036.1_aquaporin_AQPAn.G_isoform_X3_[Agrilus_planipennis] -> XP_018330036.1_aquaporin_AQPAn.G_isoform_X3__Agrilus_planipennis_
+XP_044731083.1_aquaporin_AQPAn.G_[Chrysoperla_carnea] -> XP_044731083.1_aquaporin_AQPAn.G__Chrysoperla_carnea_
+XP_026462217.1_aquaporin_AQPAn.G-like_[Ctenocephalides_felis] -> XP_026462217.1_aquaporin_AQPAn.G-like__Ctenocephalides_felis_
+XP_023708717.1_aquaporin_AQPAn.G_[Cryptotermes_secundus] -> XP_023708717.1_aquaporin_AQPAn.G__Cryptotermes_secundus_
+XP_021933797.1_aquaporin_AQPAe.a_[Zootermopsis_nevadensis] -> XP_021933797.1_aquaporin_AQPAe.a__Zootermopsis_nevadensis_
+XP_049845619.1_aquaporin_AQPAe.a_isoform_X1_[Schistocerca_gregaria] -> XP_049845619.1_aquaporin_AQPAe.a_isoform_X1__Schistocerca_gregaria_
+XP_047102448.1_aquaporin_AQPAe.a_isoform_X1_[Schistocerca_piceifrons] -> XP_047102448.1_aquaporin_AQPAe.a_isoform_X1__Schistocerca_piceifrons_
+XP_049954590.1_aquaporin_AQPAe.a_isoform_X1_[Schistocerca_serialis_cubense] -> XP_049954590.1_aquaporin_AQPAe.a_isoform_X1__Schistocerca_serialis_cubense_
+XP_049845620.1_aquaporin_AQPAe.a_isoform_X2_[Schistocerca_gregaria] -> XP_049845620.1_aquaporin_AQPAe.a_isoform_X2__Schistocerca_gregaria_
+XP_047102449.1_aquaporin_AQPAe.a_isoform_X2_[Schistocerca_piceifrons] -> XP_047102449.1_aquaporin_AQPAe.a_isoform_X2__Schistocerca_piceifrons_
+XP_049954591.1_aquaporin_AQPAe.a_isoform_X2_[Schistocerca_serialis_cubense] -> XP_049954591.1_aquaporin_AQPAe.a_isoform_X2__Schistocerca_serialis_cubense_
+XP_026323480.1_aquaporin_AQPAe.a_[Hyposmocoma_kahamanoa] -> XP_026323480.1_aquaporin_AQPAe.a__Hyposmocoma_kahamanoa_
+XP_050358466.1_aquaporin_AQPAe.a_[Nymphalis_io] -> XP_050358466.1_aquaporin_AQPAe.a__Nymphalis_io_
+XP_050358475.1_aquaporin_AQPAe.a_[Nymphalis_io] -> XP_050358475.1_aquaporin_AQPAe.a__Nymphalis_io_
+XP_047537434.1_aquaporin_AQPAe.a_isoform_X1_[Vanessa_atalanta] -> XP_047537434.1_aquaporin_AQPAe.a_isoform_X1__Vanessa_atalanta_
+XP_047537442.1_aquaporin_AQPAe.a_isoform_X1_[Vanessa_atalanta] -> XP_047537442.1_aquaporin_AQPAe.a_isoform_X1__Vanessa_atalanta_
+XP_047537451.1_aquaporin_AQPAe.a_isoform_X2_[Vanessa_atalanta] -> XP_047537451.1_aquaporin_AQPAe.a_isoform_X2__Vanessa_atalanta_
+XP_022118398.2_aquaporin_AQPAe.a_[Pieris_rapae] -> XP_022118398.2_aquaporin_AQPAe.a__Pieris_rapae_
+XP_035429569.1_aquaporin_AQPAe.a_[Spodoptera_frugiperda] -> XP_035429569.1_aquaporin_AQPAe.a__Spodoptera_frugiperda_
+XP_035429571.1_aquaporin_AQPAe.a_[Spodoptera_frugiperda] -> XP_035429571.1_aquaporin_AQPAe.a__Spodoptera_frugiperda_
+XP_035429572.1_aquaporin_AQPAe.a_[Spodoptera_frugiperda] -> XP_035429572.1_aquaporin_AQPAe.a__Spodoptera_frugiperda_
+XP_037963977.2_aquaporin_AQPAe.a_[Plutella_xylostella] -> XP_037963977.2_aquaporin_AQPAe.a__Plutella_xylostella_
+XP_037300466.1_aquaporin_isoform_X1_[Manduca_sexta] -> XP_037300466.1_aquaporin_isoform_X1__Manduca_sexta_
+XP_037300467.1_aquaporin_isoform_X2_[Manduca_sexta] -> XP_037300467.1_aquaporin_isoform_X2__Manduca_sexta_
+XP_037300468.1_aquaporin_isoform_X2_[Manduca_sexta] -> XP_037300468.1_aquaporin_isoform_X2__Manduca_sexta_
+XP_039433190.1_aquaporin_AQPAe.a_isoform_X2_[Culex_pipiens_pallens] -> XP_039433190.1_aquaporin_AQPAe.a_isoform_X2__Culex_pipiens_pallens_
+XP_052563772.1_aquaporin_AQPAe.a_isoform_X1_[Culex_pipiens_pallens] -> XP_052563772.1_aquaporin_AQPAe.a_isoform_X1__Culex_pipiens_pallens_
+XP_018913501.1_PREDICTED_aquaporin_AQPAe.a_[Bemisia_tabaci] -> XP_018913501.1_PREDICTED_aquaporin_AQPAe.a__Bemisia_tabaci_
+XP_018913508.1_PREDICTED_aquaporin_AQPAe.a_[Bemisia_tabaci] -> XP_018913508.1_PREDICTED_aquaporin_AQPAe.a__Bemisia_tabaci_
+XP_026677945.1_aquaporin_AQPAe.a_[Diaphorina_citri] -> XP_026677945.1_aquaporin_AQPAe.a__Diaphorina_citri_
+XP_046669579.1_aquaporin_AQPAe.a_isoform_X1_[Homalodisca_vitripennis] -> XP_046669579.1_aquaporin_AQPAe.a_isoform_X1__Homalodisca_vitripennis_
+XP_046669580.1_aquaporin_AQPAe.a_isoform_X2_[Homalodisca_vitripennis] -> XP_046669580.1_aquaporin_AQPAe.a_isoform_X2__Homalodisca_vitripennis_
+XP_046669581.1_aquaporin_AQPAe.a_isoform_X3_[Homalodisca_vitripennis] -> XP_046669581.1_aquaporin_AQPAe.a_isoform_X3__Homalodisca_vitripennis_
+XP_046669582.1_aquaporin_AQPAe.a_isoform_X4_[Homalodisca_vitripennis] -> XP_046669582.1_aquaporin_AQPAe.a_isoform_X4__Homalodisca_vitripennis_
+XP_054270851.1_aquaporin_AQPAe.a-like_isoform_X2_[Macrosteles_quadrilineatus] -> XP_054270851.1_aquaporin_AQPAe.a-like_isoform_X2__Macrosteles_quadrilineatus_
+XP_054271000.1_aquaporin_AQPAe.a-like_isoform_X2_[Macrosteles_quadrilineatus] -> XP_054271000.1_aquaporin_AQPAe.a-like_isoform_X2__Macrosteles_quadrilineatus_
+XP_054270999.1_aquaporin_AQPAe.a-like_isoform_X1_[Macrosteles_quadrilineatus] -> XP_054270999.1_aquaporin_AQPAe.a-like_isoform_X1__Macrosteles_quadrilineatus_
+XP_054270852.1_aquaporin_AQPAe.a-like_isoform_X3_[Macrosteles_quadrilineatus] -> XP_054270852.1_aquaporin_AQPAe.a-like_isoform_X3__Macrosteles_quadrilineatus_
+XP_054271001.1_aquaporin_AQPAe.a-like_isoform_X3_[Macrosteles_quadrilineatus] -> XP_054271001.1_aquaporin_AQPAe.a-like_isoform_X3__Macrosteles_quadrilineatus_
+XP_039289065.1_aquaporin_isoform_X1_[Nilaparvata_lugens] -> XP_039289065.1_aquaporin_isoform_X1__Nilaparvata_lugens_
+XP_039289067.1_aquaporin_isoform_X3_[Nilaparvata_lugens] -> XP_039289067.1_aquaporin_isoform_X3__Nilaparvata_lugens_
+XP_039289068.1_aquaporin_isoform_X3_[Nilaparvata_lugens] -> XP_039289068.1_aquaporin_isoform_X3__Nilaparvata_lugens_
+XP_039289066.1_aquaporin_isoform_X2_[Nilaparvata_lugens] -> XP_039289066.1_aquaporin_isoform_X2__Nilaparvata_lugens_
+XP_004520721.1_aquaporin_AQPAe.a_isoform_X1_[Ceratitis_capitata] -> XP_004520721.1_aquaporin_AQPAe.a_isoform_X1__Ceratitis_capitata_
+XP_004520722.1_aquaporin_AQPAe.a_isoform_X2_[Ceratitis_capitata] -> XP_004520722.1_aquaporin_AQPAe.a_isoform_X2__Ceratitis_capitata_
+XP_016930642.1_aquaporin_AQPAe.a_[Drosophila_suzukii] -> XP_016930642.1_aquaporin_AQPAe.a__Drosophila_suzukii_
+XP_005186075.1_PREDICTED_aquaporin_AQPAn.G_isoform_X1_[Musca_domestica] -> XP_005186075.1_PREDICTED_aquaporin_AQPAn.G_isoform_X1__Musca_domestica_
+XP_005186076.1_PREDICTED_aquaporin_AQPAn.G_isoform_X2_[Musca_domestica] -> XP_005186076.1_PREDICTED_aquaporin_AQPAn.G_isoform_X2__Musca_domestica_
+XP_055917603.1_aquaporin_AQPAe.a_isoform_X1_[Eupeodes_corollae] -> XP_055917603.1_aquaporin_AQPAe.a_isoform_X1__Eupeodes_corollae_
+XP_055917604.1_aquaporin_AQPAe.a_isoform_X2_[Eupeodes_corollae] -> XP_055917604.1_aquaporin_AQPAe.a_isoform_X2__Eupeodes_corollae_
+XP_005183592.1_PREDICTED_aquaporin_[Musca_domestica] -> XP_005183592.1_PREDICTED_aquaporin__Musca_domestica_
+XP_014250942.1_aquaporin_AQPcic-like_isoform_X1_[Cimex_lectularius] -> XP_014250942.1_aquaporin_AQPcic-like_isoform_X1__Cimex_lectularius_
+XP_014250944.1_aquaporin_AQPcic-like_isoform_X3_[Cimex_lectularius] -> XP_014250944.1_aquaporin_AQPcic-like_isoform_X3__Cimex_lectularius_
+XP_014250943.1_aquaporin_AQPcic-like_isoform_X2_[Cimex_lectularius] -> XP_014250943.1_aquaporin_AQPcic-like_isoform_X2__Cimex_lectularius_
+XP_024083731.1_aquaporin_AQPcic-like_isoform_X4_[Cimex_lectularius] -> XP_024083731.1_aquaporin_AQPcic-like_isoform_X4__Cimex_lectularius_
+XP_024214947.1_aquaporin-like_[Halyomorpha_halys] -> XP_024214947.1_aquaporin-like__Halyomorpha_halys_
+XP_006569282.1_aquaporin_AQPAn.G_isoform_X1_[Apis_mellifera] -> XP_006569282.1_aquaporin_AQPAn.G_isoform_X1__Apis_mellifera_
+XP_394391.1_aquaporin_AQPAn.G_isoform_X2_[Apis_mellifera] -> XP_394391.1_aquaporin_AQPAn.G_isoform_X2__Apis_mellifera_
+XP_006569284.1_aquaporin_AQPAn.G_isoform_X4_[Apis_mellifera] -> XP_006569284.1_aquaporin_AQPAn.G_isoform_X4__Apis_mellifera_
+XP_006569285.1_aquaporin_AQPAn.G_isoform_X4_[Apis_mellifera] -> XP_006569285.1_aquaporin_AQPAn.G_isoform_X4__Apis_mellifera_
+XP_006569283.1_aquaporin_AQPAn.G_isoform_X3_[Apis_mellifera] -> XP_006569283.1_aquaporin_AQPAn.G_isoform_X3__Apis_mellifera_
+XP_012284124.1_aquaporin_isoform_X1_[Orussus_abietinus] -> XP_012284124.1_aquaporin_isoform_X1__Orussus_abietinus_
+XP_012284133.1_aquaporin_isoform_X1_[Orussus_abietinus] -> XP_012284133.1_aquaporin_isoform_X1__Orussus_abietinus_
+XP_012284145.1_aquaporin_isoform_X2_[Orussus_abietinus] -> XP_012284145.1_aquaporin_isoform_X2__Orussus_abietinus_
+XP_015187316.1_PREDICTED_aquaporin_AQPAn.G_isoform_X1_[Polistes_dominula] -> XP_015187316.1_PREDICTED_aquaporin_AQPAn.G_isoform_X1__Polistes_dominula_
+XP_015187317.1_PREDICTED_aquaporin_AQPAn.G_isoform_X2_[Polistes_dominula] -> XP_015187317.1_PREDICTED_aquaporin_AQPAn.G_isoform_X2__Polistes_dominula_
+XP_050866466.1_aquaporin_AQPAn.G_isoform_X1_[Vespula_vulgaris] -> XP_050866466.1_aquaporin_AQPAn.G_isoform_X1__Vespula_vulgaris_
+XP_050866468.1_aquaporin_AQPAn.G_isoform_X3_[Vespula_vulgaris] -> XP_050866468.1_aquaporin_AQPAn.G_isoform_X3__Vespula_vulgaris_
+XP_050866467.1_aquaporin_AQPAn.G_isoform_X2_[Vespula_vulgaris] -> XP_050866467.1_aquaporin_AQPAn.G_isoform_X2__Vespula_vulgaris_
+XP_031787719.1_aquaporin_AQPAn.G_isoform_X2_[Nasonia_vitripennis] -> XP_031787719.1_aquaporin_AQPAn.G_isoform_X2__Nasonia_vitripennis_
+XP_032457068.1_aquaporin_AQPAn.G_isoform_X2_[Nasonia_vitripennis] -> XP_032457068.1_aquaporin_AQPAn.G_isoform_X2__Nasonia_vitripennis_
+XP_032457069.1_aquaporin_AQPAn.G_isoform_X2_[Nasonia_vitripennis] -> XP_032457069.1_aquaporin_AQPAn.G_isoform_X2__Nasonia_vitripennis_
+XP_031787721.1_aquaporin_AQPAn.G_isoform_X1_[Nasonia_vitripennis] -> XP_031787721.1_aquaporin_AQPAn.G_isoform_X1__Nasonia_vitripennis_
+XP_032457067.1_aquaporin_AQPAn.G_isoform_X1_[Nasonia_vitripennis] -> XP_032457067.1_aquaporin_AQPAn.G_isoform_X1__Nasonia_vitripennis_
+XP_034234741.1_aquaporin_AQPAn.G_[Thrips_palmi] -> XP_034234741.1_aquaporin_AQPAn.G__Thrips_palmi_
+XP_046403530.1_aquaporin_AQPAe.a-like_isoform_X1_[Ischnura_elegans] -> XP_046403530.1_aquaporin_AQPAe.a-like_isoform_X1__Ischnura_elegans_
+XP_046403531.1_aquaporin_AQPAe.a-like_isoform_X2_[Ischnura_elegans] -> XP_046403531.1_aquaporin_AQPAe.a-like_isoform_X2__Ischnura_elegans_
+XP_026461701.1_aquaporin_AQPAe.a_isoform_X1_[Ctenocephalides_felis] -> XP_026461701.1_aquaporin_AQPAe.a_isoform_X1__Ctenocephalides_felis_
+XP_026461702.1_aquaporin_AQPAe.a_isoform_X2_[Ctenocephalides_felis] -> XP_026461702.1_aquaporin_AQPAe.a_isoform_X2__Ctenocephalides_felis_
+XP_026461703.1_aquaporin_AQPAe.a_isoform_X3_[Ctenocephalides_felis] -> XP_026461703.1_aquaporin_AQPAe.a_isoform_X3__Ctenocephalides_felis_
+XP_034244426.1_aquaporin-like_[Thrips_palmi] -> XP_034244426.1_aquaporin-like__Thrips_palmi_
+XP_019873432.1_aquaporin_AQPAe.a_isoform_X4_[Aethina_tumida] -> XP_019873432.1_aquaporin_AQPAe.a_isoform_X4__Aethina_tumida_
+XP_019873433.1_aquaporin_AQPAe.a_isoform_X3_[Aethina_tumida] -> XP_019873433.1_aquaporin_AQPAe.a_isoform_X3__Aethina_tumida_
+XP_018576151.1_aquaporin_AQPAn.G_[Anoplophora_glabripennis] -> XP_018576151.1_aquaporin_AQPAn.G__Anoplophora_glabripennis_
+XP_023312191.1_aquaporin_AQPAe.a-like_[Anoplophora_glabripennis] -> XP_023312191.1_aquaporin_AQPAe.a-like__Anoplophora_glabripennis_
+XP_044750820.1_aquaporin_AQPAn.G-like_isoform_X3_[Coccinella_septempunctata] -> XP_044750820.1_aquaporin_AQPAn.G-like_isoform_X3__Coccinella_septempunctata_
+XP_045470740.1_aquaporin_AQPAn.G-like_isoform_X6_[Harmonia_axyridis] -> XP_045470740.1_aquaporin_AQPAn.G-like_isoform_X6__Harmonia_axyridis_
+XP_015835898.1_PREDICTED_aquaporin_AQPAe.a-like_isoform_X2_[Tribolium_castaneum] -> XP_015835898.1_PREDICTED_aquaporin_AQPAe.a-like_isoform_X2__Tribolium_castaneum_
+XP_044727649.1_aquaporin_AQPAn.G-like_isoform_X1_[Chrysoperla_carnea] -> XP_044727649.1_aquaporin_AQPAn.G-like_isoform_X1__Chrysoperla_carnea_
+XP_044727651.1_aquaporin_AQPAn.G-like_isoform_X3_[Chrysoperla_carnea] -> XP_044727651.1_aquaporin_AQPAn.G-like_isoform_X3__Chrysoperla_carnea_
+XP_044727650.1_aquaporin_AQPAn.G-like_isoform_X2_[Chrysoperla_carnea] -> XP_044727650.1_aquaporin_AQPAn.G-like_isoform_X2__Chrysoperla_carnea_
+XP_012288704.1_aquaporin_AQPcic_[Orussus_abietinus] -> XP_012288704.1_aquaporin_AQPcic__Orussus_abietinus_
+XP_050850386.1_aquaporin-like_isoform_X2_[Vespula_vulgaris] -> XP_050850386.1_aquaporin-like_isoform_X2__Vespula_vulgaris_
+XP_023701689.1_aquaporin_AQPAe.a_isoform_X3_[Cryptotermes_secundus] -> XP_023701689.1_aquaporin_AQPAe.a_isoform_X3__Cryptotermes_secundus_
+XP_023701690.1_aquaporin_AQPAe.a_isoform_X4_[Cryptotermes_secundus] -> XP_023701690.1_aquaporin_AQPAe.a_isoform_X4__Cryptotermes_secundus_
+XP_023701691.1_aquaporin_AQPAe.a_isoform_X4_[Cryptotermes_secundus] -> XP_023701691.1_aquaporin_AQPAe.a_isoform_X4__Cryptotermes_secundus_
+XP_021939296.1_aquaporin_AQPAe.a-like_isoform_X2_[Zootermopsis_nevadensis] -> XP_021939296.1_aquaporin_AQPAe.a-like_isoform_X2__Zootermopsis_nevadensis_
+XP_021939299.1_aquaporin_AQPAe.a-like_isoform_X5_[Zootermopsis_nevadensis] -> XP_021939299.1_aquaporin_AQPAe.a-like_isoform_X5__Zootermopsis_nevadensis_
+XP_021939297.1_aquaporin_AQPAe.a-like_isoform_X3_[Zootermopsis_nevadensis] -> XP_021939297.1_aquaporin_AQPAe.a-like_isoform_X3__Zootermopsis_nevadensis_
+XP_026463710.1_aquaporin_AQPAe.a-like_[Ctenocephalides_felis] -> XP_026463710.1_aquaporin_AQPAe.a-like__Ctenocephalides_felis_
+XP_008487274.2_aquaporin-4-like_[Diaphorina_citri] -> XP_008487274.2_aquaporin-4-like__Diaphorina_citri_
+XP_016929659.1_aquaporin_isoform_X2_[Drosophila_suzukii] -> XP_016929659.1_aquaporin_isoform_X2__Drosophila_suzukii_
+XP_016929660.1_aquaporin_AQPcic_[Drosophila_suzukii] -> XP_016929660.1_aquaporin_AQPcic__Drosophila_suzukii_
+XP_026321991.1_aquaporin-like_[Hyposmocoma_kahamanoa] -> XP_026321991.1_aquaporin-like__Hyposmocoma_kahamanoa_
+XP_011560224.3_aquaporin-like_[Plutella_xylostella] -> XP_011560224.3_aquaporin-like__Plutella_xylostella_
+XP_015366196.1_PREDICTED_aquaporin-like_isoform_X1_[Diuraphis_noxia] -> XP_015366196.1_PREDICTED_aquaporin-like_isoform_X1__Diuraphis_noxia_
+XP_015366200.1_PREDICTED_aquaporin-like_isoform_X4_[Diuraphis_noxia] -> XP_015366200.1_PREDICTED_aquaporin-like_isoform_X4__Diuraphis_noxia_
+XP_015366197.1_PREDICTED_aquaporin-like_isoform_X2_[Diuraphis_noxia] -> XP_015366197.1_PREDICTED_aquaporin-like_isoform_X2__Diuraphis_noxia_
+XP_015366201.1_PREDICTED_aquaporin-like_isoform_X5_[Diuraphis_noxia] -> XP_015366201.1_PREDICTED_aquaporin-like_isoform_X5__Diuraphis_noxia_
+XP_015366203.1_PREDICTED_aquaporin-like_isoform_X7_[Diuraphis_noxia] -> XP_015366203.1_PREDICTED_aquaporin-like_isoform_X7__Diuraphis_noxia_
+XP_026680357.1_aquaporin_AQPAe.a-like_[Diaphorina_citri] -> XP_026680357.1_aquaporin_AQPAe.a-like__Diaphorina_citri_
+XP_018320519.1_aquaporin-like_[Agrilus_planipennis] -> XP_018320519.1_aquaporin-like__Agrilus_planipennis_
+XP_017303216.2_aquaporin-4-like_[Diaphorina_citri] -> XP_017303216.2_aquaporin-4-like__Diaphorina_citri_
+XP_034238299.1_aquaporin_AQPAe.a-like_[Thrips_palmi] -> XP_034238299.1_aquaporin_AQPAe.a-like__Thrips_palmi_
+XP_044764997.1_neurogenic_protein_big_brain_[Coccinella_septempunctata] -> XP_044764997.1_neurogenic_protein_big_brain__Coccinella_septempunctata_
+XP_034248332.1_neurogenic_protein_big_brain-like_[Thrips_palmi] -> XP_034248332.1_neurogenic_protein_big_brain-like__Thrips_palmi_
+
+                                                                                  Gap/Ambiguity  Composition  p-value
+   1  NP_001139376.1_aquaporin_isoform_1__Acyrthosiphon_pisum_                            1.20%    passed     93.63%
+   2  XP_029346917.1_aquaporin_AQPAe.a-like_isoform_X3__Acyrthosiphon_pisum_              1.20%    passed     93.63%
+   3  XP_029346918.1_aquaporin_AQPAe.a-like_isoform_X3__Acyrthosiphon_pisum_              1.20%    passed     93.63%
+   4  NP_001139377.1_aquaporin_isoform_2__Acyrthosiphon_pisum_                            1.20%    passed     93.63%
+   5  XP_029346916.1_aquaporin_AQPAe.a-like_isoform_X2__Acyrthosiphon_pisum_              1.20%    passed     93.63%
+   6  XP_019872963.2_aquaporin_AQPAe.a_isoform_X1__Aethina_tumida_                        1.20%    passed     99.41%
+   7  XP_049821553.1_aquaporin_AQPAe.a_isoform_X2__Aethina_tumida_                        1.20%    passed     99.41%
+   8  XP_018566280.1_aquaporin_AQPAe.a__Anoplophora_glabripennis_                         1.20%    passed     99.51%
+   9  XP_015839381.1_PREDICTED_aquaporin_AQPAe.a_isoform_X2__Tribolium_castaneum_         1.20%    passed     99.76%
+  10  XP_972862.1_PREDICTED_aquaporin_AQPcic_isoform_X1__Tribolium_castaneum_             1.20%    passed     99.76%
+  11  XP_044761979.1_aquaporin_AQPAn.G-like_isoform_X1__Coccinella_septempunctata_        1.20%    passed     88.34%
+  12  XP_044761980.1_aquaporin_AQPAn.G-like_isoform_X2__Coccinella_septempunctata_        1.20%    passed     88.34%
+  13  XP_045475581.1_aquaporin_AQPAe.a-like_isoform_X1__Harmonia_axyridis_                1.20%    passed     94.05%
+  14  XP_045475663.1_aquaporin_AQPAe.a-like_isoform_X2__Harmonia_axyridis_                1.20%    passed     94.05%
+  15  XP_004535901.1_aquaporin_isoform_X1__Ceratitis_capitata_                            1.20%    passed     97.14%
+  16  XP_020717055.1_aquaporin_isoform_X2__Ceratitis_capitata_                            1.20%    passed     97.14%
+  17  XP_004535902.1_aquaporin_isoform_X3__Ceratitis_capitata_                            1.20%    passed     97.14%
+  18  NP_001295945.1_aquaporin__Musca_domestica_                                          1.20%    passed     99.02%
+  19  XP_016930412.1_aquaporin_isoform_X1__Drosophila_suzukii_                            1.20%    passed     99.41%
+  20  XP_036669236.1_aquaporin_isoform_X2__Drosophila_suzukii_                            1.20%    passed     99.41%
+  21  XP_019893216.1_PREDICTED_aquaporin_isoform_X1__Musca_domestica_                     1.20%    passed     97.53%
+  22  XP_055916611.1_aquaporin_AQPAn.G_isoform_X1__Eupeodes_corollae_                     1.20%    passed     92.46%
+  23  XP_055916612.1_aquaporin_AQPAn.G_isoform_X2__Eupeodes_corollae_                     1.20%    passed     92.46%
+  24  XP_055916613.1_aquaporin_AQPAn.G_isoform_X3__Eupeodes_corollae_                     1.20%    passed     92.46%
+  25  XP_052562816.1_aquaporin_AQPAe.a_isoform_X2__Culex_pipiens_pallens_                 1.20%    passed     99.45%
+  26  XP_052562817.1_aquaporin_AQPAe.a_isoform_X2__Culex_pipiens_pallens_                 1.20%    passed     99.45%
+  27  XP_052562819.1_aquaporin_AQPAe.a_isoform_X4__Culex_pipiens_pallens_                 1.20%    passed     99.45%
+  28  XP_023708710.1_aquaporin_AQPAn.G__Cryptotermes_secundus_                            1.20%    passed     99.92%
+  29  XP_021934042.1_aquaporin_AQPAe.a-like__Zootermopsis_nevadensis_                    15.57%    passed     99.80%
+  30  XP_049845799.1_aquaporin_AQPAn.G__Schistocerca_gregaria_                            1.20%    passed     99.52%
+  31  XP_047103101.1_aquaporin_AQPAn.G__Schistocerca_piceifrons_                          1.20%    passed     99.52%
+  32  XP_049954589.1_aquaporin_AQPAn.G__Schistocerca_serialis_cubense_                    1.20%    passed     99.37%
+  33  XP_046669585.1_aquaporin_AQPcic_isoform_X3__Homalodisca_vitripennis_                0.60%    passed     85.55%
+  34  XP_026323707.1_aquaporin_AQPAe.a_isoform_X1__Hyposmocoma_kahamanoa_                 1.20%    passed     95.75%
+  35  XP_026323709.1_aquaporin_AQPAe.a_isoform_X3__Hyposmocoma_kahamanoa_                 1.20%    passed     95.75%
+  36  XP_026323708.1_aquaporin_AQPAe.a_isoform_X2__Hyposmocoma_kahamanoa_                 1.20%    passed     95.75%
+  37  XP_037300776.1_aquaporin_AQPAe.a_isoform_X1__Manduca_sexta_                         1.20%    passed     98.69%
+  38  XP_037300778.1_aquaporin_AQPAe.a_isoform_X3__Manduca_sexta_                         1.20%    passed     98.69%
+  39  XP_050356661.1_aquaporin_AQPAe.a-like_isoform_X1__Nymphalis_io_                     1.20%    passed    100.00%
+  40  XP_050356682.1_aquaporin_AQPAe.a-like_isoform_X3__Nymphalis_io_                     1.20%    passed    100.00%
+  41  XP_047536809.1_aquaporin_AQPAe.a-like_isoform_X3__Vanessa_atalanta_                 1.20%    passed    100.00%
+  42  XP_050356672.1_aquaporin_AQPAe.a-like_isoform_X2__Nymphalis_io_                     1.20%    passed    100.00%
+  43  XP_047536801.1_aquaporin_AQPAe.a-like_isoform_X2__Vanessa_atalanta_                 1.20%    passed    100.00%
+  44  XP_022123791.2_aquaporin_AQPAe.a_isoform_X1__Pieris_rapae_                          1.20%    passed     99.82%
+  45  XP_022123792.2_aquaporin_AQPAe.a_isoform_X2__Pieris_rapae_                          1.20%    passed     99.82%
+  46  XP_045490331.1_aquaporin_AQPAe.a_isoform_X3__Pieris_rapae_                          1.20%    passed     99.82%
+  47  XP_022123793.2_aquaporin_AQPAe.a_isoform_X4__Pieris_rapae_                          1.20%    passed     99.82%
+  48  XP_037963997.1_aquaporin_AQPAn.G_isoform_X1__Plutella_xylostella_                   1.20%    passed     91.61%
+  49  XP_037963999.1_aquaporin_AQPAn.G_isoform_X3__Plutella_xylostella_                   1.20%    passed     91.61%
+  50  XP_037963998.1_aquaporin_AQPAn.G_isoform_X2__Plutella_xylostella_                   1.20%    passed     91.61%
+  51  XP_035430709.1_aquaporin_AQPAe.a_isoform_X5__Spodoptera_frugiperda_                 1.20%    passed     99.64%
+  52  XP_035430710.1_aquaporin_AQPAe.a_isoform_X4__Spodoptera_frugiperda_                 1.20%    passed     99.64%
+  53  XP_046403477.1_aquaporin_AQPAn.G__Ischnura_elegans_                                 1.20%    passed     34.54%
+  54  XP_046405745.1_aquaporin_AQPAe.a-like__Ischnura_elegans_                            1.20%    passed     87.56%
+  55  XP_046406867.1_aquaporin_AQPAe.a-like__Ischnura_elegans_                            1.20%    passed     95.29%
+  56  XP_018903312.1_PREDICTED_aquaporin_AQPcic-like_isoform_X3__Bemisia_tabaci_          1.20%    passed     77.40%
+  57  XP_018903313.1_PREDICTED_aquaporin_AQPcic-like_isoform_X4__Bemisia_tabaci_          1.20%    passed     77.40%
+  58  XP_018906592.1_PREDICTED_aquaporin_AQPcic-like__Bemisia_tabaci_                     1.20%    passed     88.77%
+  59  XP_008484232.1_aquaporin_AQPAe.a__Diaphorina_citri_                                 1.20%    passed     99.59%
+  60  XP_024081986.1_aquaporin_AQPcic__Cimex_lectularius_                                 1.20%    passed     70.84%
+  61  XP_024214948.1_aquaporin_AQPAe.a-like_isoform_X1__Halyomorpha_halys_                1.20%    passed     98.49%
+  62  XP_024214953.1_aquaporin_AQPAe.a-like_isoform_X5__Halyomorpha_halys_                1.20%    passed     98.49%
+  63  XP_024214951.1_aquaporin_AQPAe.a-like_isoform_X4__Halyomorpha_halys_                1.20%    passed     98.49%
+  64  XP_024214949.1_aquaporin_AQPAe.a-like_isoform_X2__Halyomorpha_halys_                1.20%    passed     98.49%
+  65  XP_049847551.1_aquaporin_AQPAe.a-like__Schistocerca_gregaria_                       1.20%    failed      2.69%
+  66  XP_049847552.1_aquaporin_AQPcic-like__Schistocerca_gregaria_                        1.20%    passed     29.45%
+  67  XP_047103559.1_aquaporin_AQPAe.a-like__Schistocerca_piceifrons_                     1.20%    passed     19.97%
+  68  XP_049954958.1_aquaporin_AQPAe.a-like__Schistocerca_serialis_cubense_               1.20%    passed     17.23%
+  69  XP_047103566.1_aquaporin_AQPAe.a-like__Schistocerca_piceifrons_                     4.19%    passed     77.91%
+  70  XP_049954962.1_aquaporin_AQPAe.a-like__Schistocerca_serialis_cubense_               4.19%    passed     74.08%
+  71  XP_012282084.1_aquaporin_AQPAn.G__Orussus_abietinus_                                1.20%    passed     96.52%
+  72  XP_015187295.1_PREDICTED_aquaporin_AQPAn.G_isoform_X1__Polistes_dominula_           1.20%    passed     99.13%
+  73  XP_015187296.1_PREDICTED_aquaporin_AQPAn.G_isoform_X2__Polistes_dominula_           1.20%    passed     99.13%
+  74  XP_015187298.1_PREDICTED_aquaporin_AQPAn.G_isoform_X3__Polistes_dominula_           1.20%    passed     99.13%
+  75  XP_050866472.1_aquaporin_AQPAn.G__Vespula_vulgaris_                                 1.20%    passed     99.96%
+  76  XP_044727682.1_aquaporin_AQPAn.G__Chrysoperla_carnea_                               1.20%    passed     94.72%
+  77  XP_034233671.1_aquaporin_AQPAn.G__Thrips_palmi_                                     2.99%    passed     99.30%
+  78  XP_025830424.1_aquaporin_AQPAn.G-like__Agrilus_planipennis_                        26.95%    passed     42.50%
+  79  XP_019872967.1_aquaporin__Aethina_tumida_                                           1.20%    passed     99.88%
+  80  XP_018569425.1_aquaporin_AQPAn.G_isoform_X1__Anoplophora_glabripennis_              1.20%    passed     99.72%
+  81  XP_018569426.1_aquaporin_AQPAn.G_isoform_X2__Anoplophora_glabripennis_              1.20%    passed     99.72%
+  82  XP_044761138.1_aquaporin_AQPAn.G__Coccinella_septempunctata_                        1.20%    passed     98.29%
+  83  XP_045483355.1_aquaporin_AQPAn.G__Harmonia_axyridis_                                1.20%    passed     99.97%
+  84  XP_045483356.1_aquaporin_AQPAn.G__Harmonia_axyridis_                                1.20%    passed     99.97%
+  85  XP_008190403.1_PREDICTED_aquaporin_AQPAn.G__Tribolium_castaneum_                    1.20%    passed     99.81%
+  86  XP_008190404.1_PREDICTED_aquaporin_AQPAn.G__Tribolium_castaneum_                    1.20%    passed     99.81%
+  87  XP_018330034.1_aquaporin_AQPAn.G_isoform_X1__Agrilus_planipennis_                   1.20%    passed     99.27%
+  88  XP_018330035.1_aquaporin_AQPAn.G_isoform_X2__Agrilus_planipennis_                   1.20%    passed     99.27%
+  89  XP_018330036.1_aquaporin_AQPAn.G_isoform_X3__Agrilus_planipennis_                   1.20%    passed     99.27%
+  90  XP_044731083.1_aquaporin_AQPAn.G__Chrysoperla_carnea_                               1.20%    passed     99.86%
+  91  XP_026462217.1_aquaporin_AQPAn.G-like__Ctenocephalides_felis_                       1.20%    passed     99.88%
+  92  XP_023708717.1_aquaporin_AQPAn.G__Cryptotermes_secundus_                            1.20%    passed     99.88%
+  93  XP_021933797.1_aquaporin_AQPAe.a__Zootermopsis_nevadensis_                          1.20%    passed     99.43%
+  94  XP_049845619.1_aquaporin_AQPAe.a_isoform_X1__Schistocerca_gregaria_                 1.20%    passed     99.82%
+  95  XP_047102448.1_aquaporin_AQPAe.a_isoform_X1__Schistocerca_piceifrons_               1.20%    passed     99.82%
+  96  XP_049954590.1_aquaporin_AQPAe.a_isoform_X1__Schistocerca_serialis_cubense_         1.20%    passed     99.82%
+  97  XP_049845620.1_aquaporin_AQPAe.a_isoform_X2__Schistocerca_gregaria_                 1.20%    passed     99.82%
+  98  XP_047102449.1_aquaporin_AQPAe.a_isoform_X2__Schistocerca_piceifrons_               1.20%    passed     99.82%
+  99  XP_049954591.1_aquaporin_AQPAe.a_isoform_X2__Schistocerca_serialis_cubense_         1.20%    passed     99.82%
+ 100  XP_026323480.1_aquaporin_AQPAe.a__Hyposmocoma_kahamanoa_                            1.20%    passed     99.71%
+ 101  XP_050358466.1_aquaporin_AQPAe.a__Nymphalis_io_                                     1.20%    passed     98.11%
+ 102  XP_050358475.1_aquaporin_AQPAe.a__Nymphalis_io_                                     1.20%    passed     98.11%
+ 103  XP_047537434.1_aquaporin_AQPAe.a_isoform_X1__Vanessa_atalanta_                      1.20%    passed     98.11%
+ 104  XP_047537442.1_aquaporin_AQPAe.a_isoform_X1__Vanessa_atalanta_                      1.20%    passed     98.11%
+ 105  XP_047537451.1_aquaporin_AQPAe.a_isoform_X2__Vanessa_atalanta_                      1.20%    passed     98.11%
+ 106  XP_022118398.2_aquaporin_AQPAe.a__Pieris_rapae_                                     1.20%    passed     98.65%
+ 107  XP_035429569.1_aquaporin_AQPAe.a__Spodoptera_frugiperda_                            1.20%    passed     96.49%
+ 108  XP_035429571.1_aquaporin_AQPAe.a__Spodoptera_frugiperda_                            1.20%    passed     96.49%
+ 109  XP_035429572.1_aquaporin_AQPAe.a__Spodoptera_frugiperda_                            1.20%    passed     96.49%
+ 110  XP_037963977.2_aquaporin_AQPAe.a__Plutella_xylostella_                              1.20%    passed     99.75%
+ 111  XP_037300466.1_aquaporin_isoform_X1__Manduca_sexta_                                 1.20%    passed    100.00%
+ 112  XP_037300467.1_aquaporin_isoform_X2__Manduca_sexta_                                 1.20%    passed    100.00%
+ 113  XP_037300468.1_aquaporin_isoform_X2__Manduca_sexta_                                 1.20%    passed    100.00%
+ 114  XP_039433190.1_aquaporin_AQPAe.a_isoform_X2__Culex_pipiens_pallens_                 1.20%    passed     99.19%
+ 115  XP_052563772.1_aquaporin_AQPAe.a_isoform_X1__Culex_pipiens_pallens_                 1.20%    passed     99.19%
+ 116  XP_018913501.1_PREDICTED_aquaporin_AQPAe.a__Bemisia_tabaci_                         1.20%    passed     93.89%
+ 117  XP_018913508.1_PREDICTED_aquaporin_AQPAe.a__Bemisia_tabaci_                         1.20%    passed     93.89%
+ 118  XP_026677945.1_aquaporin_AQPAe.a__Diaphorina_citri_                                 1.20%    passed     99.96%
+ 119  XP_046669579.1_aquaporin_AQPAe.a_isoform_X1__Homalodisca_vitripennis_               1.20%    passed     98.87%
+ 120  XP_046669580.1_aquaporin_AQPAe.a_isoform_X2__Homalodisca_vitripennis_               1.20%    passed     98.87%
+ 121  XP_046669581.1_aquaporin_AQPAe.a_isoform_X3__Homalodisca_vitripennis_               1.20%    passed     98.87%
+ 122  XP_046669582.1_aquaporin_AQPAe.a_isoform_X4__Homalodisca_vitripennis_               1.20%    passed     98.87%
+ 123  XP_054270851.1_aquaporin_AQPAe.a-like_isoform_X2__Macrosteles_quadrilineatus_       1.20%    passed     99.61%
+ 124  XP_054271000.1_aquaporin_AQPAe.a-like_isoform_X2__Macrosteles_quadrilineatus_       1.20%    passed     99.61%
+ 125  XP_054270999.1_aquaporin_AQPAe.a-like_isoform_X1__Macrosteles_quadrilineatus_       1.20%    passed     99.61%
+ 126  XP_054270852.1_aquaporin_AQPAe.a-like_isoform_X3__Macrosteles_quadrilineatus_       1.20%    passed     99.61%
+ 127  XP_054271001.1_aquaporin_AQPAe.a-like_isoform_X3__Macrosteles_quadrilineatus_       1.20%    passed     99.61%
+ 128  XP_039289065.1_aquaporin_isoform_X1__Nilaparvata_lugens_                            1.20%    passed     99.88%
+ 129  XP_039289067.1_aquaporin_isoform_X3__Nilaparvata_lugens_                            1.20%    passed     99.88%
+ 130  XP_039289068.1_aquaporin_isoform_X3__Nilaparvata_lugens_                            1.20%    passed     99.88%
+ 131  XP_039289066.1_aquaporin_isoform_X2__Nilaparvata_lugens_                            1.20%    passed     99.88%
+ 132  XP_039289070.1_aquaporin_AQPAe.a-like                                               5.39%    passed     99.85%
+ 133  XP_004520721.1_aquaporin_AQPAe.a_isoform_X1__Ceratitis_capitata_                    1.20%    passed     93.69%
+ 134  XP_004520722.1_aquaporin_AQPAe.a_isoform_X2__Ceratitis_capitata_                    1.20%    passed     93.69%
+ 135  XP_016930642.1_aquaporin_AQPAe.a__Drosophila_suzukii_                               1.20%    passed     98.59%
+ 136  XP_005186075.1_PREDICTED_aquaporin_AQPAn.G_isoform_X1__Musca_domestica_             1.20%    passed     99.29%
+ 137  XP_005186076.1_PREDICTED_aquaporin_AQPAn.G_isoform_X2__Musca_domestica_             1.20%    passed     99.29%
+ 138  XP_055917603.1_aquaporin_AQPAe.a_isoform_X1__Eupeodes_corollae_                     1.20%    passed     93.04%
+ 139  XP_055917604.1_aquaporin_AQPAe.a_isoform_X2__Eupeodes_corollae_                     1.20%    passed     93.04%
+ 140  XP_005183592.1_PREDICTED_aquaporin__Musca_domestica_                                1.20%    passed     67.50%
+ 141  XP_014250942.1_aquaporin_AQPcic-like_isoform_X1__Cimex_lectularius_                 1.20%    passed     99.92%
+ 142  XP_014250944.1_aquaporin_AQPcic-like_isoform_X3__Cimex_lectularius_                 1.20%    passed     99.92%
+ 143  XP_014250943.1_aquaporin_AQPcic-like_isoform_X2__Cimex_lectularius_                 1.20%    passed     99.92%
+ 144  XP_024083731.1_aquaporin_AQPcic-like_isoform_X4__Cimex_lectularius_                 1.20%    passed     99.92%
+ 145  XP_024214947.1_aquaporin-like__Halyomorpha_halys_                                   1.20%    passed     99.92%
+ 146  XP_006569282.1_aquaporin_AQPAn.G_isoform_X1__Apis_mellifera_                        1.20%    passed     98.19%
+ 147  XP_394391.1_aquaporin_AQPAn.G_isoform_X2__Apis_mellifera_                           1.20%    passed     98.19%
+ 148  XP_006569284.1_aquaporin_AQPAn.G_isoform_X4__Apis_mellifera_                        1.20%    passed     98.19%
+ 149  XP_006569285.1_aquaporin_AQPAn.G_isoform_X4__Apis_mellifera_                        1.20%    passed     98.19%
+ 150  XP_006569283.1_aquaporin_AQPAn.G_isoform_X3__Apis_mellifera_                        1.20%    passed     98.19%
+ 151  XP_012284124.1_aquaporin_isoform_X1__Orussus_abietinus_                             1.20%    passed     96.50%
+ 152  XP_012284133.1_aquaporin_isoform_X1__Orussus_abietinus_                             1.20%    passed     96.50%
+ 153  XP_012284145.1_aquaporin_isoform_X2__Orussus_abietinus_                             1.20%    passed     96.50%
+ 154  XP_015187316.1_PREDICTED_aquaporin_AQPAn.G_isoform_X1__Polistes_dominula_           1.20%    passed     98.70%
+ 155  XP_015187317.1_PREDICTED_aquaporin_AQPAn.G_isoform_X2__Polistes_dominula_           1.20%    passed     98.70%
+ 156  XP_050866466.1_aquaporin_AQPAn.G_isoform_X1__Vespula_vulgaris_                      1.20%    passed     98.42%
+ 157  XP_050866468.1_aquaporin_AQPAn.G_isoform_X3__Vespula_vulgaris_                      1.20%    passed     98.42%
+ 158  XP_050866467.1_aquaporin_AQPAn.G_isoform_X2__Vespula_vulgaris_                      1.20%    passed     98.42%
+ 159  XP_031787719.1_aquaporin_AQPAn.G_isoform_X2__Nasonia_vitripennis_                   1.20%    passed     99.83%
+ 160  XP_032457068.1_aquaporin_AQPAn.G_isoform_X2__Nasonia_vitripennis_                   1.20%    passed     99.83%
+ 161  XP_032457069.1_aquaporin_AQPAn.G_isoform_X2__Nasonia_vitripennis_                   1.20%    passed     99.83%
+ 162  XP_031787721.1_aquaporin_AQPAn.G_isoform_X1__Nasonia_vitripennis_                   1.20%    passed     99.83%
+ 163  XP_032457067.1_aquaporin_AQPAn.G_isoform_X1__Nasonia_vitripennis_                   1.20%    passed     99.83%
+ 164  XP_034234741.1_aquaporin_AQPAn.G__Thrips_palmi_                                     1.20%    passed     84.13%
+ 165  XP_046403530.1_aquaporin_AQPAe.a-like_isoform_X1__Ischnura_elegans_                 1.20%    passed     98.37%
+ 166  XP_046403531.1_aquaporin_AQPAe.a-like_isoform_X2__Ischnura_elegans_                 1.20%    passed     98.37%
+ 167  XP_026461701.1_aquaporin_AQPAe.a_isoform_X1__Ctenocephalides_felis_                 1.20%    passed     89.52%
+ 168  XP_026461702.1_aquaporin_AQPAe.a_isoform_X2__Ctenocephalides_felis_                 1.20%    passed     89.52%
+ 169  XP_026461703.1_aquaporin_AQPAe.a_isoform_X3__Ctenocephalides_felis_                 1.20%    passed     89.52%
+ 170  XP_034244426.1_aquaporin-like__Thrips_palmi_                                       16.17%    passed     83.90%
+ 171  XP_019873432.1_aquaporin_AQPAe.a_isoform_X4__Aethina_tumida_                        1.20%    passed     94.61%
+ 172  XP_019873433.1_aquaporin_AQPAe.a_isoform_X3__Aethina_tumida_                        1.20%    passed     94.61%
+ 173  XP_018576151.1_aquaporin_AQPAn.G__Anoplophora_glabripennis_                         1.20%    passed     99.14%
+ 174  XP_023312191.1_aquaporin_AQPAe.a-like__Anoplophora_glabripennis_                    1.20%    passed     98.01%
+ 175  XP_044750820.1_aquaporin_AQPAn.G-like_isoform_X3__Coccinella_septempunctata_        1.20%    passed     54.30%
+ 176  XP_045470740.1_aquaporin_AQPAn.G-like_isoform_X6__Harmonia_axyridis_                1.20%    passed     66.23%
+ 177  XP_015835898.1_PREDICTED_aquaporin_AQPAe.a-like_isoform_X2__Tribolium_castaneum_    1.20%    passed     96.51%
+ 178  XP_044727649.1_aquaporin_AQPAn.G-like_isoform_X1__Chrysoperla_carnea_               1.20%    passed     46.05%
+ 179  XP_044727651.1_aquaporin_AQPAn.G-like_isoform_X3__Chrysoperla_carnea_               1.20%    passed     46.05%
+ 180  XP_044727650.1_aquaporin_AQPAn.G-like_isoform_X2__Chrysoperla_carnea_               1.20%    passed     46.05%
+ 181  XP_012288704.1_aquaporin_AQPcic__Orussus_abietinus_                                 1.20%    passed     89.75%
+ 182  XP_050850386.1_aquaporin-like_isoform_X2__Vespula_vulgaris_                         1.20%    passed     71.84%
+ 183  XP_023701689.1_aquaporin_AQPAe.a_isoform_X3__Cryptotermes_secundus_                 1.20%    passed     98.86%
+ 184  XP_023701690.1_aquaporin_AQPAe.a_isoform_X4__Cryptotermes_secundus_                 1.20%    passed     98.86%
+ 185  XP_023701691.1_aquaporin_AQPAe.a_isoform_X4__Cryptotermes_secundus_                 1.20%    passed     98.86%
+ 186  XP_021939296.1_aquaporin_AQPAe.a-like_isoform_X2__Zootermopsis_nevadensis_          1.20%    passed     99.55%
+ 187  XP_021939299.1_aquaporin_AQPAe.a-like_isoform_X5__Zootermopsis_nevadensis_          1.20%    passed     99.55%
+ 188  XP_021939297.1_aquaporin_AQPAe.a-like_isoform_X3__Zootermopsis_nevadensis_          1.20%    passed     99.55%
+ 189  XP_026463710.1_aquaporin_AQPAe.a-like__Ctenocephalides_felis_                       1.20%    passed     95.71%
+ 190  XP_008487274.2_aquaporin-4-like__Diaphorina_citri_                                  4.79%    passed     35.80%
+ 191  XP_016929659.1_aquaporin_isoform_X2__Drosophila_suzukii_                            1.20%    passed     21.78%
+ 192  XP_016929660.1_aquaporin_AQPcic__Drosophila_suzukii_                                1.20%    passed     97.50%
+ 193  XP_026321991.1_aquaporin-like__Hyposmocoma_kahamanoa_                               1.20%    passed     78.40%
+ 194  XP_011560224.3_aquaporin-like__Plutella_xylostella_                                 2.40%    passed     39.86%
+ 195  XP_015366196.1_PREDICTED_aquaporin-like_isoform_X1__Diuraphis_noxia_                1.20%    passed     44.62%
+ 196  XP_015366200.1_PREDICTED_aquaporin-like_isoform_X4__Diuraphis_noxia_                1.20%    passed     44.62%
+ 197  XP_015366197.1_PREDICTED_aquaporin-like_isoform_X2__Diuraphis_noxia_                1.20%    passed     44.62%
+ 198  XP_015366201.1_PREDICTED_aquaporin-like_isoform_X5__Diuraphis_noxia_                1.20%    passed     44.62%
+ 199  XP_015366203.1_PREDICTED_aquaporin-like_isoform_X7__Diuraphis_noxia_                1.20%    passed     44.62%
+ 200  XP_026680357.1_aquaporin_AQPAe.a-like__Diaphorina_citri_                           21.56%    passed     28.41%
+ 201  XP_018320519.1_aquaporin-like__Agrilus_planipennis_                                 1.20%    passed     89.08%
+ 202  XP_017303216.2_aquaporin-4-like__Diaphorina_citri_                                 25.75%    passed      8.67%
+ 203  XP_034238299.1_aquaporin_AQPAe.a-like__Thrips_palmi_                                1.20%    passed     28.73%
+ 204  XP_044764997.1_neurogenic_protein_big_brain__Coccinella_septempunctata_             3.59%    passed     11.42%
+ 205  XP_034248332.1_neurogenic_protein_big_brain-like__Thrips_palmi_                     3.59%    passed     33.71%
+****  TOTAL                                                                               1.79%  1 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: XP_029346917.1_aquaporin_AQPAe.a-like_isoform_X3__Acyrthosiphon_pisum_ is identical to NP_001139376.1_aquaporin_isoform_1__Acyrthosiphon_pisum_ but kept for subsequent analysis
+NOTE: XP_049821553.1_aquaporin_AQPAe.a_isoform_X2__Aethina_tumida_ is identical to XP_019872963.2_aquaporin_AQPAe.a_isoform_X1__Aethina_tumida_ but kept for subsequent analysis
+NOTE: XP_972862.1_PREDICTED_aquaporin_AQPcic_isoform_X1__Tribolium_castaneum_ is identical to XP_015839381.1_PREDICTED_aquaporin_AQPAe.a_isoform_X2__Tribolium_castaneum_ but kept for subsequent analysis
+NOTE: XP_044761980.1_aquaporin_AQPAn.G-like_isoform_X2__Coccinella_septempunctata_ is identical to XP_044761979.1_aquaporin_AQPAn.G-like_isoform_X1__Coccinella_septempunctata_ but kept for subsequent analysis
+NOTE: XP_045475663.1_aquaporin_AQPAe.a-like_isoform_X2__Harmonia_axyridis_ is identical to XP_045475581.1_aquaporin_AQPAe.a-like_isoform_X1__Harmonia_axyridis_ but kept for subsequent analysis
+NOTE: XP_020717055.1_aquaporin_isoform_X2__Ceratitis_capitata_ is identical to XP_004535901.1_aquaporin_isoform_X1__Ceratitis_capitata_ but kept for subsequent analysis
+NOTE: XP_036669236.1_aquaporin_isoform_X2__Drosophila_suzukii_ is identical to XP_016930412.1_aquaporin_isoform_X1__Drosophila_suzukii_ but kept for subsequent analysis
+NOTE: XP_055916612.1_aquaporin_AQPAn.G_isoform_X2__Eupeodes_corollae_ is identical to XP_055916611.1_aquaporin_AQPAn.G_isoform_X1__Eupeodes_corollae_ but kept for subsequent analysis
+NOTE: XP_052562817.1_aquaporin_AQPAe.a_isoform_X2__Culex_pipiens_pallens_ is identical to XP_052562816.1_aquaporin_AQPAe.a_isoform_X2__Culex_pipiens_pallens_ but kept for subsequent analysis
+NOTE: XP_047103101.1_aquaporin_AQPAn.G__Schistocerca_piceifrons_ is identical to XP_049845799.1_aquaporin_AQPAn.G__Schistocerca_gregaria_ but kept for subsequent analysis
+NOTE: XP_026323709.1_aquaporin_AQPAe.a_isoform_X3__Hyposmocoma_kahamanoa_ is identical to XP_026323707.1_aquaporin_AQPAe.a_isoform_X1__Hyposmocoma_kahamanoa_ but kept for subsequent analysis
+NOTE: XP_037300778.1_aquaporin_AQPAe.a_isoform_X3__Manduca_sexta_ is identical to XP_037300776.1_aquaporin_AQPAe.a_isoform_X1__Manduca_sexta_ but kept for subsequent analysis
+NOTE: XP_050356682.1_aquaporin_AQPAe.a-like_isoform_X3__Nymphalis_io_ is identical to XP_050356661.1_aquaporin_AQPAe.a-like_isoform_X1__Nymphalis_io_ but kept for subsequent analysis
+NOTE: XP_047536801.1_aquaporin_AQPAe.a-like_isoform_X2__Vanessa_atalanta_ is identical to XP_047536809.1_aquaporin_AQPAe.a-like_isoform_X3__Vanessa_atalanta_ but kept for subsequent analysis
+NOTE: XP_022123792.2_aquaporin_AQPAe.a_isoform_X2__Pieris_rapae_ is identical to XP_022123791.2_aquaporin_AQPAe.a_isoform_X1__Pieris_rapae_ but kept for subsequent analysis
+NOTE: XP_037963999.1_aquaporin_AQPAn.G_isoform_X3__Plutella_xylostella_ is identical to XP_037963997.1_aquaporin_AQPAn.G_isoform_X1__Plutella_xylostella_ but kept for subsequent analysis
+NOTE: XP_035430710.1_aquaporin_AQPAe.a_isoform_X4__Spodoptera_frugiperda_ is identical to XP_035430709.1_aquaporin_AQPAe.a_isoform_X5__Spodoptera_frugiperda_ but kept for subsequent analysis
+NOTE: XP_018903313.1_PREDICTED_aquaporin_AQPcic-like_isoform_X4__Bemisia_tabaci_ is identical to XP_018903312.1_PREDICTED_aquaporin_AQPcic-like_isoform_X3__Bemisia_tabaci_ but kept for subsequent analysis
+NOTE: XP_024214953.1_aquaporin_AQPAe.a-like_isoform_X5__Halyomorpha_halys_ is identical to XP_024214948.1_aquaporin_AQPAe.a-like_isoform_X1__Halyomorpha_halys_ but kept for subsequent analysis
+NOTE: XP_015187296.1_PREDICTED_aquaporin_AQPAn.G_isoform_X2__Polistes_dominula_ is identical to XP_015187295.1_PREDICTED_aquaporin_AQPAn.G_isoform_X1__Polistes_dominula_ but kept for subsequent analysis
+NOTE: XP_018569426.1_aquaporin_AQPAn.G_isoform_X2__Anoplophora_glabripennis_ is identical to XP_018569425.1_aquaporin_AQPAn.G_isoform_X1__Anoplophora_glabripennis_ but kept for subsequent analysis
+NOTE: XP_045483356.1_aquaporin_AQPAn.G__Harmonia_axyridis_ is identical to XP_045483355.1_aquaporin_AQPAn.G__Harmonia_axyridis_ but kept for subsequent analysis
+NOTE: XP_008190404.1_PREDICTED_aquaporin_AQPAn.G__Tribolium_castaneum_ is identical to XP_008190403.1_PREDICTED_aquaporin_AQPAn.G__Tribolium_castaneum_ but kept for subsequent analysis
+NOTE: XP_018330035.1_aquaporin_AQPAn.G_isoform_X2__Agrilus_planipennis_ is identical to XP_018330034.1_aquaporin_AQPAn.G_isoform_X1__Agrilus_planipennis_ but kept for subsequent analysis
+NOTE: XP_047102448.1_aquaporin_AQPAe.a_isoform_X1__Schistocerca_piceifrons_ is identical to XP_049845619.1_aquaporin_AQPAe.a_isoform_X1__Schistocerca_gregaria_ but kept for subsequent analysis
+NOTE: XP_050358475.1_aquaporin_AQPAe.a__Nymphalis_io_ is identical to XP_050358466.1_aquaporin_AQPAe.a__Nymphalis_io_ but kept for subsequent analysis
+NOTE: XP_035429571.1_aquaporin_AQPAe.a__Spodoptera_frugiperda_ is identical to XP_035429569.1_aquaporin_AQPAe.a__Spodoptera_frugiperda_ but kept for subsequent analysis
+NOTE: XP_037300467.1_aquaporin_isoform_X2__Manduca_sexta_ is identical to XP_037300466.1_aquaporin_isoform_X1__Manduca_sexta_ but kept for subsequent analysis
+NOTE: XP_052563772.1_aquaporin_AQPAe.a_isoform_X1__Culex_pipiens_pallens_ is identical to XP_039433190.1_aquaporin_AQPAe.a_isoform_X2__Culex_pipiens_pallens_ but kept for subsequent analysis
+NOTE: XP_018913508.1_PREDICTED_aquaporin_AQPAe.a__Bemisia_tabaci_ is identical to XP_018913501.1_PREDICTED_aquaporin_AQPAe.a__Bemisia_tabaci_ but kept for subsequent analysis
+NOTE: XP_046669580.1_aquaporin_AQPAe.a_isoform_X2__Homalodisca_vitripennis_ is identical to XP_046669579.1_aquaporin_AQPAe.a_isoform_X1__Homalodisca_vitripennis_ but kept for subsequent analysis
+NOTE: XP_054271000.1_aquaporin_AQPAe.a-like_isoform_X2__Macrosteles_quadrilineatus_ is identical to XP_054270851.1_aquaporin_AQPAe.a-like_isoform_X2__Macrosteles_quadrilineatus_ but kept for subsequent analysis
+NOTE: XP_039289067.1_aquaporin_isoform_X3__Nilaparvata_lugens_ is identical to XP_039289065.1_aquaporin_isoform_X1__Nilaparvata_lugens_ but kept for subsequent analysis
+NOTE: XP_004520722.1_aquaporin_AQPAe.a_isoform_X2__Ceratitis_capitata_ is identical to XP_004520721.1_aquaporin_AQPAe.a_isoform_X1__Ceratitis_capitata_ but kept for subsequent analysis
+NOTE: XP_005186076.1_PREDICTED_aquaporin_AQPAn.G_isoform_X2__Musca_domestica_ is identical to XP_005186075.1_PREDICTED_aquaporin_AQPAn.G_isoform_X1__Musca_domestica_ but kept for subsequent analysis
+NOTE: XP_055917604.1_aquaporin_AQPAe.a_isoform_X2__Eupeodes_corollae_ is identical to XP_055917603.1_aquaporin_AQPAe.a_isoform_X1__Eupeodes_corollae_ but kept for subsequent analysis
+NOTE: XP_014250944.1_aquaporin_AQPcic-like_isoform_X3__Cimex_lectularius_ is identical to XP_014250942.1_aquaporin_AQPcic-like_isoform_X1__Cimex_lectularius_ but kept for subsequent analysis
+NOTE: XP_394391.1_aquaporin_AQPAn.G_isoform_X2__Apis_mellifera_ is identical to XP_006569282.1_aquaporin_AQPAn.G_isoform_X1__Apis_mellifera_ but kept for subsequent analysis
+NOTE: XP_012284133.1_aquaporin_isoform_X1__Orussus_abietinus_ is identical to XP_012284124.1_aquaporin_isoform_X1__Orussus_abietinus_ but kept for subsequent analysis
+NOTE: XP_015187317.1_PREDICTED_aquaporin_AQPAn.G_isoform_X2__Polistes_dominula_ is identical to XP_015187316.1_PREDICTED_aquaporin_AQPAn.G_isoform_X1__Polistes_dominula_ but kept for subsequent analysis
+NOTE: XP_050866468.1_aquaporin_AQPAn.G_isoform_X3__Vespula_vulgaris_ is identical to XP_050866466.1_aquaporin_AQPAn.G_isoform_X1__Vespula_vulgaris_ but kept for subsequent analysis
+NOTE: XP_032457068.1_aquaporin_AQPAn.G_isoform_X2__Nasonia_vitripennis_ is identical to XP_031787719.1_aquaporin_AQPAn.G_isoform_X2__Nasonia_vitripennis_ but kept for subsequent analysis
+NOTE: XP_046403531.1_aquaporin_AQPAe.a-like_isoform_X2__Ischnura_elegans_ is identical to XP_046403530.1_aquaporin_AQPAe.a-like_isoform_X1__Ischnura_elegans_ but kept for subsequent analysis
+NOTE: XP_026461702.1_aquaporin_AQPAe.a_isoform_X2__Ctenocephalides_felis_ is identical to XP_026461701.1_aquaporin_AQPAe.a_isoform_X1__Ctenocephalides_felis_ but kept for subsequent analysis
+NOTE: XP_019873433.1_aquaporin_AQPAe.a_isoform_X3__Aethina_tumida_ is identical to XP_019873432.1_aquaporin_AQPAe.a_isoform_X4__Aethina_tumida_ but kept for subsequent analysis
+NOTE: XP_044727651.1_aquaporin_AQPAn.G-like_isoform_X3__Chrysoperla_carnea_ is identical to XP_044727649.1_aquaporin_AQPAn.G-like_isoform_X1__Chrysoperla_carnea_ but kept for subsequent analysis
+NOTE: XP_023701690.1_aquaporin_AQPAe.a_isoform_X4__Cryptotermes_secundus_ is identical to XP_023701689.1_aquaporin_AQPAe.a_isoform_X3__Cryptotermes_secundus_ but kept for subsequent analysis
+NOTE: XP_021939299.1_aquaporin_AQPAe.a-like_isoform_X5__Zootermopsis_nevadensis_ is identical to XP_021939296.1_aquaporin_AQPAe.a-like_isoform_X2__Zootermopsis_nevadensis_ but kept for subsequent analysis
+NOTE: XP_015366200.1_PREDICTED_aquaporin-like_isoform_X4__Diuraphis_noxia_ is identical to XP_015366196.1_PREDICTED_aquaporin-like_isoform_X1__Diuraphis_noxia_ but kept for subsequent analysis
+NOTE: 48 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: XP_029346918.1_aquaporin_AQPAe.a-like_isoform_X3__Acyrthosiphon_pisum_ (identical to NP_001139376.1_aquaporin_isoform_1__Acyrthosiphon_pisum_) is ignored but added at the end
+NOTE: NP_001139377.1_aquaporin_isoform_2__Acyrthosiphon_pisum_ (identical to NP_001139376.1_aquaporin_isoform_1__Acyrthosiphon_pisum_) is ignored but added at the end
+NOTE: XP_029346916.1_aquaporin_AQPAe.a-like_isoform_X2__Acyrthosiphon_pisum_ (identical to NP_001139376.1_aquaporin_isoform_1__Acyrthosiphon_pisum_) is ignored but added at the end
+NOTE: XP_004535902.1_aquaporin_isoform_X3__Ceratitis_capitata_ (identical to XP_004535901.1_aquaporin_isoform_X1__Ceratitis_capitata_) is ignored but added at the end
+NOTE: XP_055916613.1_aquaporin_AQPAn.G_isoform_X3__Eupeodes_corollae_ (identical to XP_055916611.1_aquaporin_AQPAn.G_isoform_X1__Eupeodes_corollae_) is ignored but added at the end
+NOTE: XP_052562819.1_aquaporin_AQPAe.a_isoform_X4__Culex_pipiens_pallens_ (identical to XP_052562816.1_aquaporin_AQPAe.a_isoform_X2__Culex_pipiens_pallens_) is ignored but added at the end
+NOTE: XP_026323708.1_aquaporin_AQPAe.a_isoform_X2__Hyposmocoma_kahamanoa_ (identical to XP_026323707.1_aquaporin_AQPAe.a_isoform_X1__Hyposmocoma_kahamanoa_) is ignored but added at the end
+NOTE: XP_050356672.1_aquaporin_AQPAe.a-like_isoform_X2__Nymphalis_io_ (identical to XP_050356661.1_aquaporin_AQPAe.a-like_isoform_X1__Nymphalis_io_) is ignored but added at the end
+NOTE: XP_045490331.1_aquaporin_AQPAe.a_isoform_X3__Pieris_rapae_ (identical to XP_022123791.2_aquaporin_AQPAe.a_isoform_X1__Pieris_rapae_) is ignored but added at the end
+NOTE: XP_022123793.2_aquaporin_AQPAe.a_isoform_X4__Pieris_rapae_ (identical to XP_022123791.2_aquaporin_AQPAe.a_isoform_X1__Pieris_rapae_) is ignored but added at the end
+NOTE: XP_037963998.1_aquaporin_AQPAn.G_isoform_X2__Plutella_xylostella_ (identical to XP_037963997.1_aquaporin_AQPAn.G_isoform_X1__Plutella_xylostella_) is ignored but added at the end
+NOTE: XP_024214951.1_aquaporin_AQPAe.a-like_isoform_X4__Halyomorpha_halys_ (identical to XP_024214948.1_aquaporin_AQPAe.a-like_isoform_X1__Halyomorpha_halys_) is ignored but added at the end
+NOTE: XP_024214949.1_aquaporin_AQPAe.a-like_isoform_X2__Halyomorpha_halys_ (identical to XP_024214948.1_aquaporin_AQPAe.a-like_isoform_X1__Halyomorpha_halys_) is ignored but added at the end
+NOTE: XP_015187298.1_PREDICTED_aquaporin_AQPAn.G_isoform_X3__Polistes_dominula_ (identical to XP_015187295.1_PREDICTED_aquaporin_AQPAn.G_isoform_X1__Polistes_dominula_) is ignored but added at the end
+NOTE: XP_018330036.1_aquaporin_AQPAn.G_isoform_X3__Agrilus_planipennis_ (identical to XP_018330034.1_aquaporin_AQPAn.G_isoform_X1__Agrilus_planipennis_) is ignored but added at the end
+NOTE: XP_049954590.1_aquaporin_AQPAe.a_isoform_X1__Schistocerca_serialis_cubense_ (identical to XP_049845619.1_aquaporin_AQPAe.a_isoform_X1__Schistocerca_gregaria_) is ignored but added at the end
+NOTE: XP_049845620.1_aquaporin_AQPAe.a_isoform_X2__Schistocerca_gregaria_ (identical to XP_049845619.1_aquaporin_AQPAe.a_isoform_X1__Schistocerca_gregaria_) is ignored but added at the end
+NOTE: XP_047102449.1_aquaporin_AQPAe.a_isoform_X2__Schistocerca_piceifrons_ (identical to XP_049845619.1_aquaporin_AQPAe.a_isoform_X1__Schistocerca_gregaria_) is ignored but added at the end
+NOTE: XP_049954591.1_aquaporin_AQPAe.a_isoform_X2__Schistocerca_serialis_cubense_ (identical to XP_049845619.1_aquaporin_AQPAe.a_isoform_X1__Schistocerca_gregaria_) is ignored but added at the end
+NOTE: XP_047537434.1_aquaporin_AQPAe.a_isoform_X1__Vanessa_atalanta_ (identical to XP_050358466.1_aquaporin_AQPAe.a__Nymphalis_io_) is ignored but added at the end
+NOTE: XP_047537442.1_aquaporin_AQPAe.a_isoform_X1__Vanessa_atalanta_ (identical to XP_050358466.1_aquaporin_AQPAe.a__Nymphalis_io_) is ignored but added at the end
+NOTE: XP_047537451.1_aquaporin_AQPAe.a_isoform_X2__Vanessa_atalanta_ (identical to XP_050358466.1_aquaporin_AQPAe.a__Nymphalis_io_) is ignored but added at the end
+NOTE: XP_035429572.1_aquaporin_AQPAe.a__Spodoptera_frugiperda_ (identical to XP_035429569.1_aquaporin_AQPAe.a__Spodoptera_frugiperda_) is ignored but added at the end
+NOTE: XP_037300468.1_aquaporin_isoform_X2__Manduca_sexta_ (identical to XP_037300466.1_aquaporin_isoform_X1__Manduca_sexta_) is ignored but added at the end
+NOTE: XP_046669581.1_aquaporin_AQPAe.a_isoform_X3__Homalodisca_vitripennis_ (identical to XP_046669579.1_aquaporin_AQPAe.a_isoform_X1__Homalodisca_vitripennis_) is ignored but added at the end
+NOTE: XP_046669582.1_aquaporin_AQPAe.a_isoform_X4__Homalodisca_vitripennis_ (identical to XP_046669579.1_aquaporin_AQPAe.a_isoform_X1__Homalodisca_vitripennis_) is ignored but added at the end
+NOTE: XP_054270999.1_aquaporin_AQPAe.a-like_isoform_X1__Macrosteles_quadrilineatus_ (identical to XP_054270851.1_aquaporin_AQPAe.a-like_isoform_X2__Macrosteles_quadrilineatus_) is ignored but added at the end
+NOTE: XP_054270852.1_aquaporin_AQPAe.a-like_isoform_X3__Macrosteles_quadrilineatus_ (identical to XP_054270851.1_aquaporin_AQPAe.a-like_isoform_X2__Macrosteles_quadrilineatus_) is ignored but added at the end
+NOTE: XP_054271001.1_aquaporin_AQPAe.a-like_isoform_X3__Macrosteles_quadrilineatus_ (identical to XP_054270851.1_aquaporin_AQPAe.a-like_isoform_X2__Macrosteles_quadrilineatus_) is ignored but added at the end
+NOTE: XP_039289068.1_aquaporin_isoform_X3__Nilaparvata_lugens_ (identical to XP_039289065.1_aquaporin_isoform_X1__Nilaparvata_lugens_) is ignored but added at the end
+NOTE: XP_039289066.1_aquaporin_isoform_X2__Nilaparvata_lugens_ (identical to XP_039289065.1_aquaporin_isoform_X1__Nilaparvata_lugens_) is ignored but added at the end
+NOTE: XP_014250943.1_aquaporin_AQPcic-like_isoform_X2__Cimex_lectularius_ (identical to XP_014250942.1_aquaporin_AQPcic-like_isoform_X1__Cimex_lectularius_) is ignored but added at the end
+NOTE: XP_024083731.1_aquaporin_AQPcic-like_isoform_X4__Cimex_lectularius_ (identical to XP_014250942.1_aquaporin_AQPcic-like_isoform_X1__Cimex_lectularius_) is ignored but added at the end
+NOTE: XP_006569284.1_aquaporin_AQPAn.G_isoform_X4__Apis_mellifera_ (identical to XP_006569282.1_aquaporin_AQPAn.G_isoform_X1__Apis_mellifera_) is ignored but added at the end
+NOTE: XP_006569285.1_aquaporin_AQPAn.G_isoform_X4__Apis_mellifera_ (identical to XP_006569282.1_aquaporin_AQPAn.G_isoform_X1__Apis_mellifera_) is ignored but added at the end
+NOTE: XP_006569283.1_aquaporin_AQPAn.G_isoform_X3__Apis_mellifera_ (identical to XP_006569282.1_aquaporin_AQPAn.G_isoform_X1__Apis_mellifera_) is ignored but added at the end
+NOTE: XP_012284145.1_aquaporin_isoform_X2__Orussus_abietinus_ (identical to XP_012284124.1_aquaporin_isoform_X1__Orussus_abietinus_) is ignored but added at the end
+NOTE: XP_050866467.1_aquaporin_AQPAn.G_isoform_X2__Vespula_vulgaris_ (identical to XP_050866466.1_aquaporin_AQPAn.G_isoform_X1__Vespula_vulgaris_) is ignored but added at the end
+NOTE: XP_032457069.1_aquaporin_AQPAn.G_isoform_X2__Nasonia_vitripennis_ (identical to XP_031787719.1_aquaporin_AQPAn.G_isoform_X2__Nasonia_vitripennis_) is ignored but added at the end
+NOTE: XP_031787721.1_aquaporin_AQPAn.G_isoform_X1__Nasonia_vitripennis_ (identical to XP_031787719.1_aquaporin_AQPAn.G_isoform_X2__Nasonia_vitripennis_) is ignored but added at the end
+NOTE: XP_032457067.1_aquaporin_AQPAn.G_isoform_X1__Nasonia_vitripennis_ (identical to XP_031787719.1_aquaporin_AQPAn.G_isoform_X2__Nasonia_vitripennis_) is ignored but added at the end
+NOTE: XP_026461703.1_aquaporin_AQPAe.a_isoform_X3__Ctenocephalides_felis_ (identical to XP_026461701.1_aquaporin_AQPAe.a_isoform_X1__Ctenocephalides_felis_) is ignored but added at the end
+NOTE: XP_044727650.1_aquaporin_AQPAn.G-like_isoform_X2__Chrysoperla_carnea_ (identical to XP_044727649.1_aquaporin_AQPAn.G-like_isoform_X1__Chrysoperla_carnea_) is ignored but added at the end
+NOTE: XP_023701691.1_aquaporin_AQPAe.a_isoform_X4__Cryptotermes_secundus_ (identical to XP_023701689.1_aquaporin_AQPAe.a_isoform_X3__Cryptotermes_secundus_) is ignored but added at the end
+NOTE: XP_021939297.1_aquaporin_AQPAe.a-like_isoform_X3__Zootermopsis_nevadensis_ (identical to XP_021939296.1_aquaporin_AQPAe.a-like_isoform_X2__Zootermopsis_nevadensis_) is ignored but added at the end
+NOTE: XP_015366197.1_PREDICTED_aquaporin-like_isoform_X2__Diuraphis_noxia_ (identical to XP_015366196.1_PREDICTED_aquaporin-like_isoform_X1__Diuraphis_noxia_) is ignored but added at the end
+NOTE: XP_015366201.1_PREDICTED_aquaporin-like_isoform_X5__Diuraphis_noxia_ (identical to XP_015366196.1_PREDICTED_aquaporin-like_isoform_X1__Diuraphis_noxia_) is ignored but added at the end
+NOTE: XP_015366203.1_PREDICTED_aquaporin-like_isoform_X7__Diuraphis_noxia_ (identical to XP_015366196.1_PREDICTED_aquaporin-like_isoform_X1__Diuraphis_noxia_) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to Dca_algn.maf.trim.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.033 seconds
+NOTE: ModelFinder requires 45 MB RAM!
+ModelFinder will test 546 protein models (sample size: 167) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  Dayhoff       17609.170    311 35840.340    229904.340   36810.036
+  2  Dayhoff+I     17384.814    312 35393.628    230705.628   36366.442
+  3  Dayhoff+G4    16658.362    312 33940.723    229252.723   34913.537
+  4  Dayhoff+I+G4  16634.366    313 33894.731    230458.731   34870.663
+  5  Dayhoff+R2    16862.791    313 34351.581    230915.581   35327.514
+  6  Dayhoff+R3    16690.389    315 34010.777    233090.777   34992.945
+  7  Dayhoff+R4    16646.306    317 33926.612    235538.612   34915.016
+  8  Dayhoff+R5    16633.775    319 33905.550    238065.550   34900.190
+  9  Dayhoff+R6    16627.316    321 33896.632    240620.632   34897.508
+ 10  Dayhoff+R7    16625.138    323 33896.276    243200.276   34903.388
+ 14  Dayhoff+F     17046.741    330 34753.482    253213.482   35782.420
+ 15  Dayhoff+F+I   16895.878    331 34453.756    254237.756   35485.812
+ 16  Dayhoff+F+G4  16211.928    331 33085.856    252869.856   34117.912
+ 17  Dayhoff+F+I+G4 16197.546    332 33059.091    254171.091   34094.265
+ 18  Dayhoff+F+R2  16396.381    332 33456.761    254568.761   34491.935
+ 19  Dayhoff+F+R3  16246.927    334 33161.853    256941.853   34203.263
+ 20  Dayhoff+F+R4  16201.166    336 33074.331    259538.331   34121.977
+ 21  Dayhoff+F+R5  16179.933    338 33035.865    262199.865   34089.747
+ 22  Dayhoff+F+R6  16177.012    340 33034.024    264914.024   34094.142
+ 27  mtMAM         18239.254    311 37100.508    231164.508   38070.204
+ 28  mtMAM+I       18176.468    312 36976.935    232288.935   37949.750
+ 29  mtMAM+G4      17197.789    312 35019.578    230331.578   35992.392
+ 30  mtMAM+I+G4    17192.963    313 35011.926    231575.926   35987.858
+ 31  mtMAM+R2      17482.404    313 35590.808    232154.808   36566.740
+ 32  mtMAM+R3      17266.808    315 35163.616    234243.616   36145.784
+ 33  mtMAM+R4      17191.625    317 35017.251    236629.251   36005.655
+ 34  mtMAM+R5      17179.766    319 34997.532    239157.532   35992.172
+ 35  mtMAM+R6      17158.889    321 34959.779    241683.779   35960.655
+ 36  mtMAM+R7      17154.781    323 34955.562    244259.562   35962.674
+ 40  mtMAM+F       17734.296    330 36128.592    254588.592   37157.530
+ 41  mtMAM+F+I     17676.963    331 36015.927    255799.927   37047.982
+ 42  mtMAM+F+G4    16647.238    331 33956.476    253740.476   34988.532
+ 43  mtMAM+F+I+G4  16645.276    332 33954.552    255066.552   34989.726
+ 44  mtMAM+F+R2    16907.066    332 34478.131    255590.131   35513.305
+ 45  mtMAM+F+R3    16719.982    334 34107.964    257887.964   35149.374
+ 46  mtMAM+F+R4    16645.040    336 33962.081    260426.081   35009.727
+ 47  mtMAM+F+R5    16613.649    338 33903.297    263067.297   34957.179
+ 48  mtMAM+F+R6    16608.061    340 33896.122    265776.122   34956.240
+ 49  mtMAM+F+R7    16600.257    342 33884.515    268496.515   34950.868
+ 50  mtMAM+F+R8    16595.383    344 33878.765    271238.765   34951.355
+ 53  JTT           17354.450    311 35330.900    229394.900   36300.596
+ 54  JTT+I         17180.958    312 34985.916    230297.916   35958.730
+ 55  JTT+G4        16512.482    312 33648.963    228960.963   34621.777
+ 56  JTT+I+G4      16491.526    313 33609.052    230173.052   34584.984
+ 57  JTT+R2        16683.151    313 33992.302    230556.302   34968.234
+ 58  JTT+R3        16540.814    315 33711.627    232791.627   34693.795
+ 59  JTT+R4        16497.951    317 33629.902    235241.902   34618.306
+ 60  JTT+R5        16484.830    319 33607.659    237767.659   34602.299
+ 61  JTT+R6        16480.739    321 33603.477    240327.477   34604.353
+ 66  JTT+F         16934.454    330 34528.908    252988.908   35557.846
+ 67  JTT+F+I       16810.018    331 34282.036    254066.036   35314.092
+ 68  JTT+F+G4      16156.470    331 32974.941    252758.941   34006.996
+ 69  JTT+F+I+G4    16147.122    332 32958.243    254070.243   33993.417
+ 70  JTT+F+R2      16321.555    332 33307.111    254419.111   34342.285
+ 71  JTT+F+R3      16186.915    334 33041.830    256821.830   34083.240
+ 72  JTT+F+R4      16144.689    336 32961.378    259425.378   34009.024
+ 73  JTT+F+R5      16118.181    338 32912.362    262076.362   33966.244
+ 74  JTT+F+R6      16116.765    340 32913.530    264793.530   33973.647
+ 79  WAG           17301.399    311 35224.798    229288.798   36194.494
+ 80  WAG+I         17104.766    312 34833.533    230145.533   35806.347
+ 81  WAG+G4        16490.357    312 33604.714    228916.714   34577.528
+ 82  WAG+I+G4      16465.797    313 33557.595    230121.595   34533.527
+ 83  WAG+R2        16655.842    313 33937.684    230501.684   34913.616
+ 84  WAG+R3        16522.412    315 33674.823    232754.823   34656.991
+ 85  WAG+R4        16467.290    317 33568.579    235180.579   34556.983
+ 86  WAG+R5        16457.436    319 33552.872    237712.872   34547.512
+ 87  WAG+R6        16452.965    321 33547.930    240271.930   34548.806
+ 92  WAG+F         16774.169    330 34208.337    252668.337   35237.275
+ 93  WAG+F+I       16639.532    331 33941.065    253725.065   34973.121
+ 94  WAG+F+G4      16055.987    331 32773.973    252557.973   33806.029
+ 95  WAG+F+I+G4    16046.145    332 32756.289    253868.289   33791.463
+ 96  WAG+F+R2      16203.293    332 33070.587    254182.587   34105.761
+ 97  WAG+F+R3      16082.877    334 32833.754    256613.754   33875.164
+ 98  WAG+F+R4      16030.317    336 32732.635    259196.635   33780.281
+ 99  WAG+F+R5      16009.114    338 32694.227    261858.227   33748.109
+100  WAG+F+R6      16006.809    340 32693.619    264573.619   33753.736
+105  cpREV         17207.819    311 35037.638    229101.638   36007.334
+106  cpREV+I       17025.280    312 34674.560    229986.560   35647.374
+107  cpREV+G4      16464.604    312 33553.208    228865.208   34526.022
+108  cpREV+I+G4    16442.569    313 33511.138    230075.138   34487.070
+109  cpREV+R2      16624.056    313 33874.111    230438.111   34850.043
+110  cpREV+R3      16495.373    315 33620.746    232700.746   34602.914
+111  cpREV+R4      16441.189    317 33516.378    235128.378   34504.782
+112  cpREV+R5      16422.132    319 33482.265    237642.265   34476.905
+113  cpREV+R6      16417.088    321 33476.176    240200.176   34477.052
+118  cpREV+F       16757.307    330 34174.615    252634.615   35203.553
+119  cpREV+F+I     16629.882    331 33921.763    253705.763   34953.819
+120  cpREV+F+G4    16060.087    331 32782.174    252566.174   33814.230
+121  cpREV+F+I+G4  16053.668    332 32771.335    253883.335   33806.509
+122  cpREV+F+R2    16214.482    332 33092.965    254204.965   34128.139
+123  cpREV+F+R3    16084.475    334 32836.950    256616.950   33878.360
+124  cpREV+F+R4    16047.672    336 32767.344    259231.344   33814.990
+125  cpREV+F+R5    16016.784    338 32709.567    261873.567   33763.449
+126  cpREV+F+R6    16011.508    340 32703.015    264583.015   33763.133
+127  cpREV+F+R7    16001.867    342 32687.733    267299.733   33754.087
+128  cpREV+F+R8    15998.805    344 32685.611    270045.611   33758.200
+131  mtREV         17660.848    311 35943.696    230007.696   36913.392
+132  mtREV+I       17565.033    312 35754.065    231066.065   36726.879
+133  mtREV+G4      16871.006    312 34366.012    229678.012   35338.826
+134  mtREV+I+G4    16852.901    313 34331.802    230895.802   35307.734
+135  mtREV+R2      17065.507    313 34757.014    231321.014   35732.946
+136  mtREV+R3      16901.680    315 34433.360    233513.360   35415.528
+137  mtREV+R4      16842.671    317 34319.341    235931.341   35307.745
+138  mtREV+R5      16823.654    319 34285.307    238445.307   35279.947
+139  mtREV+R6      16817.737    321 34277.475    241001.475   35278.351
+140  mtREV+R7      16806.798    323 34259.596    243563.596   35266.708
+141  mtREV+R8      16801.568    325 34253.137    246153.137   35266.485
+142  mtREV+R9      16798.456    327 34250.912    248762.912   35270.496
+144  mtREV+F       17067.652    330 34795.304    253255.304   35824.242
+145  mtREV+F+I     16984.967    331 34631.933    254415.933   35663.989
+146  mtREV+F+G4    16233.172    331 33128.344    252912.344   34160.400
+147  mtREV+F+I+G4  16224.530    332 33113.059    254225.059   34148.233
+148  mtREV+F+R2    16433.222    332 33530.443    254642.443   34565.617
+149  mtREV+F+R3    16268.556    334 33205.113    256985.113   34246.523
+150  mtREV+F+R4    16214.717    336 33101.434    259565.434   34149.080
+151  mtREV+F+R5    16198.190    338 33072.379    262236.379   34126.261
+152  mtREV+F+R6    16195.593    340 33071.186    264951.186   34131.304
+157  rtREV         17391.263    311 35404.527    229468.527   36374.223
+158  rtREV+I       17250.262    312 35124.524    230436.524   36097.338
+159  rtREV+G4      16589.731    312 33803.462    229115.462   34776.276
+160  rtREV+I+G4    16577.040    313 33780.079    230344.079   34756.011
+161  rtREV+R2      16764.805    313 34155.611    230719.611   35131.543
+162  rtREV+R3      16620.765    315 33871.531    232951.531   34853.699
+163  rtREV+R4      16577.239    317 33788.478    235400.478   34776.882
+164  rtREV+R5      16551.691    319 33741.382    237901.382   34736.022
+165  rtREV+R6      16544.503    321 33731.007    240455.007   34731.883
+166  rtREV+R7      16537.198    323 33720.395    243024.395   34727.507
+167  rtREV+R8      16534.236    325 33718.472    245618.472   34731.820
+170  rtREV+F       16860.750    330 34381.500    252841.500   35410.438
+171  rtREV+F+I     16768.858    331 34199.717    253983.717   35231.773
+172  rtREV+F+G4    16066.743    331 32795.486    252579.486   33827.542
+173  rtREV+F+I+G4  16063.086    332 32790.172    253902.172   33825.346
+174  rtREV+F+R2    16250.316    332 33164.632    254276.632   34199.806
+175  rtREV+F+R3    16099.647    334 32867.295    256647.295   33908.705
+176  rtREV+F+R4    16047.361    336 32766.722    259230.722   33814.368
+177  rtREV+F+R5    16027.704    338 32731.408    261895.408   33785.290
+178  rtREV+F+R6    16020.193    340 32720.386    264600.386   33780.504
+179  rtREV+F+R7    16010.274    342 32704.548    267316.548   33770.902
+180  rtREV+F+R8    16006.061    344 32700.122    270060.122   33772.712
+183  mtART         17433.029    311 35488.057    229552.057   36457.753
+184  mtART+I       17367.856    312 35359.712    230671.712   36332.526
+185  mtART+G4      16547.234    312 33718.469    229030.469   34691.283
+186  mtART+I+G4    16541.425    313 33708.850    230272.850   34684.782
+187  mtART+R2      16804.176    313 34234.352    230798.352   35210.284
+188  mtART+R3      16630.319    315 33890.638    232970.638   34872.807
+189  mtART+R4      16532.976    317 33699.953    235311.953   34688.357
+190  mtART+R5      16515.189    319 33668.377    237828.377   34663.017
+191  mtART+R6      16507.363    321 33656.725    240380.725   34657.601
+192  mtART+R7      16504.058    323 33654.116    242958.116   34661.228
+196  mtART+F       17133.558    330 34927.115    253387.115   35956.053
+197  mtART+F+I     17077.666    331 34817.332    254601.332   35849.388
+198  mtART+F+G4    16180.120    331 33022.241    252806.241   34054.297
+199  mtART+F+I+G4  16175.391    332 33014.781    254126.781   34049.955
+200  mtART+F+R2    16443.755    332 33551.511    254663.511   34586.685
+201  mtART+F+R3    16261.138    334 33190.276    256970.276   34231.686
+202  mtART+F+R4    16169.421    336 33010.842    259474.842   34058.488
+203  mtART+F+R5    16148.090    338 32972.180    262136.180   34026.062
+204  mtART+F+R6    16141.859    340 32963.719    264843.719   34023.836
+205  mtART+F+R7    16134.615    342 32953.229    267565.229   34019.583
+206  mtART+F+R8    16134.456    344 32956.912    270316.912   34029.501
+209  mtZOA         16995.595    311 34613.191    228677.191   35582.887
+210  mtZOA+I       16927.308    312 34478.616    229790.616   35451.430
+211  mtZOA+G4      16166.376    312 32956.751    228268.751   33929.565
+212  mtZOA+I+G4    16160.170    313 32946.340    229510.340   33922.272
+213  mtZOA+R2      16396.571    313 33419.142    229983.142   34395.074
+214  mtZOA+R3      16221.210    315 33072.420    232152.420   34054.588
+215  mtZOA+R4      16150.563    317 32935.126    234547.126   33923.530
+216  mtZOA+R5      16132.366    319 32902.732    237062.732   33897.372
+217  mtZOA+R6      16126.044    321 32894.089    239618.089   33894.965
+218  mtZOA+R7      16120.861    323 32887.723    242191.723   33894.835
+219  mtZOA+R8      16120.860    325 32891.721    244791.721   33905.069
+222  mtZOA+F       16929.568    330 34519.135    252979.135   35548.073
+223  mtZOA+F+I     16870.800    331 34403.601    254187.601   35435.657
+224  mtZOA+F+G4    16029.331    331 32720.662    252504.662   33752.718
+225  mtZOA+F+I+G4  16023.891    332 32711.783    253823.783   33746.957
+226  mtZOA+F+R2    16271.710    332 33207.420    254319.420   34242.594
+227  mtZOA+F+R3    16082.973    334 32833.945    256613.945   33875.355
+228  mtZOA+F+R4    16014.595    336 32701.189    259165.189   33748.835
+229  mtZOA+F+R5    15995.324    338 32666.647    261830.647   33720.529
+230  mtZOA+F+R6    15989.318    340 32658.636    264538.636   33718.754
+231  mtZOA+F+R7    15983.653    342 32651.306    267263.306   33717.659
+232  mtZOA+F+R8    15983.642    344 32655.285    270015.285   33727.875
+235  VT            17293.882    311 35209.764    229273.764   36179.460
+236  VT+I          17128.659    312 34881.317    230193.317   35854.131
+237  VT+G4         16529.920    312 33683.840    228995.840   34656.654
+238  VT+I+G4       16508.618    313 33643.235    230207.235   34619.167
+239  VT+R2         16682.944    313 33991.888    230555.888   34967.820
+240  VT+R3         16557.301    315 33744.602    232824.602   34726.770
+241  VT+R4         16510.434    317 33654.867    235266.867   34643.271
+242  VT+R5         16502.158    319 33642.317    237802.317   34636.957
+243  VT+R6         16499.438    321 33640.877    240364.877   34641.753
+248  VT+F          16819.655    330 34299.310    252759.310   35328.248
+249  VT+F+I        16697.777    331 34057.554    253841.554   35089.609
+250  VT+F+G4       16121.239    331 32904.478    252688.478   33936.534
+251  VT+F+I+G4     16110.174    332 32884.348    253996.348   33919.522
+252  VT+F+R2       16269.932    332 33203.864    254315.864   34239.037
+253  VT+F+R3       16149.029    334 32966.058    256746.058   34007.468
+254  VT+F+R4       16101.992    336 32875.983    259339.983   33923.629
+255  VT+F+R5       16087.662    338 32851.324    262015.324   33905.206
+256  VT+F+R6       16085.616    340 32851.232    264731.232   33911.350
+261  LG            17023.795    311 34669.591    228733.591   35639.287
+262  LG+I          16878.686    312 34381.373    229693.373   35354.187
+263  LG+G4         16220.052    312 33064.103    228376.103   34036.918
+264  LG+I+G4       16206.270    313 33038.540    229602.540   34014.472
+265  LG+R2         16399.757    313 33425.515    229989.515   34401.447
+266  LG+R3         16256.357    315 33142.714    232222.714   34124.882
+267  LG+R4         16203.855    317 33041.710    234653.710   34030.114
+268  LG+R5         16193.358    319 33024.716    237184.716   34019.356
+269  LG+R6         16190.371    321 33022.742    239746.742   34023.618
+274  LG+F          16683.504    330 34027.008    252487.008   35055.946
+275  LG+F+I        16588.675    331 33839.351    253623.351   34871.407
+276  LG+F+G4       15923.635    331 32509.271    252293.271   33541.327
+277  LG+F+I+G4     15919.868    332 32503.737    253615.737   33538.911
+278  LG+F+R2       16105.224    332 32874.449    253986.449   33909.623
+279  LG+F+R3       15960.780    334 32589.560    256369.560   33630.970
+280  LG+F+R4       15911.553    336 32495.107    258959.107   33542.753
+281  LG+F+R5       15894.794    338 32465.589    261629.589   33519.470
+282  LG+F+R6       15891.368    340 32462.735    264342.735   33522.853
+287  DCMut         17609.732    311 35841.464    229905.464   36811.160
+288  DCMut+I       17385.802    312 35395.605    230707.605   36368.419
+289  DCMut+G4      16660.970    312 33945.939    229257.939   34918.753
+290  DCMut+I+G4    16636.941    313 33899.883    230463.883   34875.815
+291  DCMut+R2      16873.732    313 34373.464    230937.464   35349.396
+292  DCMut+R3      16692.767    315 34015.534    233095.534   34997.702
+293  DCMut+R4      16647.724    317 33929.449    235541.449   34917.853
+294  DCMut+R5      16644.932    319 33927.864    238087.864   34922.504
+300  DCMut+F       17047.303    330 34754.606    253214.606   35783.544
+301  DCMut+F+I     16896.466    331 34454.933    254238.933   35486.989
+302  DCMut+F+G4    16213.731    331 33089.462    252873.462   34121.518
+303  DCMut+F+I+G4  16199.325    332 33062.650    254174.650   34097.824
+304  DCMut+F+R2    16397.906    332 33459.813    254571.813   34494.987
+305  DCMut+F+R3    16248.725    334 33165.450    256945.450   34206.860
+306  DCMut+F+R4    16202.334    336 33076.668    259540.668   34124.314
+307  DCMut+F+R5    16192.012    338 33060.024    262224.024   34113.906
+308  DCMut+F+R6    16189.855    340 33059.711    264939.711   34119.829
+313  PMB           17243.281    311 35108.563    229172.563   36078.259
+314  PMB+I         17085.557    312 34795.114    230107.114   35767.929
+315  PMB+G4        16550.273    312 33724.546    229036.546   34697.360
+316  PMB+I+G4      16524.093    313 33674.187    230238.187   34650.119
+317  PMB+R2        16684.846    313 33995.693    230559.693   34971.625
+318  PMB+R3        16564.736    315 33759.472    232839.472   34741.640
+319  PMB+R4        16511.957    317 33657.914    235269.914   34646.318
+320  PMB+R5        16501.592    319 33641.184    237801.184   34635.824
+321  PMB+R6        16500.310    321 33642.620    240366.620   34643.496
+326  PMB+F         16889.505    330 34439.010    252899.010   35467.948
+327  PMB+F+I       16767.656    331 34197.312    253981.312   35229.368
+328  PMB+F+G4      16218.431    331 33098.863    252882.863   34130.919
+329  PMB+F+I+G4    16205.838    332 33075.676    254187.676   34110.850
+330  PMB+F+R2      16360.848    332 33385.696    254497.696   34420.870
+331  PMB+F+R3      16237.164    334 33142.327    256922.327   34183.737
+332  PMB+F+R4      16183.066    336 33038.132    259502.132   34085.778
+333  PMB+F+R5      16170.476    338 33016.952    262180.952   34070.834
+334  PMB+F+R6      16169.676    340 33019.353    264899.353   34079.471
+339  HIVb          17984.991    311 36591.982    230655.982   37561.678
+340  HIVb+I        17804.705    312 36233.411    231545.411   37206.225
+341  HIVb+G4       17062.396    312 34748.793    230060.793   35721.607
+342  HIVb+I+G4     17029.946    313 34685.893    231249.893   35661.825
+343  HIVb+R2       17266.970    313 35159.940    231723.940   36135.872
+344  HIVb+R3       17083.587    315 34797.175    233877.175   35779.343
+345  HIVb+R4       17035.573    317 34705.147    236317.147   35693.551
+346  HIVb+R5       17019.244    319 34676.489    238836.489   35671.129
+347  HIVb+R6       17016.250    321 34674.499    241398.499   35675.375
+352  HIVb+F        17459.811    330 35579.621    254039.621   36608.559
+353  HIVb+F+I      17332.643    331 35327.286    255111.286   36359.342
+354  HIVb+F+G4     16586.751    331 33835.502    253619.502   34867.558
+355  HIVb+F+I+G4   16556.355    332 33776.709    254888.709   34811.883
+356  HIVb+F+R2     16793.643    332 34251.286    255363.286   35286.460
+357  HIVb+F+R3     16608.657    334 33885.313    257665.313   34926.723
+358  HIVb+F+R4     16549.980    336 33771.959    260235.959   34819.605
+359  HIVb+F+R5     16538.229    338 33752.458    262916.458   34806.340
+360  HIVb+F+R6     16536.093    340 33752.187    265632.187   34812.305
+365  HIVw          19038.339    311 38698.679    232762.679   39668.375
+366  HIVw+I        18837.739    312 38299.478    233611.478   39272.292
+367  HIVw+G4       18013.122    312 36650.243    231962.243   37623.058
+368  HIVw+I+G4     17987.777    313 36601.554    233165.554   37577.486
+369  HIVw+R2       18223.734    313 37073.468    233637.468   38049.400
+370  HIVw+R3       18058.701    315 36747.402    235827.402   37729.570
+371  HIVw+R4       17997.087    317 36628.174    238240.174   37616.578
+372  HIVw+R5       17974.411    319 36586.823    240746.823   37581.463
+373  HIVw+R6       17973.506    321 36589.011    243313.011   37589.887
+378  HIVw+F        18267.616    330 37195.232    255655.232   38224.170
+379  HIVw+F+I      18100.798    331 36863.597    256647.597   37895.653
+380  HIVw+F+G4     17277.955    331 35217.910    255001.910   36249.966
+381  HIVw+F+I+G4   17260.164    332 35184.328    256296.328   36219.502
+382  HIVw+F+R2     17485.101    332 35634.202    256746.202   36669.375
+383  HIVw+F+R3     17319.344    334 35306.688    259086.688   36348.098
+384  HIVw+F+R4     17267.830    336 35207.660    261671.660   36255.306
+385  HIVw+F+R5     17245.437    338 35166.874    264330.874   36220.756
+386  HIVw+F+R6     17243.178    340 35166.355    267046.355   36226.473
+391  JTTDCMut      17353.502    311 35329.005    229393.005   36298.701
+392  JTTDCMut+I    17178.547    312 34981.095    230293.095   35953.909
+393  JTTDCMut+G4   16515.429    312 33654.858    228966.858   34627.672
+394  JTTDCMut+I+G4 16493.847    313 33613.695    230177.695   34589.627
+395  JTTDCMut+R2   16685.084    313 33996.168    230560.168   34972.100
+396  JTTDCMut+R3   16543.122    315 33716.245    232796.245   34698.413
+397  JTTDCMut+R4   16500.042    317 33634.084    235246.084   34622.488
+398  JTTDCMut+R5   16489.488    319 33616.975    237776.975   34611.615
+399  JTTDCMut+R6   16487.438    321 33616.875    240340.875   34617.751
+404  JTTDCMut+F    16928.715    330 34517.430    252977.430   35546.368
+405  JTTDCMut+F+I  16803.782    331 34269.564    254053.564   35301.620
+406  JTTDCMut+F+G4 16154.019    331 32970.039    252754.039   34002.095
+407  JTTDCMut+F+I+G4 16144.547    332 32953.094    254065.094   33988.268
+408  JTTDCMut+F+R2 16317.446    332 33298.892    254410.892   34334.066
+409  JTTDCMut+F+R3 16183.780    334 33035.559    256815.559   34076.969
+410  JTTDCMut+F+R4 16141.058    336 32954.115    259418.115   34001.761
+411  JTTDCMut+F+R5 16119.076    338 32914.151    262078.151   33968.033
+412  JTTDCMut+F+R6 16117.670    340 32915.340    264795.340   33975.458
+417  FLU           17972.999    311 36567.998    230631.998   37537.694
+418  FLU+I         17807.333    312 36238.666    231550.666   37211.480
+419  FLU+G4        17081.629    312 34787.258    230099.258   35760.072
+420  FLU+I+G4      17059.768    313 34745.535    231309.535   35721.468
+421  FLU+R2        17282.242    313 35190.484    231754.484   36166.416
+422  FLU+R3        17123.207    315 34876.413    233956.413   35858.581
+423  FLU+R4        17069.143    317 34772.287    236384.287   35760.691
+424  FLU+R5        17049.616    319 34737.231    238897.231   35731.871
+425  FLU+R6        17046.141    321 34734.282    241458.282   35735.158
+430  FLU+F         17391.102    330 35442.203    253902.203   36471.141
+431  FLU+F+I       17293.252    331 35248.504    255032.504   36280.559
+432  FLU+F+G4      16503.807    331 33669.615    253453.615   34701.671
+433  FLU+F+I+G4    16494.902    332 33653.804    254765.804   34688.978
+434  FLU+F+R2      16697.766    332 34059.533    255171.533   35094.707
+435  FLU+F+R3      16551.202    334 33770.404    257550.404   34811.814
+436  FLU+F+R4      16485.167    336 33642.333    260106.333   34689.979
+437  FLU+F+R5      16468.364    338 33612.729    262776.729   34666.611
+438  FLU+F+R6      16466.485    340 33612.969    265492.969   34673.087
+443  Blosum62      17242.296    311 35106.592    229170.592   36076.288
+444  Blosum62+I    17095.190    312 34814.379    230126.379   35787.193
+445  Blosum62+G4   16519.101    312 33662.202    228974.202   34635.016
+446  Blosum62+I+G4 16504.761    313 33635.523    230199.523   34611.455
+447  Blosum62+R2   16663.019    313 33952.039    230516.039   34927.971
+448  Blosum62+R3   16541.557    315 33713.115    232793.115   34695.283
+449  Blosum62+R4   16489.812    317 33613.623    235225.623   34602.027
+450  Blosum62+R5   16474.338    319 33586.677    237746.677   34581.317
+451  Blosum62+R6   16474.067    321 33590.134    240314.134   34591.011
+456  Blosum62+F    16871.245    330 34402.491    252862.491   35431.429
+457  Blosum62+F+I  16758.727    331 34179.454    253963.454   35211.510
+458  Blosum62+F+G4 16173.976    331 33009.951    252793.951   34042.007
+459  Blosum62+F+I+G4 16165.232    332 32994.463    254106.463   34029.637
+460  Blosum62+F+R2 16328.685    332 33321.371    254433.371   34356.545
+461  Blosum62+F+R3 16203.020    334 33074.041    256854.041   34115.451
+462  Blosum62+F+R4 16150.489    336 32972.978    259436.978   34020.624
+463  Blosum62+F+R5 16132.576    338 32941.153    262105.153   33995.035
+464  Blosum62+F+R6 16131.502    340 32943.004    264823.004   34003.122
+469  mtMet         17444.208    311 35510.416    229574.416   36480.112
+470  mtMet+I       17365.549    312 35355.099    230667.099   36327.913
+471  mtMet+G4      16664.502    312 33953.004    229265.004   34925.818
+472  mtMet+I+G4    16646.121    313 33918.242    230482.242   34894.174
+473  mtMet+R2      16876.625    313 34379.250    230943.250   35355.182
+474  mtMet+R3      16685.914    315 34001.828    233081.828   34983.996
+475  mtMet+R4      16631.261    317 33896.523    235508.523   34884.927
+476  mtMet+R5      16617.585    319 33873.170    238033.170   34867.810
+477  mtMet+R6      16617.286    321 33876.572    240600.572   34877.448
+482  mtMet+F       17111.626    330 34883.251    253343.251   35912.189
+483  mtMet+F+I     17042.972    331 34747.943    254531.943   35779.999
+484  mtMet+F+G4    16238.040    331 33138.081    252922.081   34170.137
+485  mtMet+F+I+G4  16217.840    332 33099.680    254211.680   34134.854
+486  mtMet+F+R2    16453.459    332 33570.918    254682.918   34606.092
+487  mtMet+F+R3    16256.096    334 33180.193    256960.193   34221.603
+488  mtMet+F+R4    16207.268    336 33086.535    259550.535   34134.181
+489  mtMet+F+R5    16190.939    338 33057.878    262221.878   34111.760
+490  mtMet+F+R6    16190.348    340 33060.696    264940.696   34120.814
+495  mtVer         17846.166    311 36314.332    230378.332   37284.028
+496  mtVer+I       17766.571    312 36157.142    231469.142   37129.956
+497  mtVer+G4      16965.177    312 34554.354    229866.354   35527.168
+498  mtVer+I+G4    16940.641    313 34507.281    231071.281   35483.214
+499  mtVer+R2      17189.333    313 35004.667    231568.667   35980.599
+500  mtVer+R3      16989.567    315 34609.133    233689.133   35591.301
+501  mtVer+R4      16934.577    317 34503.153    236115.153   35491.557
+502  mtVer+R5      16916.463    319 34470.926    238630.926   35465.566
+503  mtVer+R6      16915.674    321 34473.349    241197.349   35474.225
+508  mtVer+F       17424.893    330 35509.787    253969.787   36538.725
+509  mtVer+F+I     17344.031    331 35350.062    255134.062   36382.118
+510  mtVer+F+G4    16466.629    331 33595.259    253379.259   34627.315
+511  mtVer+F+I+G4  16458.140    332 33580.280    254692.280   34615.454
+512  mtVer+F+R2    16709.474    332 34082.948    255194.948   35118.122
+513  mtVer+F+R3    16504.043    334 33676.086    257456.086   34717.496
+514  mtVer+F+R4    16455.003    336 33582.006    260046.006   34629.652
+515  mtVer+F+R5    16436.034    338 33548.069    262712.069   34601.951
+516  mtVer+F+R6    16434.505    340 33549.011    265429.011   34609.129
+521  mtInv         17355.465    311 35332.930    229396.930   36302.626
+522  mtInv+I       17267.464    312 35158.927    230470.927   36131.741
+523  mtInv+G4      16618.397    312 33860.794    229172.794   34833.608
+524  mtInv+I+G4    16601.680    313 33829.359    230393.359   34805.291
+525  mtInv+R2      16820.690    313 34267.381    230831.381   35243.313
+526  mtInv+R3      16643.457    315 33916.913    232996.913   34899.081
+527  mtInv+R4      16588.744    317 33811.487    235423.487   34799.891
+528  mtInv+R5      16576.149    319 33790.298    237950.298   34784.938
+529  mtInv+R6      16575.559    321 33793.118    240517.118   34793.994
+534  mtInv+F       16886.180    330 34432.359    252892.359   35461.297
+535  mtInv+F+I     16810.583    331 34283.166    254067.166   35315.222
+536  mtInv+F+G4    16065.156    331 32792.312    252576.312   33824.368
+537  mtInv+F+I+G4  16053.259    332 32770.518    253882.518   33805.692
+538  mtInv+F+R2    16281.041    332 33226.082    254338.082   34261.256
+539  mtInv+F+R3    16086.395    334 32840.790    256620.790   33882.200
+540  mtInv+F+R4    16038.399    336 32748.799    259212.799   33796.445
+541  mtInv+F+R5    16027.176    338 32730.352    261894.352   33784.234
+542  mtInv+F+R6    16026.661    340 32733.322    264613.322   33793.440
+Akaike Information Criterion:           LG+F+R6
+Corrected Akaike Information Criterion: mtZOA+G4
+Bayesian Information Criterion:         LG+F+R5
+Best-fit model: LG+F+R5 chosen according to BIC
+
+All model information printed to Dca_algn.maf.trim.model.gz
+CPU time for ModelFinder: 1132.621 seconds (0h:18m:52s)
+Wall-clock time for ModelFinder: 1133.757 seconds (0h:18m:53s)
+
+NOTE: 22 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -15908.368
+2. Current log-likelihood: -15896.441
+3. Current log-likelihood: -15889.322
+4. Current log-likelihood: -15887.429
+5. Current log-likelihood: -15886.695
+6. Current log-likelihood: -15886.379
+7. Current log-likelihood: -15886.172
+Optimal log-likelihood: -15886.036
+Site proportion and rates:  (0.194,0.144) (0.262,0.507) (0.279,0.987) (0.217,1.844) (0.047,3.458)
+Parameters optimization took 7 rounds (8.693 sec)
+Computing ML distances based on estimated model parameters... 6.015 sec
+Computing BIONJ tree...
+0.009 seconds
+Log-likelihood of BIONJ tree: -15854.517
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 3.726 second
+Computing log-likelihood of 98 initial trees ... 19.749 seconds
+Current best score: -15827.753
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -15775.016
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -15770.970
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -15766.649
+Iteration 10 / LogL: -15775.113 / Time: 0h:1m:2s
+Iteration 20 / LogL: -15788.238 / Time: 0h:1m:20s
+Finish initializing candidate tree set (20)
+Current best tree score: -15766.649 / CPU time: 64.297
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -15765.485
+Iteration 30 / LogL: -15769.761 / Time: 0h:1m:48s (0h:6m:2s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -15756.718
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 40: -15753.159
+Iteration 40 / LogL: -15753.159 / Time: 0h:2m:18s (0h:5m:53s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 42: -15752.010
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 48: -15750.692
+Iteration 50 / LogL: -15751.877 / Time: 0h:2m:46s (0h:5m:33s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 53: -15750.256
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 56: -15749.990
+Iteration 60 / LogL: -15750.275 / Time: 0h:3m:15s (0h:5m:18s left)
+Iteration 70 / LogL: -15764.007 / Time: 0h:3m:42s (0h:4m:37s left)
+Iteration 80 / LogL: -15765.146 / Time: 0h:4m:12s (0h:4m:2s left)
+Iteration 90 / LogL: -15750.306 / Time: 0h:4m:40s (0h:3m:27s left)
+Iteration 100 / LogL: -15758.880 / Time: 0h:5m:8s (0h:2m:54s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 107: -15749.977
+Iteration 110 / LogL: -15758.229 / Time: 0h:5m:35s (0h:4m:58s left)
+Iteration 120 / LogL: -15753.284 / Time: 0h:6m:1s (0h:4m:24s left)
+Iteration 130 / LogL: -15749.993 / Time: 0h:6m:27s (0h:3m:51s left)
+Iteration 140 / LogL: -15753.013 / Time: 0h:6m:56s (0h:3m:20s left)
+Iteration 150 / LogL: -15756.407 / Time: 0h:7m:23s (0h:2m:49s left)
+Iteration 160 / LogL: -15752.601 / Time: 0h:7m:52s (0h:2m:19s left)
+Iteration 170 / LogL: -15764.109 / Time: 0h:8m:20s (0h:1m:49s left)
+Iteration 180 / LogL: -15750.117 / Time: 0h:8m:46s (0h:1m:19s left)
+Iteration 190 / LogL: -15807.804 / Time: 0h:9m:12s (0h:0m:49s left)
+Iteration 200 / LogL: -15782.146 / Time: 0h:9m:37s (0h:0m:20s left)
+TREE SEARCH COMPLETED AFTER 208 ITERATIONS / Time: 0h:9m:59s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -15749.977
+Optimal log-likelihood: -15749.976
+Site proportion and rates:  (0.189,0.139) (0.248,0.489) (0.305,0.982) (0.204,1.823) (0.054,3.336)
+Parameters optimization took 1 rounds (0.950 sec)
+BEST SCORE FOUND : -15749.976
+Total tree length: 31.811
+
+Total number of iterations: 208
+CPU time used for tree search: 582.451 sec (0h:9m:42s)
+Wall-clock time used for tree search: 583.598 sec (0h:9m:43s)
+Total CPU time used: 599.149 sec (0h:9m:59s)
+Total wall-clock time used: 600.297 sec (0h:10m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                Dca_algn.maf.trim.iqtree
+  Maximum-likelihood tree:       Dca_algn.maf.trim.treefile
+  Likelihood distances:          Dca_algn.maf.trim.mldist
+  Screen log file:               Dca_algn.maf.trim.log
+
+Date and Time: Fri Aug 18 01:49:22 2023
